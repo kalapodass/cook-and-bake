@@ -1,0 +1,29 @@
+.recipe-grid-container {
+	padding: 24px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.recipes-heading {
+	text-align: center;
+	margin-bottom: 32px;
+	color: #333;
+	font-size: 2rem;
+}
+
+.recipe-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	.recipe-grid {
+		justify-content: center;
+	}
+
+	.recipe-card {
+		width: 280px;
+	}
+}

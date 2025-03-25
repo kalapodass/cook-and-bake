@@ -1,0 +1,106 @@
+{
+	"recipeId": 2,
+	"recipeName": "Vegan Chocolate Banana Smoothie",
+	"prepTime": 5,
+	"cookTime": 0,
+	"totalTime": 5,
+	"servings": 2,
+	"vegan": true,
+	"vegetarian": true,
+	"cuisines": [
+		{
+			"cuisineId": 2,
+			"cuisineName": "American"
+		}
+	],
+	"ingredients": [
+		{
+			"ingredient": {
+				"ingredientId": 11,
+				"ingredientDesc": "Frozen banana"
+			},
+			"measurement": {
+				"measurementTypeId": 9,
+				"measurementTypeDesc": "piece"
+			},
+			"quantity": 2,
+			"optional": false
+		},
+		{
+			"ingredient": {
+				"ingredientId": 12,
+				"ingredientDesc": "Almond milk"
+			},
+			"measurement": {
+				"measurementTypeId": 10,
+				"measurementTypeDesc": "cup"
+			},
+			"quantity": 1.5,
+			"optional": false
+		},
+		{
+			"ingredient": {
+				"ingredientId": 13,
+				"ingredientDesc": "Cocoa powder"
+			},
+			"measurement": {
+				"measurementTypeId": 11,
+				"measurementTypeDesc": "tablespoon"
+			},
+			"quantity": 2,
+			"optional": false
+		},
+		{
+			"ingredient": {
+				"ingredientId": 14,
+				"ingredientDesc": "Maple syrup"
+			},
+			"measurement": {
+				"measurementTypeId": 11,
+				"measurementTypeDesc": "tablespoon"
+			},
+			"quantity": 1,
+			"optional": true
+		},
+		{
+			"ingredient": {
+				"ingredientId": 15,
+				"ingredientDesc": "Peanut butter"
+			},
+			"measurement": {
+				"measurementTypeId": 11,
+				"measurementTypeDesc": "tablespoon"
+			},
+			"quantity": 1,
+			"optional": true
+		}
+	],
+	"steps": [
+		{
+			"stepNumber": 1,
+			"step": "Add all ingredients to a blender.",
+			"time": 1
+		},
+		{
+			"stepNumber": 2,
+			"step": "Blend on high speed until smooth and creamy.",
+			"time": 2
+		},
+		{
+			"stepNumber": 3,
+			"step": "Taste and adjust sweetness as needed, then pour into glasses and serve immediately.",
+			"time": 1
+		}
+	],
+	"nutritionalInfo": {
+		"calories": 220,
+		"protein": 5,
+		"carbs": 42,
+		"fat": 6
+	},
+	"difficulty": "easy",
+	"tags": ["breakfast", "smoothie", "vegan", "quick", "chocolate", "banana"],
+	"images": ["https://example.com/images/chocolate-banana-smoothie.jpg"],
+	"createdAt": "2025-03-24T14:30:00Z",
+	"updatedAt": "2025-03-24T14:30:00Z"
+}

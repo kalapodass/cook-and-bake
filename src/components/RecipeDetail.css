@@ -1,0 +1,268 @@
+.recipe-detail-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.back-button {
+	display: inline-block;
+	margin-bottom: 20px;
+	color: #333;
+	text-decoration: none;
+	font-weight: 500;
+	transition: color 0.2s;
+}
+
+.back-button:hover {
+	color: #28a745;
+}
+
+.recipe-detail {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.recipe-detail-header {
+	padding: 25px 30px;
+	border-bottom: 1px solid #eee;
+}
+
+.recipe-detail-header h1 {
+	margin: 0 0 15px 0;
+	font-size: 2.2rem;
+	color: #333;
+}
+
+.recipe-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.difficulty,
+.tag {
+	padding: 5px 12px;
+	border-radius: 20px;
+	font-size: 0.9rem;
+	font-weight: 500;
+}
+
+.difficulty.easy {
+	background-color: #e8f5e9;
+	color: #2e7d32;
+}
+
+.difficulty.medium {
+	background-color: #fff8e1;
+	color: #ff8f00;
+}
+
+.difficulty.hard {
+	background-color: #ffebee;
+	color: #c62828;
+}
+
+.tag.vegan {
+	background-color: #e8f5e9;
+	color: #2e7d32;
+}
+
+.tag.vegetarian {
+	background-color: #e0f2f1;
+	color: #00796b;
+}
+
+.recipe-content {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 768px) {
+	.recipe-content {
+		flex-direction: row;
+	}
+}
+
+.recipe-image-section {
+	padding: 20px;
+	flex: 1;
+}
+
+.recipe-main-content {
+	flex: 2;
+	padding: 20px;
+}
+
+.detail-image {
+	width: 100%;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-time-info {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+	gap: 15px;
+	margin-bottom: 20px;
+}
+
+.time-card {
+	text-align: center;
+	padding: 12px;
+	background-color: #f9f9f9;
+	border-radius: 8px;
+}
+
+.time-card h4 {
+	margin: 0 0 5px 0;
+	font-size: 0.9rem;
+	color: #666;
+}
+
+.time-card p {
+	margin: 0;
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: #333;
+}
+
+.recipe-section {
+	margin-bottom: 30px;
+}
+
+.recipe-section h2 {
+	font-size: 1.5rem;
+	margin-bottom: 15px;
+	padding-bottom: 8px;
+	border-bottom: 2px solid #f0f0f0;
+}
+
+.ingredients-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ingredients-list li {
+	display: flex;
+	padding: 10px 0;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.ingredient-quantity {
+	flex: 0 0 100px;
+	font-weight: 600;
+}
+
+.optional-label {
+	color: #888;
+	font-size: 0.9em;
+	margin-left: 8px;
+	font-style: italic;
+}
+
+.steps-list {
+	list-style: none;
+	padding: 0;
+	counter-reset: step-counter;
+}
+
+.steps-list li {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.step-content {
+	display: flex;
+	flex: 1;
+}
+
+.step-number {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	background-color: #28a745;
+	color: white;
+	border-radius: 50%;
+	font-weight: bold;
+	margin-right: 15px;
+	flex-shrink: 0;
+}
+
+.step-time {
+	background-color: #f0f0f0;
+	padding: 3px 10px;
+	border-radius: 15px;
+	font-size: 0.9rem;
+	color: #666;
+	align-self: flex-start;
+	margin-left: 10px;
+}
+
+.nutrition-info {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.nutrition-item {
+	flex: 1;
+	min-width: 100px;
+	text-align: center;
+	padding: 15px;
+	background-color: #f9f9f9;
+	border-radius: 8px;
+}
+
+.nutrition-value {
+	display: block;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #28a745;
+	margin-bottom: 5px;
+}
+
+.nutrition-label {
+	font-size: 0.9rem;
+	color: #666;
+}
+
+.recipe-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.recipe-tag {
+	padding: 6px 12px;
+	background-color: #f0f0f0;
+	border-radius: 20px;
+	font-size: 0.9rem;
+	color: #555;
+}
+
+.recipe-not-found {
+	text-align: center;
+	padding: 50px 20px;
+}
+
+.back-to-recipes {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #28a745;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: 500;
+}

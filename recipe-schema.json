@@ -1,0 +1,244 @@
+{
+	"collation": null,
+	"filter": {
+		"$jsonSchema": {
+			"title": "Record of a recipe",
+			"description": "This document records the details of a recipe",
+			"type": "object",
+			"properties": {
+				"recipeId": {
+					"description": "A unique identifier for a recipe",
+					"type": "number",
+					"minimum": 1
+				},
+				"recipeName": {
+					"description": "Name of the recipe",
+					"type": "string",
+					"minLength": 1,
+					"maxLength": 100
+				},
+				"prepTime": {
+					"description": "Time needed to prepare the recipe (in minutes)",
+					"type": "number",
+					"minimum": 0
+				},
+				"cookTime": {
+					"description": "Time needed to cook the recipe (in minutes)",
+					"type": "number",
+					"minimum": 0
+				},
+				"totalTime": {
+					"description": "Total time (prep + cook in minutes)",
+					"type": "number"
+				},
+				"servings": {
+					"description": "Number of servings the recipe yields",
+					"type": "number",
+					"minimum": 1,
+					"default": 4
+				},
+				"vegan": {
+					"description": "Whether it is vegan or not",
+					"type": "boolean",
+					"default": false
+				},
+				"vegetarian": {
+					"description": "Whether it is vegetarian or not",
+					"type": "boolean",
+					"default": false
+				},
+				"cuisines": {
+					"description": "List of cuisines associated with the recipe",
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"cuisineId": {
+								"description": "A unique identifier for a cuisine",
+								"type": "number",
+								"minimum": 1
+							},
+							"cuisineName": {
+								"description": "Name of the cuisine",
+								"type": "string",
+								"minLength": 1
+							}
+						},
+						"required": ["cuisineId", "cuisineName"]
+					},
+					"minItems": 1
+				},
+				"ingredients": {
+					"description": "List of ingredients with their measurements",
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"ingredient": {
+								"description": "Details of the ingredient",
+								"type": "object",
+								"properties": {
+									"ingredientId": {
+										"description": "A unique identifier for the ingredient",
+										"type": "number",
+										"minimum": 1
+									},
+									"ingredientDesc": {
+										"description": "Description of the ingredient",
+										"type": "string",
+										"minLength": 1
+									}
+								},
+								"required": ["ingredientId", "ingredientDesc"]
+							},
+							"measurement": {
+								"description": "Details of the measurement type",
+								"type": "object",
+								"properties": {
+									"measurementTypeId": {
+										"description": "A unique identifier for the measurement type",
+										"type": "number",
+										"minimum": 1
+									},
+									"measurementTypeDesc": {
+										"description": "Description of the measurement type",
+										"type": "string",
+										"enum": [
+											"cup",
+											"tablespoon",
+											"teaspoon",
+											"gram",
+											"kilogram",
+											"ounce",
+											"pound",
+											"milliliter",
+											"liter",
+											"pinch",
+											"piece",
+											"slice",
+											"clove",
+											"bunch",
+											"to taste"
+										]
+									}
+								},
+								"required": ["measurementTypeId", "measurementTypeDesc"]
+							},
+							"quantity": {
+								"description": "Quantity of the ingredient",
+								"type": "number",
+								"minimum": 0.1
+							},
+							"optional": {
+								"description": "Whether the ingredient is optional",
+								"type": "boolean",
+								"default": false
+							}
+						},
+						"required": ["ingredient", "measurement", "quantity"]
+					},
+					"minItems": 1
+				},
+				"steps": {
+					"description": "List of steps to follow in the recipe",
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"stepNumber": {
+								"description": "Order of the step",
+								"type": "number",
+								"minimum": 1
+							},
+							"step": {
+								"description": "Description of the step",
+								"type": "string",
+								"minLength": 1
+							},
+							"time": {
+								"description": "Time required for the step in minutes",
+								"type": "number",
+								"minimum": 0
+							}
+						},
+						"required": ["stepNumber", "step", "time"]
+					},
+					"minItems": 1
+				},
+				"nutritionalInfo": {
+					"description": "Nutritional information per serving",
+					"type": "object",
+					"properties": {
+						"calories": {
+							"type": "number",
+							"minimum": 0
+						},
+						"protein": {
+							"type": "number",
+							"minimum": 0,
+							"description": "Protein in grams"
+						},
+						"carbs": {
+							"type": "number",
+							"minimum": 0,
+							"description": "Carbohydrates in grams"
+						},
+						"fat": {
+							"type": "number",
+							"minimum": 0,
+							"description": "Fat in grams"
+						}
+					}
+				},
+				"difficulty": {
+					"description": "Recipe difficulty level",
+					"type": "string",
+					"enum": ["easy", "medium", "hard"]
+				},
+				"tags": {
+					"description": "Tags for categorizing the recipe",
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"images": {
+					"description": "Images of the recipe",
+					"type": "array",
+					"items": {
+						"type": "string",
+						"format": "uri"
+					}
+				},
+				"createdAt": {
+					"description": "When the recipe was created",
+					"type": "string",
+					"format": "date-time"
+				},
+				"updatedAt": {
+					"description": "When the recipe was last updated",
+					"type": "string",
+					"format": "date-time"
+				}
+			},
+			"required": [
+				"recipeId",
+				"recipeName",
+				"prepTime",
+				"cookTime",
+				"totalTime",
+				"servings",
+				"vegan",
+				"vegetarian",
+				"cuisines",
+				"ingredients",
+				"steps",
+				"createdAt"
+			]
+		}
+	},
+	"limit": null,
+	"project": null,
+	"skip": null,
+	"sort": null
+}
