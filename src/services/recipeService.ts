@@ -2,18 +2,29 @@ import { Recipe } from '../types';
 
 export const fetchRecipes = async (): Promise<Recipe[]> => {
 	try {
+		console.log('Fetching recipes from server...');
+		// Make sure the path is correct - should be in the public folder
 		const response = await fetch('/data/recipes.json');
+		console.log('Fetch response status:', response.status);
 
 		if (!response.ok) {
 			throw new Error(`Failed to fetch recipes: ${response.status}`);
 		}
 
-		// The JSON file contains a single recipe, we'll convert it to an array
-		const recipe = await response.json();
-		return [recipe]; // Return as array for consistency
+		const data = await response.json();
+		console.log('Recipe data received:', data);
 
-		// If your recipes.json is actually an array of recipes, use this instead:
-		// return await response.json();
+		// Handle both array and single object formats
+		if (Array.isArray(data)) {
+			console.log(`Returning ${data.length} recipes`);
+			return data;
+		} else if (data && typeof data === 'object') {
+			console.log('Received single recipe, converting to array');
+			return [data];
+		} else {
+			console.log('Received unexpected data format:', typeof data);
+			return [];
+		}
 	} catch (error) {
 		console.error('Error fetching recipes:', error);
 		return [];
