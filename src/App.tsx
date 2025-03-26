@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import RecipeDetail from './components/RecipeDetail';
 import RecipeGrid from './components/RecipeGrid';
@@ -38,7 +38,7 @@ function App() {
 	}
 
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Routes>
 				<Route
 					path='/'
@@ -55,7 +55,7 @@ function App() {
 					element={<RecipeDetail recipes={recipes} />}
 				/>
 			</Routes>
-		</BrowserRouter>
+		</HashRouter>
 	);
 }
 
