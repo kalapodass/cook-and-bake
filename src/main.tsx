@@ -1,28 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import App from './App';
 import './index.css';
 
-// Determine the base URL based on environment
-const basePath = import.meta.env.DEV ? '/' : '/cook-and-bake/';
-
-// Create router with the correct basename for GitHub Pages
-const router = createBrowserRouter(
-	[
-		{
-			path: '/*',
-			element: <App />,
-		},
-		// ...other routes
-	],
-	{
-		basename: basePath, // Dynamic based on environment
-	}
-);
-
+// No need for dynamic base path with HashRouter
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
-		<RouterProvider router={router} />
+		<HashRouter>
+			<App />
+		</HashRouter>
 	</React.StrictMode>
 );

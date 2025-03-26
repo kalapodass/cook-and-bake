@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import RecipeDetail from './components/RecipeDetail';
 import RecipeGrid from './components/RecipeGrid';
@@ -38,24 +38,19 @@ function App() {
 	}
 
 	return (
-		<HashRouter>
-			<Routes>
-				<Route
-					path='/'
-					element={
-						recipes.length > 0 ? (
-							<RecipeGrid recipes={recipes} />
-						) : (
-							<div className='no-recipes'>No recipes found</div>
-						)
-					}
-				/>
-				<Route
-					path='/recipe/:id'
-					element={<RecipeDetail recipes={recipes} />}
-				/>
-			</Routes>
-		</HashRouter>
+		<Routes>
+			<Route
+				path='/'
+				element={
+					recipes.length > 0 ? (
+						<RecipeGrid recipes={recipes} />
+					) : (
+						<div className='no-recipes'>No recipes found</div>
+					)
+				}
+			/>
+			<Route path='/recipe/:id' element={<RecipeDetail recipes={recipes} />} />
+		</Routes>
 	);
 }
 

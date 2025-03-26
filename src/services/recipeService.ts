@@ -3,8 +3,8 @@ import { Recipe } from '../types';
 export const fetchRecipes = async (): Promise<Recipe[]> => {
 	try {
 		console.log('Fetching recipes from server...');
-		// Make sure the path is correct - should be in the public folder
-		const response = await fetch('/data/recipes.json');
+		// Use a relative path rather than absolute
+		const response = await fetch('./data/recipes.json');
 		console.log('Fetch response status:', response.status);
 
 		if (!response.ok) {
