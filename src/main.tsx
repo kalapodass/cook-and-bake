@@ -4,6 +4,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import './index.css';
 
+// Determine the base URL based on environment
+const basePath = import.meta.env.DEV ? '/' : '/cook-and-bake/';
+
 // Create router with the correct basename for GitHub Pages
 const router = createBrowserRouter(
 	[
@@ -14,7 +17,7 @@ const router = createBrowserRouter(
 		// ...other routes
 	],
 	{
-		basename: '/cook-and-bake', // This is crucial for GitHub Pages
+		basename: basePath, // Dynamic based on environment
 	}
 );
 
