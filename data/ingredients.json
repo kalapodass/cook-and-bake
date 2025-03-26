@@ -1,0 +1,332 @@
+[
+	{
+		"id": 1,
+		"name": "Flour",
+		"unit": "g"
+	},
+	{
+		"id": 2,
+		"name": "Sugar",
+		"unit": "g"
+	},
+	{
+		"id": 3,
+		"name": "Salt",
+		"unit": "g"
+	},
+	{
+		"id": 4,
+		"name": "Butter",
+		"unit": "g"
+	},
+	{
+		"id": 5,
+		"name": "Eggs",
+		"unit": "pcs"
+	},
+	{
+		"id": 6,
+		"name": "Milk",
+		"unit": "ml"
+	},
+	{
+		"id": 7,
+		"name": "Vanilla Extract",
+		"unit": "ml"
+	},
+	{
+		"id": 8,
+		"name": "Baking Powder",
+		"unit": "g"
+	},
+	{
+		"id": 9,
+		"name": "Baking Soda",
+		"unit": "g"
+	},
+	{
+		"id": 10,
+		"name": "Cocoa Powder",
+		"unit": "g"
+	},
+	{
+		"id": 11,
+		"name": "Chocolate Chips",
+		"unit": "g"
+	},
+	{
+		"id": 12,
+		"name": "Honey",
+		"unit": "ml"
+	},
+	{
+		"id": 13,
+		"name": "Yeast",
+		"unit": "g"
+	},
+	{
+		"id": 14,
+		"name": "Olive Oil",
+		"unit": "ml"
+	},
+	{
+		"id": 15,
+		"name": "Cornstarch",
+		"unit": "g"
+	},
+	{
+		"id": 16,
+		"name": "Cinnamon",
+		"unit": "g"
+	},
+	{
+		"id": 17,
+		"name": "Nutmeg",
+		"unit": "g"
+	},
+	{
+		"id": 18,
+		"name": "Brown Sugar",
+		"unit": "g"
+	},
+	{
+		"id": 19,
+		"name": "Maple Syrup",
+		"unit": "ml"
+	},
+	{
+		"id": 20,
+		"name": "Almond Flour",
+		"unit": "g"
+	},
+	{
+		"id": 21,
+		"name": "Coconut Oil",
+		"unit": "ml"
+	},
+	{
+		"id": 22,
+		"name": "Greek Yogurt",
+		"unit": "g"
+	},
+	{
+		"id": 23,
+		"name": "Lemon Zest",
+		"unit": "g"
+	},
+	{
+		"id": 24,
+		"name": "Orange Juice",
+		"unit": "ml"
+	},
+	{
+		"id": 25,
+		"name": "Peanut Butter",
+		"unit": "g"
+	},
+	{
+		"id": 26,
+		"name": "Raisins",
+		"unit": "g"
+	},
+	{
+		"id": 27,
+		"name": "Walnuts",
+		"unit": "g"
+	},
+	{
+		"id": 28,
+		"name": "Almonds",
+		"unit": "g"
+	},
+	{
+		"id": 29,
+		"name": "Oats",
+		"unit": "g"
+	},
+	{
+		"id": 30,
+		"name": "Cream Cheese",
+		"unit": "g"
+	},
+	{
+		"id": 31,
+		"name": "Chicken Breast",
+		"unit": "g"
+	},
+	{
+		"id": 32,
+		"name": "Beef Steak",
+		"unit": "g"
+	},
+	{
+		"id": 33,
+		"name": "Pork Chops",
+		"unit": "g"
+	},
+	{
+		"id": 34,
+		"name": "Salmon Fillet",
+		"unit": "g"
+	},
+	{
+		"id": 35,
+		"name": "Shrimp",
+		"unit": "g"
+	},
+	{
+		"id": 36,
+		"name": "Tuna",
+		"unit": "g"
+	},
+	{
+		"id": 37,
+		"name": "Carrots",
+		"unit": "g"
+	},
+	{
+		"id": 38,
+		"name": "Broccoli",
+		"unit": "g"
+	},
+	{
+		"id": 39,
+		"name": "Spinach",
+		"unit": "g"
+	},
+	{
+		"id": 40,
+		"name": "Tomatoes",
+		"unit": "g"
+	},
+	{
+		"id": 41,
+		"name": "Potatoes",
+		"unit": "g"
+	},
+	{
+		"id": 42,
+		"name": "Onions",
+		"unit": "g"
+	},
+	{
+		"id": 43,
+		"name": "Garlic",
+		"unit": "g"
+	},
+	{
+		"id": 44,
+		"name": "Bell Peppers",
+		"unit": "g"
+	},
+	{
+		"id": 45,
+		"name": "Cucumber",
+		"unit": "g"
+	},
+	{
+		"id": 46,
+		"name": "Lettuce",
+		"unit": "g"
+	},
+	{
+		"id": 47,
+		"name": "Mushrooms",
+		"unit": "g"
+	},
+	{
+		"id": 48,
+		"name": "Apple",
+		"unit": "g"
+	},
+	{
+		"id": 49,
+		"name": "Banana",
+		"unit": "g"
+	},
+	{
+		"id": 50,
+		"name": "Strawberries",
+		"unit": "g"
+	},
+	{
+		"id": 51,
+		"name": "Blueberries",
+		"unit": "g"
+	},
+	{
+		"id": 52,
+		"name": "Pineapple",
+		"unit": "g"
+	},
+	{
+		"id": 53,
+		"name": "Avocado",
+		"unit": "g"
+	},
+	{
+		"id": 54,
+		"name": "Rice",
+		"unit": "g"
+	},
+	{
+		"id": 55,
+		"name": "Pasta",
+		"unit": "g"
+	},
+	{
+		"id": 56,
+		"name": "Lentils",
+		"unit": "g"
+	},
+	{
+		"id": 57,
+		"name": "Chickpeas",
+		"unit": "g"
+	},
+	{
+		"id": 58,
+		"name": "Black Beans",
+		"unit": "g"
+	},
+	{
+		"id": 59,
+		"name": "Tofu",
+		"unit": "g"
+	},
+	{
+		"id": 60,
+		"name": "Cheddar Cheese",
+		"unit": "g"
+	},
+	{
+		"id": 61,
+		"name": "Mozzarella",
+		"unit": "g"
+	},
+	{
+		"id": 62,
+		"name": "Parmesan",
+		"unit": "g"
+	},
+	{
+		"id": 63,
+		"name": "Soy Sauce",
+		"unit": "ml"
+	},
+	{
+		"id": 64,
+		"name": "Vinegar",
+		"unit": "ml"
+	},
+	{
+		"id": 65,
+		"name": "Mustard",
+		"unit": "g"
+	},
+	{
+		"id": 66,
+		"name": "Mayonnaise",
+		"unit": "g"
+	}
+]

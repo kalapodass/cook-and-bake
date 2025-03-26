@@ -1,0 +1,170 @@
+[
+	{
+		"cuisineId": 1,
+		"cuisineName": "Italian"
+	},
+	{
+		"cuisineId": 2,
+		"cuisineName": "French"
+	},
+	{
+		"cuisineId": 3,
+		"cuisineName": "Japanese"
+	},
+	{
+		"cuisineId": 4,
+		"cuisineName": "Chinese"
+	},
+	{
+		"cuisineId": 5,
+		"cuisineName": "Indian"
+	},
+	{
+		"cuisineId": 6,
+		"cuisineName": "Mexican"
+	},
+	{
+		"cuisineId": 7,
+		"cuisineName": "Thai"
+	},
+	{
+		"cuisineId": 8,
+		"cuisineName": "Greek"
+	},
+	{
+		"cuisineId": 9,
+		"cuisineName": "Spanish"
+	},
+	{
+		"cuisineId": 10,
+		"cuisineName": "Korean"
+	},
+	{
+		"cuisineId": 11,
+		"cuisineName": "Vietnamese"
+	},
+	{
+		"cuisineId": 12,
+		"cuisineName": "Turkish"
+	},
+	{
+		"cuisineId": 13,
+		"cuisineName": "Lebanese"
+	},
+	{
+		"cuisineId": 14,
+		"cuisineName": "Brazilian"
+	},
+	{
+		"cuisineId": 15,
+		"cuisineName": "Moroccan"
+	},
+	{
+		"cuisineId": 16,
+		"cuisineName": "Ethiopian"
+	},
+	{
+		"cuisineId": 17,
+		"cuisineName": "German"
+	},
+	{
+		"cuisineId": 18,
+		"cuisineName": "Russian"
+	},
+	{
+		"cuisineId": 19,
+		"cuisineName": "American"
+	},
+	{
+		"cuisineId": 20,
+		"cuisineName": "Caribbean"
+	},
+	{
+		"cuisineId": 21,
+		"cuisineName": "Persian"
+	},
+	{
+		"cuisineId": 22,
+		"cuisineName": "Indonesian"
+	},
+	{
+		"cuisineId": 23,
+		"cuisineName": "Filipino"
+	},
+	{
+		"cuisineId": 24,
+		"cuisineName": "Argentinian"
+	},
+	{
+		"cuisineId": 25,
+		"cuisineName": "Hungarian"
+	},
+	{
+		"cuisineId": 26,
+		"cuisineName": "Swedish"
+	},
+	{
+		"cuisineId": 27,
+		"cuisineName": "Portuguese"
+	},
+	{
+		"cuisineId": 28,
+		"cuisineName": "Malaysian"
+	},
+	{
+		"cuisineId": 29,
+		"cuisineName": "Polish"
+	},
+	{
+		"cuisineId": 30,
+		"cuisineName": "African"
+	},
+	{
+		"cuisineId": 31,
+		"cuisineName": "Cuban"
+	},
+	{
+		"cuisineId": 32,
+		"cuisineName": "Colombian"
+	},
+	{
+		"cuisineId": 33,
+		"cuisineName": "Venezuelan"
+	},
+	{
+		"cuisineId": 34,
+		"cuisineName": "Peruvian"
+	},
+	{
+		"cuisineId": 35,
+		"cuisineName": "Nicaraguan"
+	},
+	{
+		"cuisineId": 36,
+		"cuisineName": "Jamaican"
+	},
+	{
+		"cuisineId": 37,
+		"cuisineName": "Cypriot"
+	},
+	{
+		"cuisineId": 38,
+		"cuisineName": "Czech"
+	},
+	{
+		"cuisineId": 39,
+		"cuisineName": "Irish"
+	},
+	{
+		"cuisineId": 40,
+		"cuisineName": "Slovakian"
+	},
+	{
+		"cuisineId": 41,
+		"cuisineName": "Romanian"
+	},
+	{
+		"cuisineId": 42,
+		"cuisineName": "Ukrainian"
+	}
+]
