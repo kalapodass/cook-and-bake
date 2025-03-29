@@ -1,6 +1,8 @@
 export interface Recipe {
 	recipeId: number;
-	recipeName: string;
+	recipeNameEn: string;
+	recipeNameGr: string;
+	recipeName?: string; // For backwards compatibility
 	prepTime: number;
 	cookTime: number;
 	totalTime: number;
@@ -13,24 +15,30 @@ export interface Recipe {
 	ingredients: RecipeIngredient[];
 	steps: RecipeStep[];
 	nutritionalInfo: NutritionalInfo;
-	tags: string[];
+	tags: Tag[];
 	createdAt: string;
 	updatedAt: string;
 }
 
 export interface Cuisine {
 	cuisineId: number;
-	cuisineName: string;
+	cuisineNameEn: string;
+	cuisineNameGr: string;
+	cuisineName?: string; // For backwards compatibility
 }
 
 export interface Ingredient {
 	ingredientId: number;
-	ingredientDesc: string;
+	ingredientDescEn: string;
+	ingredientDescGr: string;
+	ingredientDesc?: string; // For backwards compatibility
 }
 
 export interface Measurement {
 	measurementTypeId: number;
-	measurementTypeDesc: string;
+	measurementTypeDescEn: string;
+	measurementTypeDescGr: string;
+	measurementTypeDesc?: string; // For backwards compatibility
 }
 
 export interface RecipeIngredient {
@@ -42,7 +50,9 @@ export interface RecipeIngredient {
 
 export interface RecipeStep {
 	stepNumber: number;
-	step: string;
+	stepEn: string;
+	stepGr: string;
+	step?: string; // For backwards compatibility
 	time: number;
 }
 
@@ -51,4 +61,9 @@ export interface NutritionalInfo {
 	protein: number;
 	carbs: number;
 	fat: number;
+}
+
+export interface Tag {
+	tagEn: string;
+	tagGr: string;
 }

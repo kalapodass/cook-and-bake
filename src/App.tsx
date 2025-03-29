@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import LanguageToggle from './components/LanguageToggle';
 import RecipeDetail from './components/RecipeDetail';
 import RecipeGrid from './components/RecipeGrid';
+import ThemeToggle from './components/ThemeToggle';
 import { fetchRecipes } from './services/recipeService';
 import { Recipe } from './types';
 
@@ -38,19 +40,26 @@ function App() {
 	}
 
 	return (
-		<Routes>
-			<Route
-				path='/'
-				element={
-					recipes.length > 0 ? (
-						<RecipeGrid recipes={recipes} />
-					) : (
-						<div className='no-recipes'>No recipes found</div>
-					)
-				}
-			/>
-			<Route path='/recipe/:id' element={<RecipeDetail recipes={recipes} />} />
-		</Routes>
+		<>
+			<ThemeToggle />
+			<LanguageToggle />
+			<Routes>
+				<Route
+					path='/'
+					element={
+						recipes.length > 0 ? (
+							<RecipeGrid recipes={recipes} />
+						) : (
+							<div className='no-recipes'>No recipes found</div>
+						)
+					}
+				/>
+				<Route
+					path='/recipe/:id'
+					element={<RecipeDetail recipes={recipes} />}
+				/>
+			</Routes>
+		</>
 	);
 }
 

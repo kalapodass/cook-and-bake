@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [react()],
-	base: './', // Changed from '/cook-and-bake/' to relative path for better compatibility
+	base: '/cook-and-bake/', // Set to the repository name for GitHub Pages
 	resolve: {
 		alias: {
 			'@': resolve(__dirname, 'src'),
