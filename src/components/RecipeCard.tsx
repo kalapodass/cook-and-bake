@@ -1,17 +1,24 @@
 import { Link } from 'react-router-dom';
+import { useLanguage } from '../context/LanguageContext';
 import { Recipe } from '../types';
 import './RecipeCard.css';
 
 const RecipeCard = ({ recipe }: { recipe: Recipe }) => {
 	const {
 		recipeId,
-		recipeName,
+		recipeNameEn,
+		recipeNameGr,
 		prepTime,
 		cookTime,
 		totalTime,
 		difficulty,
 		images,
 	} = recipe;
+
+	const { language, t } = useLanguage();
+
+	// Use the recipe name based on the selected language
+	const recipeName = language === 'en' ? recipeNameEn : recipeNameGr;
 
 	// Use the first image or a placeholder
 	const imageUrl =
@@ -48,7 +55,7 @@ const RecipeCard = ({ recipe }: { recipe: Recipe }) => {
 					<span
 						className={`difficulty-badge ${getDifficultyClass(difficulty)}`}
 					>
-						{difficulty}
+						{t(`difficulty.${difficulty}`)}
 					</span>
 				</div>
 
@@ -57,15 +64,15 @@ const RecipeCard = ({ recipe }: { recipe: Recipe }) => {
 
 					<div className='recipe-times'>
 						<div className='time-item'>
-							<span className='time-label'>Prep</span>
+							<span className='time-label'>{t('recipe.prepTime')}</span>
 							<span className='time-value'>{formatTime(prepTime)}</span>
 						</div>
 						<div className='time-item'>
-							<span className='time-label'>Cook</span>
+							<span className='time-label'>{t('recipe.cookTime')}</span>
 							<span className='time-value'>{formatTime(cookTime)}</span>
 						</div>
 						<div className='time-item'>
-							<span className='time-label'>Total</span>
+							<span className='time-label'>{t('recipe.totalTime')}</span>
 							<span className='time-value'>{formatTime(totalTime)}</span>
 						</div>
 					</div>

@@ -1,106 +1,1404 @@
-{
-	"recipeId": 2,
-	"recipeName": "Vegan Chocolate Banana Smoothie",
-	"prepTime": 5,
-	"cookTime": 0,
-	"totalTime": 5,
-	"servings": 2,
-	"vegan": true,
-	"vegetarian": true,
-	"cuisines": [
-		{
-			"cuisineId": 2,
-			"cuisineName": "American"
-		}
-	],
-	"ingredients": [
-		{
-			"ingredient": {
-				"ingredientId": 11,
-				"ingredientDesc": "Frozen banana"
+[
+	{
+		"recipeId": 2,
+		"recipeNameEn": "Vegan Chocolate Banana Smoothie",
+		"recipeNameGr": "Βίγκαν Σμούθι Σοκολάτας-Μπανάνας",
+		"prepTime": 5,
+		"cookTime": 0,
+		"totalTime": 5,
+		"servings": 2,
+		"vegan": true,
+		"vegetarian": true,
+		"cuisines": [
+			{
+				"cuisineId": 2,
+				"cuisineNameEn": "American",
+				"cuisineNameGr": "Αμερικάνικη"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 11,
+					"ingredientDescEn": "Frozen banana",
+					"ingredientDescGr": "Κατεψυγμένη μπανάνα"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 2,
+				"optional": false
 			},
-			"measurement": {
-				"measurementTypeId": 9,
-				"measurementTypeDesc": "piece"
+			{
+				"ingredient": {
+					"ingredientId": 12,
+					"ingredientDescEn": "Almond milk",
+					"ingredientDescGr": "Γάλα αμυγδάλου"
+				},
+				"measurement": {
+					"measurementTypeId": 10,
+					"measurementTypeDescEn": "cup",
+					"measurementTypeDescGr": "φλιτζάνι"
+				},
+				"quantity": 1.5,
+				"optional": false
 			},
-			"quantity": 2,
-			"optional": false
+			{
+				"ingredient": {
+					"ingredientId": 13,
+					"ingredientDescEn": "Cocoa powder",
+					"ingredientDescGr": "Σκόνη κακάο"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 14,
+					"ingredientDescEn": "Maple syrup",
+					"ingredientDescGr": "Σιρόπι σφενδάμου"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 1,
+				"optional": true
+			},
+			{
+				"ingredient": {
+					"ingredientId": 15,
+					"ingredientDescEn": "Peanut butter",
+					"ingredientDescGr": "Φυστικοβούτυρο"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 1,
+				"optional": true
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Add all ingredients to a blender.",
+				"stepGr": "Προσθέστε όλα τα υλικά στο μπλέντερ.",
+				"time": 1
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Blend on high speed until smooth and creamy.",
+				"stepGr": "Ανακατέψτε σε υψηλή ταχύτητα μέχρι να γίνει λείο και κρεμώδες.",
+				"time": 2
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Taste and adjust sweetness as needed, then pour into glasses and serve immediately.",
+				"stepGr": "Δοκιμάστε και προσαρμόστε τη γλυκύτητα αν χρειάζεται, στη συνέχεια ρίξτε σε ποτήρια και σερβίρετε αμέσως.",
+				"time": 1
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 220,
+			"protein": 5,
+			"carbs": 42,
+			"fat": 6
 		},
-		{
-			"ingredient": {
-				"ingredientId": 12,
-				"ingredientDesc": "Almond milk"
+		"difficulty": "easy",
+		"tags": [
+			{
+				"tagEn": "breakfast",
+				"tagGr": "πρωινό"
 			},
-			"measurement": {
-				"measurementTypeId": 10,
-				"measurementTypeDesc": "cup"
+			{
+				"tagEn": "smoothie",
+				"tagGr": "σμούθι"
 			},
-			"quantity": 1.5,
-			"optional": false
-		},
-		{
-			"ingredient": {
-				"ingredientId": 13,
-				"ingredientDesc": "Cocoa powder"
+			{
+				"tagEn": "vegan",
+				"tagGr": "βίγκαν"
 			},
-			"measurement": {
-				"measurementTypeId": 11,
-				"measurementTypeDesc": "tablespoon"
+			{
+				"tagEn": "quick",
+				"tagGr": "γρήγορο"
 			},
-			"quantity": 2,
-			"optional": false
-		},
-		{
-			"ingredient": {
-				"ingredientId": 14,
-				"ingredientDesc": "Maple syrup"
+			{
+				"tagEn": "chocolate",
+				"tagGr": "σοκολάτα"
 			},
-			"measurement": {
-				"measurementTypeId": 11,
-				"measurementTypeDesc": "tablespoon"
-			},
-			"quantity": 1,
-			"optional": true
-		},
-		{
-			"ingredient": {
-				"ingredientId": 15,
-				"ingredientDesc": "Peanut butter"
-			},
-			"measurement": {
-				"measurementTypeId": 11,
-				"measurementTypeDesc": "tablespoon"
-			},
-			"quantity": 1,
-			"optional": true
-		}
-	],
-	"steps": [
-		{
-			"stepNumber": 1,
-			"step": "Add all ingredients to a blender.",
-			"time": 1
-		},
-		{
-			"stepNumber": 2,
-			"step": "Blend on high speed until smooth and creamy.",
-			"time": 2
-		},
-		{
-			"stepNumber": 3,
-			"step": "Taste and adjust sweetness as needed, then pour into glasses and serve immediately.",
-			"time": 1
-		}
-	],
-	"nutritionalInfo": {
-		"calories": 220,
-		"protein": 5,
-		"carbs": 42,
-		"fat": 6
+			{
+				"tagEn": "banana",
+				"tagGr": "μπανάνα"
+			}
+		],
+		"images": ["https://example.com/images/chocolate-banana-smoothie.jpg"],
+		"createdAt": "2025-03-24T14:30:00Z",
+		"updatedAt": "2025-03-24T14:30:00Z"
 	},
-	"difficulty": "easy",
-	"tags": ["breakfast", "smoothie", "vegan", "quick", "chocolate", "banana"],
-	"images": ["https://example.com/images/chocolate-banana-smoothie.jpg"],
-	"createdAt": "2025-03-24T14:30:00Z",
-	"updatedAt": "2025-03-24T14:30:00Z"
-}
+	{
+		"recipeId": 3,
+		"recipeNameEn": "Ninja Foodi Jasmine Rice",
+		"recipeNameGr": "Ρύζι Γιασεμιού Ninja Foodi",
+		"prepTime": 5,
+		"cookTime": 13,
+		"totalTime": 18,
+		"servings": 4,
+		"vegan": true,
+		"vegetarian": true,
+		"cuisines": [
+			{
+				"cuisineId": 3,
+				"cuisineNameEn": "Asian",
+				"cuisineNameGr": "Ασιατική"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 16,
+					"ingredientDescEn": "Jasmine Rice",
+					"ingredientDescGr": "Ρύζι Γιασεμιού"
+				},
+				"measurement": {
+					"measurementTypeId": 10,
+					"measurementTypeDescEn": "cup",
+					"measurementTypeDescGr": "φλιτζάνι"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 17,
+					"ingredientDescEn": "Water or Broth",
+					"ingredientDescGr": "Νερό ή Ζωμός"
+				},
+				"measurement": {
+					"measurementTypeId": 10,
+					"measurementTypeDescEn": "cup",
+					"measurementTypeDescGr": "φλιτζάνι"
+				},
+				"quantity": 1,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Wash rice thoroughly.",
+				"stepGr": "Πλύνετε καλά το ρύζι.",
+				"time": 2
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Pour rice and water or broth into the pot of the Ninja Foodi.",
+				"stepGr": "Ρίξτε το ρύζι και το νερό ή το ζωμό στην κατσαρόλα του Ninja Foodi.",
+				"time": 1
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Secure the pressure cooker lid and turn nozzle to SEAL.",
+				"stepGr": "Ασφαλίστε το καπάκι της χύτρας και γυρίστε το ακροφύσιο στο SEAL.",
+				"time": 1
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "Pressure cook on high for 3 minutes.",
+				"stepGr": "Μαγειρέψτε σε υψηλή πίεση για 3 λεπτά.",
+				"time": 3
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Natural release (do nothing) for 10 minutes.",
+				"stepGr": "Φυσική αποσυμπίεση (μην κάνετε τίποτα) για 10 λεπτά.",
+				"time": 10
+			},
+			{
+				"stepNumber": 6,
+				"stepEn": "After 10 minutes, move the nozzle to VENT.",
+				"stepGr": "Μετά από 10 λεπτά, μετακινήστε το ακροφύσιο στο VENT.",
+				"time": 1
+			},
+			{
+				"stepNumber": 7,
+				"stepEn": "Add butter, salt, pepper, or additions of your choice.",
+				"stepGr": "Προσθέστε βούτυρο, αλάτι, πιπέρι ή ό,τι άλλο θέλετε.",
+				"time": 1
+			},
+			{
+				"stepNumber": 8,
+				"stepEn": "Serve.",
+				"stepGr": "Σερβίρετε.",
+				"time": 1
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 150,
+			"protein": 3,
+			"carbs": 34,
+			"fat": 0
+		},
+		"difficulty": "easy",
+		"tags": [
+			{
+				"tagEn": "side dish",
+				"tagGr": "συνοδευτικό"
+			},
+			{
+				"tagEn": "rice",
+				"tagGr": "ρύζι"
+			},
+			{
+				"tagEn": "easy",
+				"tagGr": "εύκολο"
+			},
+			{
+				"tagEn": "pressure cooker",
+				"tagGr": "χύτρα ταχύτητας"
+			},
+			{
+				"tagEn": "ninja foodi",
+				"tagGr": "ninja foodi"
+			}
+		],
+		"images": ["https://example.com/images/jasmine-rice.jpg"],
+		"createdAt": "2023-08-10T12:00:00Z",
+		"updatedAt": "2023-08-10T12:00:00Z"
+	},
+	{
+		"recipeId": 4,
+		"recipeNameEn": "Wine-Braised Octopus",
+		"recipeNameGr": "Χταπόδι Μαγειρεμένο με Κρασί",
+		"prepTime": 10,
+		"cookTime": 40,
+		"totalTime": 50,
+		"servings": 4,
+		"vegan": false,
+		"vegetarian": false,
+		"cuisines": [
+			{
+				"cuisineId": 4,
+				"cuisineNameEn": "Greek",
+				"cuisineNameGr": "Ελληνική"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 18,
+					"ingredientDescEn": "Octopus",
+					"ingredientDescGr": "Χταπόδι"
+				},
+				"measurement": {
+					"measurementTypeId": 12,
+					"measurementTypeDescEn": "kg",
+					"measurementTypeDescGr": "κιλό"
+				},
+				"quantity": 1.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 19,
+					"ingredientDescEn": "Medium onions",
+					"ingredientDescGr": "Μεσαία κρεμμύδια"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 20,
+					"ingredientDescEn": "Garlic",
+					"ingredientDescGr": "Σκόρδο"
+				},
+				"measurement": {
+					"measurementTypeId": 13,
+					"measurementTypeDescEn": "cloves",
+					"measurementTypeDescGr": "σκελίδες"
+				},
+				"quantity": 3,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 21,
+					"ingredientDescEn": "Tomato paste",
+					"ingredientDescGr": "Πελτές ντομάτας"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 22,
+					"ingredientDescEn": "Bay leaves",
+					"ingredientDescGr": "Φύλλα δάφνης"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 23,
+					"ingredientDescEn": "Thyme",
+					"ingredientDescGr": "Θυμάρι"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 24,
+					"ingredientDescEn": "Olive oil",
+					"ingredientDescGr": "Ελαιόλαδο"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 120,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 25,
+					"ingredientDescEn": "White wine",
+					"ingredientDescGr": "Λευκό κρασί"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 150,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 26,
+					"ingredientDescEn": "Sweet white wine",
+					"ingredientDescGr": "Γλυκό λευκό κρασί"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 100,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 27,
+					"ingredientDescEn": "Salt",
+					"ingredientDescGr": "Αλάτι"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 28,
+					"ingredientDescEn": "Pepper",
+					"ingredientDescGr": "Πιπέρι"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 0.5,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "For the wine-braised octopus, in a pot, sauté the onions and garlic in the oil over medium heat for 2-3 minutes.",
+				"stepGr": "Για το χταπόδι μαγειρεμένο με κρασί, σε μια κατσαρόλα, σοτάρετε τα κρεμμύδια και το σκόρδο στο λάδι σε μέτρια φωτιά για 2-3 λεπτά.",
+				"time": 3
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Add the octopus tentacles and head and sauté them all together for another 2-3 minutes.",
+				"stepGr": "Προσθέστε τα πλοκάμια και το κεφάλι του χταποδιού και σοτάρετε όλα μαζί για άλλα 2-3 λεπτά.",
+				"time": 3
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Deglaze with the two types of wine and add the remaining ingredients except for the thyme. Don't add salt yet.",
+				"stepGr": "Αποκολλήστε με τους δύο τύπους κρασιού και προσθέστε τα υπόλοιπα υλικά εκτός από το θυμάρι. Μην προσθέσετε ακόμα αλάτι.",
+				"time": 2
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "Close the pressure cooker lid, turn the valve to the appropriate setting, and cook for 30 minutes.",
+				"stepGr": "Κλείστε το καπάκι της χύτρας, γυρίστε τη βαλβίδα στην κατάλληλη ρύθμιση και μαγειρέψτε για 30 λεπτά.",
+				"time": 30
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Let the pressure cooker depressurize on its own for 10 minutes.",
+				"stepGr": "Αφήστε τη χύτρα να αποσυμπιεστεί μόνη της για 10 λεπτά.",
+				"time": 10
+			},
+			{
+				"stepNumber": 6,
+				"stepEn": "Serve with salt, pepper, and thyme.",
+				"stepGr": "Σερβίρετε με αλάτι, πιπέρι και θυμάρι.",
+				"time": 2
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 350,
+			"protein": 25,
+			"carbs": 15,
+			"fat": 20
+		},
+		"difficulty": "medium",
+		"tags": [
+			{
+				"tagEn": "seafood",
+				"tagGr": "θαλασσινά"
+			},
+			{
+				"tagEn": "octopus",
+				"tagGr": "χταπόδι"
+			},
+			{
+				"tagEn": "pressure cooker",
+				"tagGr": "χύτρα ταχύτητας"
+			},
+			{
+				"tagEn": "Greek",
+				"tagGr": "Ελληνικό"
+			},
+			{
+				"tagEn": "main dish",
+				"tagGr": "κυρίως πιάτο"
+			}
+		],
+		"images": ["https://example.com/images/wine-braised-octopus.jpg"],
+		"createdAt": "2023-08-15T14:00:00Z",
+		"updatedAt": "2023-08-15T14:00:00Z"
+	},
+	{
+		"recipeId": 5,
+		"recipeNameEn": "Egg Fried Rice",
+		"recipeNameGr": "Τηγανητό Ρύζι με Αυγό",
+		"prepTime": 10,
+		"cookTime": 15,
+		"totalTime": 25,
+		"servings": 4,
+		"vegan": false,
+		"vegetarian": true,
+		"cuisines": [
+			{
+				"cuisineId": 5,
+				"cuisineNameEn": "Chinese",
+				"cuisineNameGr": "Κινέζικη"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 29,
+					"ingredientDescEn": "White rice, cooked and chilled",
+					"ingredientDescGr": "Λευκό ρύζι, μαγειρεμένο και κρύο"
+				},
+				"measurement": {
+					"measurementTypeId": 10,
+					"measurementTypeDescEn": "cup",
+					"measurementTypeDescGr": "φλιτζάνι"
+				},
+				"quantity": 4,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 30,
+					"ingredientDescEn": "Eggs",
+					"ingredientDescGr": "Αυγά"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 31,
+					"ingredientDescEn": "Spring Onion",
+					"ingredientDescGr": "Φρέσκο κρεμμυδάκι"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 3,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 32,
+					"ingredientDescEn": "Peas",
+					"ingredientDescGr": "Αρακάς"
+				},
+				"measurement": {
+					"measurementTypeId": 10,
+					"measurementTypeDescEn": "cup",
+					"measurementTypeDescGr": "φλιτζάνι"
+				},
+				"quantity": 0.5,
+				"optional": true
+			},
+			{
+				"ingredient": {
+					"ingredientId": 33,
+					"ingredientDescEn": "Garlic",
+					"ingredientDescGr": "Σκόρδο"
+				},
+				"measurement": {
+					"measurementTypeId": 13,
+					"measurementTypeDescEn": "cloves",
+					"measurementTypeDescGr": "σκελίδες"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 34,
+					"ingredientDescEn": "Light soy sauce",
+					"ingredientDescGr": "Ελαφριά σάλτσα σόγιας"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 35,
+					"ingredientDescEn": "Sesame oil",
+					"ingredientDescGr": "Λάδι σουσαμιού"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 36,
+					"ingredientDescEn": "White pepper",
+					"ingredientDescGr": "Λευκό πιπέρι"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 37,
+					"ingredientDescEn": "Neutral cooking oil",
+					"ingredientDescGr": "Ουδέτερο μαγειρικό λάδι"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 2,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Lightly beat the eggs until the white and yolk are well incorporated.",
+				"stepGr": "Χτυπήστε ελαφρά τα αυγά μέχρι το ασπράδι και ο κρόκος να αναμειχθούν καλά.",
+				"time": 1
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Heat up an empty wok until it smokes. Pour in oil then add the beaten egg.",
+				"stepGr": "Ζεστάνετε ένα άδειο γουόκ μέχρι να βγάλει καπνό. Ρίξτε μέσα το λάδι και στη συνέχεια προσθέστε το χτυπημένο αυγό.",
+				"time": 2
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Quickly push the egg around to cook thoroughly then break the scrambled egg into small pieces. Dish out and set aside.",
+				"stepGr": "Σπρώξτε γρήγορα το αυγό γύρω-γύρω για να μαγειρευτεί καλά και μετά σπάστε το σε μικρά κομμάτια. Βγάλτε το από το σκεύος και αφήστε το στην άκρη.",
+				"time": 2
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "Put the wok back on the burner to reheat. Add a little oil and fry minced garlic until it browns a little.",
+				"stepGr": "Βάλτε το γουόκ πίσω στο μάτι για να ξαναζεσταθεί. Προσθέστε λίγο λάδι και τηγανίστε το ψιλοκομμένο σκόρδο μέχρι να ροδίσει ελαφρώς.",
+				"time": 2
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Stir in the rice. Flip and toss constantly to heat the rice evenly. If there are still some clumps, press with a spatula to separate the rice grains.",
+				"stepGr": "Προσθέστε το ρύζι. Αναποδογυρίστε και ανακατέψτε συνεχώς για να ζεσταθεί το ρύζι ομοιόμορφα. Εάν υπάρχουν ακόμα κάποιοι σβώλοι, πιέστε με μια σπάτουλα για να διαχωρίσετε τους κόκκους του ρυζιού.",
+				"time": 3
+			},
+			{
+				"stepNumber": 6,
+				"stepEn": "Add soy sauce and sesame oil, mix well.",
+				"stepGr": "Προσθέστε σάλτσα σόγιας και λάδι σουσαμιού, ανακατέψτε καλά.",
+				"time": 1
+			},
+			{
+				"stepNumber": 7,
+				"stepEn": "Add spring onions, garlic, peas, and white pepper. Mix thoroughly.",
+				"stepGr": "Προσθέστε τα φρέσκα κρεμμυδάκια, το σκόρδο, τον αρακά και το λευκό πιπέρι. Ανακατέψτε καλά.",
+				"time": 2
+			},
+			{
+				"stepNumber": 8,
+				"stepEn": "Return the scrambled eggs to the wok and mix everything together.",
+				"stepGr": "Επαναφέρετε τα ανακατεμένα αυγά στο γουόκ και ανακατέψτε όλα μαζί.",
+				"time": 1
+			},
+			{
+				"stepNumber": 9,
+				"stepEn": "Serve hot.",
+				"stepGr": "Σερβίρετε ζεστό.",
+				"time": 1
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 300,
+			"protein": 10,
+			"carbs": 45,
+			"fat": 12
+		},
+		"difficulty": "easy",
+		"tags": [
+			{
+				"tagEn": "Chinese",
+				"tagGr": "Κινέζικο"
+			},
+			{
+				"tagEn": "rice",
+				"tagGr": "ρύζι"
+			},
+			{
+				"tagEn": "quick meal",
+				"tagGr": "γρήγορο γεύμα"
+			},
+			{
+				"tagEn": "stir-fry",
+				"tagGr": "τηγανητό"
+			},
+			{
+				"tagEn": "easy",
+				"tagGr": "εύκολο"
+			},
+			{
+				"tagEn": "lunch",
+				"tagGr": "μεσημεριανό"
+			},
+			{
+				"tagEn": "dinner",
+				"tagGr": "βραδινό"
+			}
+		],
+		"images": ["https://example.com/images/egg-fried-rice.jpg"],
+		"createdAt": "2023-08-20T16:00:00Z",
+		"updatedAt": "2023-08-20T16:00:00Z"
+	},
+	{
+		"recipeId": 6,
+		"recipeNameEn": "Tomato Orzo in Thermomix",
+		"recipeNameGr": "Κριθαράκι με Ντομάτα στο Thermomix",
+		"prepTime": 5,
+		"cookTime": 20,
+		"totalTime": 25,
+		"servings": 4,
+		"vegan": true,
+		"vegetarian": true,
+		"cuisines": [
+			{
+				"cuisineId": 4,
+				"cuisineNameEn": "Greek",
+				"cuisineNameGr": "Ελληνική"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 40,
+					"ingredientDescEn": "Ripe tomatoes",
+					"ingredientDescGr": "Ντομάτες ώριμες"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 400,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 14,
+					"ingredientDescEn": "Olive oil",
+					"ingredientDescGr": "Ελαιόλαδο"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 50,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 42,
+					"ingredientDescEn": "Onion",
+					"ingredientDescGr": "Κρεμμύδι"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 67,
+					"ingredientDescEn": "Orzo pasta",
+					"ingredientDescGr": "Κριθαράκι"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 300,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 68,
+					"ingredientDescEn": "Hot water",
+					"ingredientDescGr": "Ζεστό νερό"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 450,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 69,
+					"ingredientDescEn": "Thermomix vegetable stock",
+					"ingredientDescGr": "Ζωμός λαχανικών Thermomix"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 3,
+					"ingredientDescEn": "Salt",
+					"ingredientDescGr": "Αλάτι"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 70,
+					"ingredientDescEn": "Pepper",
+					"ingredientDescGr": "Πιπέρι"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Put the tomatoes cut in half in the Thermomix bowl and press turbo twice. Empty them into a container.",
+				"stepGr": "Βάζετε στον κάδο τις ντομάτες κομμένες στα δύο και πατάτε το turbo δύο φορές. Τις αδειάζετε σε ένα δοχείο.",
+				"time": 2
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Put the olive oil and the onion cut in half in the bowl and set for 3 minutes at 100°C, speed 4. Add the orzo and set for 3 minutes at 100°C, speed 1, reverse direction.",
+				"stepGr": "Βάζετε στον κάδο το ελαιόλαδο και το κρεμμύδι κομμένο στα δύο και ρυθμίζετε 3 λεπτά 100° ταχύτητα 4. Προσθέτετε το κριθαράκι και ρυθμίζετε 3 λεπτά 100° ταχύτητα 1, αντίστροφη κίνηση.",
+				"time": 6
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Add the tomatoes, hot water, vegetable stock, salt, and some pepper and set for 14 minutes at 100°C, speed 1, reverse direction.",
+				"stepGr": "Προσθέτετε τις ντομάτες, το ζεστό νερό, το ζωμό λαχανικών, το αλάτι και λίγο πιπέρι και ρυθμίζετε 14 λεπτά 100° ταχύτητα 1, αντίστροφη κίνηση.",
+				"time": 14
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "Remove and put in a container. Let it rest for a few minutes before serving.",
+				"stepGr": "Αφαιρείτε και βάζετε σε ένα δοχείο. Το αφήνετε για λίγα λεπτά πριν σερβίρετε.",
+				"time": 3
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Note - The cooking time for orzo depends on the time specified on the package.",
+				"stepGr": "Σημείωση – Ο χρόνος ψησίματος για το κριθαράκι εξαρτάται από το χρόνο που αναγράφεται στη συσκευασία.",
+				"time": 0
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 320,
+			"protein": 9,
+			"carbs": 50,
+			"fat": 10
+		},
+		"difficulty": "easy",
+		"tags": [
+			{
+				"tagEn": "pasta",
+				"tagGr": "ζυμαρικά"
+			},
+			{
+				"tagEn": "thermomix",
+				"tagGr": "thermomix"
+			},
+			{
+				"tagEn": "Greek",
+				"tagGr": "Ελληνικό"
+			},
+			{
+				"tagEn": "vegetarian",
+				"tagGr": "χορτοφαγικό"
+			},
+			{
+				"tagEn": "vegan",
+				"tagGr": "βίγκαν"
+			},
+			{
+				"tagEn": "easy",
+				"tagGr": "εύκολο"
+			}
+		],
+		"images": ["https://example.com/images/tomato-orzo-thermomix.jpg"],
+		"createdAt": "2023-10-18T14:00:00Z",
+		"updatedAt": "2023-10-18T14:00:00Z"
+	},
+	{
+		"recipeId": 7,
+		"recipeNameEn": "Ninja Foodi Roast Potatoes",
+		"recipeNameGr": "Ψητές Πατάτες Ninja Foodi",
+		"prepTime": 5,
+		"cookTime": 27,
+		"totalTime": 32,
+		"servings": 4,
+		"vegan": true,
+		"vegetarian": true,
+		"cuisines": [
+			{
+				"cuisineId": 6,
+				"cuisineNameEn": "British",
+				"cuisineNameGr": "Βρετανική"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 41,
+					"ingredientDescEn": "Potatoes",
+					"ingredientDescGr": "Πατάτες"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 750,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 68,
+					"ingredientDescEn": "Hot water",
+					"ingredientDescGr": "Ζεστό νερό"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 500,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 14,
+					"ingredientDescEn": "Olive oil or cooking fat",
+					"ingredientDescGr": "Ελαιόλαδο ή μαγειρικό λίπος"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 3,
+					"ingredientDescEn": "Salt",
+					"ingredientDescGr": "Αλάτι"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 70,
+					"ingredientDescEn": "Pepper",
+					"ingredientDescGr": "Πιπέρι"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Pour 500ml of boiling water into the Ninja Foodi cooking pot before adding the potatoes in the basket.",
+				"stepGr": "Ρίξτε 500ml βραστό νερό στο δοχείο μαγειρέματος του Ninja Foodi πριν προσθέσετε τις πατάτες στο καλάθι.",
+				"time": 2
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Place the pressure cooker lid on top of the Ninja Foodi and switch the valve to 'seal.' Select the pressure cooker function and set it off on high for 2 minutes.",
+				"stepGr": "Τοποθετήστε το καπάκι της χύτρας ταχύτητας στο πάνω μέρος του Ninja Foodi και γυρίστε τη βαλβίδα στη θέση 'seal'. Επιλέξτε τη λειτουργία της χύτρας ταχύτητας και ρυθμίστε τη σε υψηλή θερμοκρασία για 2 λεπτά.",
+				"time": 2
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "When the pressure cooker has finished perform a quick release before removing the lid. Take the basket of potatoes from the Ninja Foodi, make sure you use oven gloves or similar to protect your hands.",
+				"stepGr": "Όταν η χύτρα ταχύτητας ολοκληρώσει τη λειτουργία της, κάντε γρήγορη αποσυμπίεση πριν αφαιρέσετε το καπάκι. Βγάλτε το καλάθι με τις πατάτες από το Ninja Foodi, βεβαιωθείτε ότι χρησιμοποιείτε γάντια φούρνου ή κάτι παρόμοιο για να προστατεύσετε τα χέρια σας.",
+				"time": 3
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "Drizzle the oil or fat over the potatoes, using a brush if necessary to make sure they all get coated.",
+				"stepGr": "Ρίξτε το λάδι ή το λίπος πάνω από τις πατάτες, χρησιμοποιώντας ένα πινέλο αν χρειάζεται για να βεβαιωθείτε ότι καλύπτονται όλες.",
+				"time": 2
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Add your favourite roast potato seasoning, this could be as simple as just a little bit of salt and pepper.",
+				"stepGr": "Προσθέστε το αγαπημένο σας καρύκευμα για ψητές πατάτες, αυτό θα μπορούσε να είναι απλά λίγο αλάτι και πιπέρι.",
+				"time": 1
+			},
+			{
+				"stepNumber": 6,
+				"stepEn": "Return the seasoned potatoes to the Ninja Foodi and close the lid. Select the air fryer function and set it off at 200C for 25 minutes, checking on them 3 or 4 times during this time to turn them.",
+				"stepGr": "Επιστρέψτε τις καρυκευμένες πατάτες στο Ninja Foodi και κλείστε το καπάκι. Επιλέξτε τη λειτουργία της φριτέζας αέρα και ρυθμίστε τη στους 200C για 25 λεπτά, ελέγχοντάς τις 3 ή 4 φορές κατά τη διάρκεια αυτής της περιόδου για να τις γυρίσετε.",
+				"time": 25
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 180,
+			"protein": 3,
+			"carbs": 28,
+			"fat": 7
+		},
+		"difficulty": "easy",
+		"tags": [
+			{
+				"tagEn": "potatoes",
+				"tagGr": "πατάτες"
+			},
+			{
+				"tagEn": "roast",
+				"tagGr": "ψητές"
+			},
+			{
+				"tagEn": "side dish",
+				"tagGr": "συνοδευτικό"
+			},
+			{
+				"tagEn": "ninja foodi",
+				"tagGr": "ninja foodi"
+			},
+			{
+				"tagEn": "air fryer",
+				"tagGr": "φριτέζα αέρα"
+			},
+			{
+				"tagEn": "pressure cooker",
+				"tagGr": "χύτρα ταχύτητας"
+			}
+		],
+		"images": ["https://example.com/images/ninja-foodi-roast-potatoes.jpg"],
+		"createdAt": "2023-11-01T12:00:00Z",
+		"updatedAt": "2023-11-01T12:00:00Z"
+	},
+	{
+		"recipeId": 8,
+		"recipeNameEn": "Pressure Cooker Pulled Pork",
+		"recipeNameGr": "Χοιρινό Pulled Pork σε Χύτρα Πίεσης",
+		"prepTime": 30,
+		"cookTime": 135,
+		"totalTime": 165,
+		"servings": 8,
+		"vegan": false,
+		"vegetarian": false,
+		"cuisines": [
+			{
+				"cuisineId": 2,
+				"cuisineNameEn": "American",
+				"cuisineNameGr": "Αμερικάνικη"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 71,
+					"ingredientDescEn": "Pork butt",
+					"ingredientDescGr": "Χοιρινή σπάλα"
+				},
+				"measurement": {
+					"measurementTypeId": 12,
+					"measurementTypeDescEn": "kg",
+					"measurementTypeDescGr": "κιλό"
+				},
+				"quantity": 3,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 68,
+					"ingredientDescEn": "Hot water",
+					"ingredientDescGr": "Ζεστό νερό"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 250,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 72,
+					"ingredientDescEn": "Smoked paprika",
+					"ingredientDescGr": "Καπνιστή πάπρικα"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 3,
+					"ingredientDescEn": "Salt",
+					"ingredientDescGr": "Αλάτι"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 73,
+					"ingredientDescEn": "Turmeric",
+					"ingredientDescGr": "Κουρκουμάς"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 74,
+					"ingredientDescEn": "Celery salt",
+					"ingredientDescGr": "Αλάτι σέλινου"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 75,
+					"ingredientDescEn": "Garlic powder",
+					"ingredientDescGr": "Σκόνη σκόρδου"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 76,
+					"ingredientDescEn": "Chinese 5 spice",
+					"ingredientDescGr": "Κινέζικο μείγμα 5 μπαχαρικών"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 77,
+					"ingredientDescEn": "Chilli powder",
+					"ingredientDescGr": "Σκόνη τσίλι"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.25,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 18,
+					"ingredientDescEn": "Brown Sugar",
+					"ingredientDescGr": "Καστανή Ζάχαρη"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 1,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Remove your pork butt from the refrigerator at least 30 minutes before cooking to allow it to come to room temperature.",
+				"stepGr": "Βγάλτε τη χοιρινή σπάλα από το ψυγείο τουλάχιστον 30 λεπτά πριν το μαγείρεμα για να φτάσει σε θερμοκρασία δωματίου.",
+				"time": 30
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Prepare the seasoning rub by mixing smoked paprika, salt, turmeric, celery salt, garlic powder, Chinese 5 spice, chilli powder, and brown sugar in a small bowl.",
+				"stepGr": "Ετοιμάστε το μείγμα καρυκευμάτων αναμειγνύοντας την καπνιστή πάπρικα, το αλάτι, τον κουρκουμά, το αλάτι σέλινου, τη σκόνη σκόρδου, το κινέζικο μείγμα 5 μπαχαρικών, τη σκόνη τσίλι και την καστανή ζάχαρη σε ένα μικρό μπολ.",
+				"time": 5
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Generously rub the pork with the seasoning mixture. You will have leftover rub that can be used to season the meat after cooking or stored for future use.",
+				"stepGr": "Τρίψτε γενναιόδωρα το χοιρινό με το μείγμα καρυκευμάτων. Θα έχετε περίσσευμα από το μείγμα που μπορεί να χρησιμοποιηθεί για να καρυκεύσετε το κρέας μετά το μαγείρεμα ή να αποθηκευτεί για μελλοντική χρήση.",
+				"time": 5
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "Add 250ml of water to the inner pot of your pressure cooker and place the pork, fat side up, onto the rack or on a sling. Ensure the pork is raised above the liquid.",
+				"stepGr": "Προσθέστε 250ml νερό στο εσωτερικό δοχείο της χύτρας πίεσής σας και τοποθετήστε το χοιρινό, με την πλευρά του λίπους προς τα πάνω, πάνω στη σχάρα ή σε μια αιώρα. Βεβαιωθείτε ότι το χοιρινό είναι υψωμένο πάνω από το υγρό.",
+				"time": 5
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Put the pressure lid on and turn the valve to seal. Pressure cook on high for 1 hour and 15 minutes.",
+				"stepGr": "Τοποθετήστε το καπάκι πίεσης και γυρίστε τη βαλβίδα στη θέση σφράγισης. Μαγειρέψτε σε υψηλή πίεση για 1 ώρα και 15 λεπτά.",
+				"time": 75
+			},
+			{
+				"stepNumber": 6,
+				"stepEn": "When the time is up, allow the pressure to release naturally until the pin drops. Open the lid and remove the rack with the pork.",
+				"stepGr": "Όταν ο χρόνος τελειώσει, αφήστε την πίεση να απελευθερωθεί φυσικά μέχρι να πέσει η περόνη. Ανοίξτε το καπάκι και αφαιρέστε τη σχάρα με το χοιρινό.",
+				"time": 20
+			},
+			{
+				"stepNumber": 7,
+				"stepEn": "Remove the liquid in the pot. You can strain it and put in the fridge for other uses or to add some of the fat and juices back into the meat after pulling.",
+				"stepGr": "Αφαιρέστε το υγρό από το δοχείο. Μπορείτε να το στραγγίσετε και να το βάλετε στο ψυγείο για άλλες χρήσεις ή για να προσθέσετε λίγο από το λίπος και τους χυμούς πίσω στο κρέας μετά το τράβηγμα.",
+				"time": 5
+			},
+			{
+				"stepNumber": 8,
+				"stepEn": "Return the pork to the inner pot. Place it directly in the inner pot so there is enough clearance between the crisping lid and the top of the pork.",
+				"stepGr": "Επιστρέψτε το χοιρινό στο εσωτερικό δοχείο. Τοποθετήστε το απευθείας στο εσωτερικό δοχείο ώστε να υπάρχει αρκετός χώρος μεταξύ του καπακιού τραγανίσματος και του πάνω μέρους του χοιρινού.",
+				"time": 5
+			},
+			{
+				"stepNumber": 9,
+				"stepEn": "Close the crisping lid and air crisp on 150°C for 1 hour. Check on it after 30 minutes to make sure the top isn't getting too dark.",
+				"stepGr": "Κλείστε το καπάκι τραγανίσματος και τραγανίστε με αέρα στους 150°C για 1 ώρα. Ελέγξτε μετά από 30 λεπτά για να βεβαιωθείτε ότι το πάνω μέρος δεν σκουραίνει πολύ.",
+				"time": 60
+			},
+			{
+				"stepNumber": 10,
+				"stepEn": "Remove the pork with meat forks or shredding forks and place on a cutting board to cool slightly.",
+				"stepGr": "Αφαιρέστε το χοιρινό με πιρούνια κρέατος ή πιρούνια τεμαχισμού και τοποθετήστε το σε μια επιφάνεια κοπής για να κρυώσει ελαφρώς.",
+				"time": 5
+			},
+			{
+				"stepNumber": 11,
+				"stepEn": "When it is cool enough to handle, pull the meat off and shred into the size pieces that you want. The meat should pull off very easily. If it doesn't, take the crispy top off and pressure cook for another 20-30 minutes.",
+				"stepGr": "Όταν είναι αρκετά κρύο για να το χειριστείτε, τραβήξτε το κρέας και κόψτε το σε κομμάτια του μεγέθους που θέλετε. Το κρέας πρέπει να αποσπάται πολύ εύκολα. Αν όχι, αφαιρέστε το τραγανό επάνω μέρος και μαγειρέψτε με πίεση για άλλα 20-30 λεπτά.",
+				"time": 10
+			},
+			{
+				"stepNumber": 12,
+				"stepEn": "If you are using a bone-in pork butt, remove the bone and discard.",
+				"stepGr": "Εάν χρησιμοποιείτε χοιρινή σπάλα με κόκαλο, αφαιρέστε το κόκαλο και πετάξτε το.",
+				"time": 2
+			},
+			{
+				"stepNumber": 13,
+				"stepEn": "Season the pulled pork with extra rub if desired or add your favorite bbq sauce.",
+				"stepGr": "Καρυκεύστε το τραβηγμένο χοιρινό με επιπλέον μείγμα καρυκευμάτων αν επιθυμείτε ή προσθέστε την αγαπημένη σας σάλτσα μπάρμπεκιου.",
+				"time": 3
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 350,
+			"protein": 30,
+			"carbs": 5,
+			"fat": 25
+		},
+		"difficulty": "medium",
+		"tags": [
+			{
+				"tagEn": "pork",
+				"tagGr": "χοιρινό"
+			},
+			{
+				"tagEn": "pulled pork",
+				"tagGr": "pulled pork"
+			},
+			{
+				"tagEn": "bbq",
+				"tagGr": "μπάρμπεκιου"
+			},
+			{
+				"tagEn": "pressure cooker",
+				"tagGr": "χύτρα ταχύτητας"
+			},
+			{
+				"tagEn": "air fryer",
+				"tagGr": "φριτέζα αέρα"
+			},
+			{
+				"tagEn": "ninja foodi",
+				"tagGr": "ninja foodi"
+			}
+		],
+		"images": ["https://example.com/images/pulled-pork.jpg"],
+		"createdAt": "2023-11-29T12:00:00Z",
+		"updatedAt": "2023-11-29T12:00:00Z"
+	}
+]

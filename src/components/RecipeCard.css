@@ -2,10 +2,10 @@
 	width: 300px;
 	border-radius: 8px;
 	overflow: hidden;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	box-shadow: var(--card-shadow);
 	margin: 16px;
-	background-color: white;
-	transition: transform 0.2s ease-in-out;
+	background-color: var(--card-background);
+	transition: transform 0.2s ease-in-out, box-shadow 0.3s;
 }
 
 .recipe-card:hover {
@@ -55,19 +55,20 @@
 
 .recipe-info {
 	padding: 16px;
+	color: var(--text-color);
 }
 
 .recipe-title {
 	margin: 0 0 12px 0;
 	font-size: 1.25rem;
 	font-weight: 600;
-	color: #333;
+	color: var(--text-color);
 }
 
 .recipe-times {
 	display: flex;
 	justify-content: space-between;
-	border-top: 1px solid #eee;
+	border-top: 1px solid var(--border-color);
 	padding-top: 12px;
 }
 
@@ -87,7 +88,7 @@
 .time-value {
 	font-size: 0.9rem;
 	font-weight: 500;
-	color: #333;
+	color: var(--text-color);
 }
 
 .recipe-link {

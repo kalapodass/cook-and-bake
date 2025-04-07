@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import LanguageToggle from './components/LanguageToggle';
 import RecipeDetail from './components/RecipeDetail';
 import RecipeGrid from './components/RecipeGrid';
+import ThemeToggle from './components/ThemeToggle';
 import { fetchRecipes } from './services/recipeService';
 import { Recipe } from './types';
 
@@ -38,7 +40,9 @@ function App() {
 	}
 
 	return (
-		<BrowserRouter>
+		<>
+			<ThemeToggle />
+			<LanguageToggle />
 			<Routes>
 				<Route
 					path='/'
@@ -55,7 +59,7 @@ function App() {
 					element={<RecipeDetail recipes={recipes} />}
 				/>
 			</Routes>
-		</BrowserRouter>
+		</>
 	);
 }
 

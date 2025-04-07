@@ -1,0 +1,30 @@
+.language-toggle {
+	background: transparent;
+	border: none;
+	font-size: 1.5rem;
+	cursor: pointer;
+	padding: 0.5rem;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 20px;
+	right: 80px;
+	z-index: 1000;
+	width: 40px;
+	height: 40px;
+	transition: background-color 0.3s;
+}
+
+.language-toggle:hover {
+	background-color: var(--color-hover);
+}
+
+[data-theme='dark'] .language-toggle {
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+[data-theme='light'] .language-toggle {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
