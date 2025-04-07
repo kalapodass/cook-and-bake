@@ -328,5 +328,25 @@
 		"id": 66,
 		"name": "Mayonnaise",
 		"unit": "g"
+	},
+	{
+		"id": 67,
+		"name": "Orzo Pasta",
+		"unit": "g"
+	},
+	{
+		"id": 68,
+		"name": "Hot Water",
+		"unit": "ml"
+	},
+	{
+		"id": 69,
+		"name": "Vegetable Stock",
+		"unit": "g"
+	},
+	{
+		"id": 70,
+		"name": "Pepper",
+		"unit": "g"
 	}
 ]
