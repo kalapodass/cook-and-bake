@@ -1009,7 +1009,6 @@
 			},
 			{
 				"ingredient": {
-					"ingredientId": 14,
 					"ingredientDescEn": "Olive oil or cooking fat",
 					"ingredientDescGr": "Ελαιόλαδο ή μαγειρικό λίπος"
 				},
@@ -1400,5 +1399,459 @@
 		"images": ["https://example.com/images/pulled-pork.jpg"],
 		"createdAt": "2023-11-29T12:00:00Z",
 		"updatedAt": "2023-11-29T12:00:00Z"
+	},
+	{
+		"recipeId": 9,
+		"recipeNameEn": "Marinated Pork in Red Wine",
+		"recipeNameGr": "Αφέλια με Κόκκινο Κρασί",
+		"prepTime": 180,
+		"cookTime": 20,
+		"totalTime": 200,
+		"servings": 6,
+		"vegan": false,
+		"vegetarian": false,
+		"cuisines": [
+			{
+				"cuisineId": 4,
+				"cuisineNameEn": "Greek",
+				"cuisineNameGr": "Ελληνική"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 78,
+					"ingredientDescEn": "Pork neck",
+					"ingredientDescGr": "Χοιρινός λαιμός"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 2000,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 14,
+					"ingredientDescEn": "Olive oil",
+					"ingredientDescGr": "Ελαιόλαδο"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 79,
+					"ingredientDescEn": "Red wine",
+					"ingredientDescGr": "Κόκκινο κρασί"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 300,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 80,
+					"ingredientDescEn": "Coriander seeds",
+					"ingredientDescGr": "Κόλιανδρο, σε σπόρους"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 3,
+					"ingredientDescEn": "Salt",
+					"ingredientDescGr": "Αλάτι"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 70,
+					"ingredientDescEn": "Pepper",
+					"ingredientDescGr": "Πιπέρι"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "In a glass bowl, place the pieces of pork with the wine. Cover with plastic wrap and marinate the meat for at least 3 hours or overnight in the refrigerator.",
+				"stepGr": "Σε ένα γυάλινο μπολ ρίχνουμε τα κομμάτια χοιρινού μαζί με το κρασί. Καλύπτουμε με μεμβράνη και μαρινάρουμε το κρέας για τουλάχιστον 3 ώρες ή από το προηγούμενο βράδυ στο ψυγείο.",
+				"time": 180
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "When ready to cook our meal, heat the pressure cooker over high heat with the olive oil and fry the pieces of meat, after first draining them slightly from their marinade.",
+				"stepGr": "Όταν είμαστε έτοιμοι να μαγειρέψουμε το φαγητό μας, ζεσταίνουμε τη χύτρα μας σε δυνατή φωτιά μαζί με το ελαιόλαδο και τηγανίζουμε τα κομμάτια κρέας, αφού τα στραγγίσουμε πρώτα ελαφρά από την μαρινάτα τους.",
+				"time": 5
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Fry the meat until it changes color on the outside and no longer looks raw. Then drain it.",
+				"stepGr": "Τηγανίζουμε το κρέας μέχρι να αλλάξει χρώμα εξωτερικά και να μη φαίνεται ωμό. Και μετά το στραγγίζουμε.",
+				"time": 5
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "Add the coriander, red wine, salt, and pepper. Seal the pressure cooker and cook on high for 10 minutes.",
+				"stepGr": "Προσθέτουμε τον κολιανδρο κοκκινο κρασί το αλάτι και το πιπέρι. Σφραγίζουμε τη χύτρα διατηρώντας και το βάζουμε για 10 λεπτά στο high",
+				"time": 10
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "When the cooking time is complete, release the pressure from the cooker.",
+				"stepGr": "Όταν ο χρόνος ψησίματος έχει συμπληρωθεί, αφαιρούμε την πίεση στη χύτρα.",
+				"time": 5
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 350,
+			"protein": 35,
+			"carbs": 2,
+			"fat": 22
+		},
+		"difficulty": "medium",
+		"tags": [
+			{
+				"tagEn": "pork",
+				"tagGr": "χοιρινό"
+			},
+			{
+				"tagEn": "red wine",
+				"tagGr": "κόκκινο κρασί"
+			},
+			{
+				"tagEn": "pressure cooker",
+				"tagGr": "χύτρα ταχύτητας"
+			},
+			{
+				"tagEn": "Greek",
+				"tagGr": "Ελληνικό"
+			},
+			{
+				"tagEn": "main dish",
+				"tagGr": "κυρίως πιάτο"
+			}
+		],
+		"images": ["https://example.com/images/marinated-pork-red-wine.jpg"],
+		"createdAt": "2024-04-01T14:00:00Z",
+		"updatedAt": "2024-04-01T14:00:00Z"
+	},
+	{
+		"recipeId": 10,
+		"recipeNameEn": "Giant Beans",
+		"recipeNameGr": "Φασόλια Γίγαντες",
+		"prepTime": 720,
+		"cookTime": 45,
+		"totalTime": 765,
+		"servings": 4,
+		"vegan": true,
+		"vegetarian": true,
+		"cuisines": [
+			{
+				"cuisineId": 4,
+				"cuisineNameEn": "Greek",
+				"cuisineNameGr": "Ελληνική"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 81,
+					"ingredientDescEn": "Giant Beans",
+					"ingredientDescGr": "Φασόλια Γίγαντες"
+				},
+				"measurement": {
+					"measurementTypeId": 10,
+					"measurementTypeDescEn": "cup",
+					"measurementTypeDescGr": "φλιτζάνι"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 68,
+					"ingredientDescEn": "Water",
+					"ingredientDescGr": "Νερό"
+				},
+				"measurement": {
+					"measurementTypeId": 10,
+					"measurementTypeDescEn": "cup",
+					"measurementTypeDescGr": "φλιτζάνι"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 14,
+					"ingredientDescEn": "Olive oil",
+					"ingredientDescGr": "Ελαιόλαδο"
+				},
+				"measurement": {
+					"measurementTypeId": 10,
+					"measurementTypeDescEn": "cup",
+					"measurementTypeDescGr": "φλιτζάνι"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 82,
+					"ingredientDescEn": "Stock cube",
+					"ingredientDescGr": "Κύβος Magi"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 42,
+					"ingredientDescEn": "Onion, finely chopped",
+					"ingredientDescGr": "Κρεμμύδι, ψιλοκομμένο"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 37,
+					"ingredientDescEn": "Carrot",
+					"ingredientDescGr": "Καρότο"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 83,
+					"ingredientDescEn": "Celery",
+					"ingredientDescGr": "Σέλινο"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 40,
+					"ingredientDescEn": "Tomato, chopped",
+					"ingredientDescGr": "Ντομάτα, ψιλοκομμένη"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 84,
+					"ingredientDescEn": "Tomato paste",
+					"ingredientDescGr": "Πελτές ντομάτας"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 85,
+					"ingredientDescEn": "Passata",
+					"ingredientDescGr": "Πούμαρο"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 2,
+					"ingredientDescEn": "Sugar",
+					"ingredientDescGr": "Ζάχαρη"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 68,
+					"ingredientDescEn": "Bean cooking water",
+					"ingredientDescGr": "Νερό από το βράσιμο των φασολιών"
+				},
+				"measurement": {
+					"measurementTypeId": 10,
+					"measurementTypeDescEn": "cup",
+					"measurementTypeDescGr": "φλιτζάνι"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 68,
+					"ingredientDescEn": "Additional water",
+					"ingredientDescGr": "Επιπλέον νερό"
+				},
+				"measurement": {
+					"measurementTypeId": 10,
+					"measurementTypeDescEn": "cup",
+					"measurementTypeDescGr": "φλιτζάνι"
+				},
+				"quantity": 1,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Soak the beans for 12-24 hours in cold water.",
+				"stepGr": "Φουσκώνουμε τα φασόλια για 12-24 ώρες σε κρύο νερό.",
+				"time": 720
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Add the beans and 2 cups of water to the Ninja Foodi and set to high pressure for 15 minutes.",
+				"stepGr": "Βάζουμε τα φασόλια και το νερό στο Ninja Foodi και βάζουμε high pressure για 15 λεπτά.",
+				"time": 15
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "When the beans are done, reserve 1 cup of the cooking water.",
+				"stepGr": "Όταν τα φασόλια είναι έτοιμα, κρατάμε 1 φλιτζάνι από το νερό που έβρασαν.",
+				"time": 2
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "In a baking dish, combine all ingredients: beans, olive oil, stock cube, chopped onion, carrot, celery, chopped tomato, tomato paste, passata, sugar, 1 cup of bean cooking water, and 1 additional cup of water.",
+				"stepGr": "Βάζουμε όλα τα υλικά μαζί με τα φασόλια σε ταψί: ελαιόλαδο, κύβο Magi, ψιλοκομμένο κρεμμύδι, καρότο, σέλινο, ψιλοκομμένη ντομάτα, πελτέ ντομάτας, πούμαρο, ζάχαρη, 1 φλιτζάνι από το νερό που έβρασαν τα φασόλια, και 1 επιπλέον φλιτζάνι νερό.",
+				"time": 5
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Preheat the oven to 220°C.",
+				"stepGr": "Προθερμαίνουμε το φούρνο στους 220 βαθμούς.",
+				"time": 5
+			},
+			{
+				"stepNumber": 6,
+				"stepEn": "Cover the baking dish with wet parchment paper and bake in the oven at 220°C.",
+				"stepGr": "Καλύπτουμε το ταψί με μια βρεγμένη αντικολλητική κόλλα και ψήνουμε στο φούρνο στους 220 βαθμούς.",
+				"time": 30
+			},
+			{
+				"stepNumber": 7,
+				"stepEn": "Bake until the beans are tender and the sauce has thickened.",
+				"stepGr": "Ψήνουμε μέχρι τα φασόλια να μαλακώσουν και η σάλτσα να πήξει.",
+				"time": 30
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 320,
+			"protein": 15,
+			"carbs": 45,
+			"fat": 10
+		},
+		"difficulty": "medium",
+		"tags": [
+			{
+				"tagEn": "beans",
+				"tagGr": "φασόλια"
+			},
+			{
+				"tagEn": "Greek",
+				"tagGr": "Ελληνικό"
+			},
+			{
+				"tagEn": "vegan",
+				"tagGr": "βίγκαν"
+			},
+			{
+				"tagEn": "vegetarian",
+				"tagGr": "χορτοφαγικό"
+			},
+			{
+				"tagEn": "pressure cooker",
+				"tagGr": "χύτρα ταχύτητας"
+			},
+			{
+				"tagEn": "ninja foodi",
+				"tagGr": "ninja foodi"
+			},
+			{
+				"tagEn": "baked",
+				"tagGr": "ψητό"
+			}
+		],
+		"images": ["https://example.com/images/giant-beans.jpg"],
+		"createdAt": "2024-05-01T14:00:00Z",
+		"updatedAt": "2024-05-01T14:00:00Z"
 	}
 ]
