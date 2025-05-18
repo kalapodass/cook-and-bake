@@ -23,8 +23,8 @@ const ImageGenerator = ({
 	recipes,
 	onImageGenerated = () => {},
 	usePlaceholders = false,
-	visible = true, // Default to visible for backward compatibility
-	autoHide = false,
+	visible = false, // Default to visible for backward compatibility
+	autoHide = true,
 }: ImageGeneratorProps) => {
 	const { t } = useLanguage();
 	const [generating, setGenerating] = useState(false);
