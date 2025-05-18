@@ -1,4 +1,4 @@
-import { getEnvVariable } from './imageGenerationService';
+import { getEnvVariable } from '../utils/sharedUtils';
 
 // Don't redeclare global window properties here since they're already in global.d.ts
 // Just reference the existing type
