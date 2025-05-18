@@ -13,12 +13,16 @@ interface ImageGeneratorProps {
 	recipes: Recipe[];
 	onImageGenerated?: (image: GeneratedImage) => void;
 	usePlaceholders?: boolean;
+	visible?: boolean; // New prop to control visibility
 }
 
+// This component can be included on any page that needs recipe images
+// It will automatically generate images and can optionally hide itself after generating
 const ImageGenerator = ({
 	recipes,
 	onImageGenerated = () => {},
 	usePlaceholders = false,
+	visible = false, // Default to invisible
 }: ImageGeneratorProps) => {
 	const { t } = useLanguage();
 	const [generating, setGenerating] = useState(false);
@@ -26,14 +30,18 @@ const ImageGenerator = ({
 	const [generatedImages, setGeneratedImages] = useState<{
 		[recipeId: number]: GeneratedImage;
 	}>({});
+	const [isComplete, setIsComplete] = useState(false);
 
 	// Auto-generate images when component mounts or recipes change
 	useEffect(() => {
-		generateAllImages();
+		if (recipes.length > 0) {
+			generateAllImages();
+		}
 	}, [recipes]);
 
 	// Function to generate images for all recipes
 	const generateAllImages = async () => {
+		// Skip if already generating
 		if (generating || !recipes.length) return;
 
 		setGenerating(true);
@@ -53,26 +61,25 @@ const ImageGenerator = ({
 
 				images[recipe.recipeId] = image;
 				onImageGenerated(image);
-
-				// Small delay to avoid overwhelming the API
-				if (!usePlaceholders) {
-					await new Promise((resolve) => setTimeout(resolve, 500));
-				}
 			}
 
 			setGeneratedImages((prev) => ({ ...prev, ...images }));
+			setIsComplete(true);
 		} catch (err) {
 			console.error('Error generating images:', err);
-			setError('Failed to generate some images. Please try again later.');
+			setError('Failed to generate some images.');
 		} finally {
 			setGenerating(false);
 		}
 	};
 
+	// If not visible, return null or an empty div
+	if (!visible) {
+		return null; // Completely hide the component
+	}
+
 	return (
 		<div className='image-generator-container'>
-			<h2 className='generator-title'>{t('generator.title')}</h2>
-
 			{generating && (
 				<div className='generating-status'>
 					<p>
@@ -87,16 +94,18 @@ const ImageGenerator = ({
 
 			{error && <div className='generator-error'>{error}</div>}
 
-			<div className='image-grid'>
-				{Object.values(generatedImages).map((image) => (
-					<div key={image.recipeId} className='recipe-image-card'>
-						<img src={image.imageUrl} alt={image.recipeName} />
-						<Link to={`/recipe/${image.recipeId}`} className='recipe-link'>
-							{image.recipeName}
-						</Link>
-					</div>
-				))}
-			</div>
+			{Object.keys(generatedImages).length > 0 && (
+				<div className='image-grid'>
+					{Object.values(generatedImages).map((image) => (
+						<div key={image.recipeId} className='recipe-image-card'>
+							<img src={image.imageUrl} alt={image.recipeName} />
+							<Link to={`/recipe/${image.recipeId}`} className='recipe-link'>
+								{image.recipeName}
+							</Link>
+						</div>
+					))}
+				</div>
+			)}
 		</div>
 	);
 };

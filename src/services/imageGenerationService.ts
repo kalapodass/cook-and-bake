@@ -112,8 +112,8 @@ export const generateRecipeImage = async (
 
 // Fallback method that returns placeholder images (for development or when API is unavailable)
 export const getPlaceholderImage = (recipe: Recipe): GeneratedImage => {
-	// Using a more reliable placeholder image service
-	const placeholderUrl = `https://placehold.co/600x400/orange/white?text=${encodeURIComponent(
+	// Using a more reliable placeholder image service with light green background
+	const placeholderUrl = `https://placehold.co/600x400/c6ebc9/333333?text=${encodeURIComponent(
 		recipe.recipeNameEn || recipe.recipeNameGr || 'Recipe'
 	)}`;
 

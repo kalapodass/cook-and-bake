@@ -99,9 +99,6 @@ function App() {
 					<Link to='/' className='nav-link'>
 						{t('nav.home')}
 					</Link>
-					<Link to='/generate-images' className='nav-link'>
-						{t('nav.generateImages')}
-					</Link>
 				</nav>
 			</div>
 
@@ -120,16 +117,13 @@ function App() {
 					path='/recipe/:id'
 					element={<RecipeDetail recipes={recipes} />}
 				/>
-				<Route
-					path='/generate-images'
-					element={
-						<ImageGenerator
-							recipes={recipes}
-							onImageGenerated={handleImageGenerated}
-						/>
-					}
-				/>
 			</Routes>
+
+			{/* Integrate ImageGenerator component directly into the app layout */}
+			<ImageGenerator
+				recipes={recipes}
+				onImageGenerated={handleImageGenerated}
+			/>
 		</>
 	);
 }
