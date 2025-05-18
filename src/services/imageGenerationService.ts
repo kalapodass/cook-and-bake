@@ -25,8 +25,6 @@ export const generateRecipeImage = async (
 				.map((i) => i.ingredient.ingredientDescEn)
 				.join(', ')}.`;
 
-		console.log('Requesting image generation from backend...');
-
 		// Call our backend API endpoint instead of directly calling OpenAI
 		const response = await fetch(BACKEND_IMAGE_API_ENDPOINT, {
 			method: 'POST',
@@ -84,8 +82,6 @@ export const getPlaceholderImage = (recipe: Recipe): GeneratedImage => {
 	const placeholderUrl = `https://placehold.co/600x400/c6ebc9/333333?text=${encodeURIComponent(
 		recipe.recipeNameEn || recipe.recipeNameGr || 'Recipe'
 	)}`;
-
-	console.log('Using placeholder image:', placeholderUrl);
 
 	return {
 		recipeId: recipe.recipeId,
