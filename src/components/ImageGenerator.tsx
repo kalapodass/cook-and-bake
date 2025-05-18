@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import {
@@ -11,124 +11,92 @@ import './ImageGenerator.css';
 
 interface ImageGeneratorProps {
 	recipes: Recipe[];
-	onImageGenerated: (image: GeneratedImage) => void;
+	onImageGenerated?: (image: GeneratedImage) => void;
+	usePlaceholders?: boolean;
 }
 
-const ImageGenerator = ({ recipes, onImageGenerated }: ImageGeneratorProps) => {
-	const { t, language } = useLanguage();
-	const [selectedRecipeId, setSelectedRecipeId] = useState<number | ''>('');
+const ImageGenerator = ({
+	recipes,
+	onImageGenerated = () => {},
+	usePlaceholders = false,
+}: ImageGeneratorProps) => {
+	const { t } = useLanguage();
 	const [generating, setGenerating] = useState(false);
 	const [error, setError] = useState<string | null>(null);
-	const [preview, setPreview] = useState<GeneratedImage | null>(null);
-	const [usePlaceholder, setUsePlaceholder] = useState(false);
+	const [generatedImages, setGeneratedImages] = useState<{
+		[recipeId: number]: GeneratedImage;
+	}>({});
 
-	const handleGenerate = async () => {
-		if (!selectedRecipeId) {
-			setError('Please select a recipe');
-			return;
-		}
+	// Auto-generate images when component mounts or recipes change
+	useEffect(() => {
+		generateAllImages();
+	}, [recipes]);
 
-		const recipe = recipes.find((r) => r.recipeId === selectedRecipeId);
-		if (!recipe) return;
+	// Function to generate images for all recipes
+	const generateAllImages = async () => {
+		if (generating || !recipes.length) return;
 
 		setGenerating(true);
-		setError(null);
+		const images: { [recipeId: number]: GeneratedImage } = {};
 
 		try {
-			let generatedImage;
+			for (const recipe of recipes) {
+				// Skip if we already have this image
+				if (generatedImages[recipe.recipeId]) continue;
 
-			if (usePlaceholder) {
-				// Use placeholder image to avoid API costs
-				generatedImage = getPlaceholderImage(recipe);
-			} else {
-				// Use real image generation API
-				generatedImage = await generateRecipeImage(recipe);
+				let image;
+				if (usePlaceholders) {
+					image = getPlaceholderImage(recipe);
+				} else {
+					image = await generateRecipeImage(recipe);
+				}
+
+				images[recipe.recipeId] = image;
+				onImageGenerated(image);
+
+				// Small delay to avoid overwhelming the API
+				if (!usePlaceholders) {
+					await new Promise((resolve) => setTimeout(resolve, 500));
+				}
 			}
 
-			setPreview(generatedImage);
-			onImageGenerated(generatedImage);
+			setGeneratedImages((prev) => ({ ...prev, ...images }));
 		} catch (err) {
-			setError('Failed to generate image. Please try again later.');
-			console.error(err);
+			console.error('Error generating images:', err);
+			setError('Failed to generate some images. Please try again later.');
 		} finally {
 			setGenerating(false);
 		}
 	};
 
-	const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-		setSelectedRecipeId(e.target.value ? Number(e.target.value) : '');
-	};
-
 	return (
 		<div className='image-generator-container'>
 			<h2 className='generator-title'>{t('generator.title')}</h2>
-			<p className='generator-description'>{t('generator.description')}</p>
 
-			<div className='generator-form'>
-				<div className='form-group'>
-					<label htmlFor='recipe-select'>{t('generator.selectRecipe')}</label>
-					<select
-						id='recipe-select'
-						value={selectedRecipeId}
-						onChange={handleSelectChange}
-						disabled={generating}
-					>
-						<option value=''>{t('generator.chooseRecipe')}</option>
-						{recipes.map((recipe) => (
-							<option key={recipe.recipeId} value={recipe.recipeId}>
-								{language === 'en' ? recipe.recipeNameEn : recipe.recipeNameGr}
-							</option>
-						))}
-					</select>
+			{generating && (
+				<div className='generating-status'>
+					<p>
+						{t('generator.generatingImages') || 'Generating recipe images...'}
+					</p>
+					<progress
+						value={Object.keys(generatedImages).length}
+						max={recipes.length}
+					/>
 				</div>
-
-				<div className='form-group checkbox'>
-					<label htmlFor='use-placeholder'>
-						<input
-							type='checkbox'
-							id='use-placeholder'
-							checked={usePlaceholder}
-							onChange={(e) => setUsePlaceholder(e.target.checked)}
-							disabled={generating}
-						/>
-						{t('generator.usePlaceholder') ||
-							'Use placeholder image (dev mode)'}
-					</label>
-				</div>
-
-				<button
-					className='generate-button'
-					onClick={handleGenerate}
-					disabled={generating || !selectedRecipeId}
-				>
-					{generating
-						? t('generator.generating')
-						: t('generator.generateImage')}
-				</button>
-			</div>
+			)}
 
 			{error && <div className='generator-error'>{error}</div>}
 
-			{preview && (
-				<div className='image-preview-container'>
-					<h3>{t('generator.preview')}</h3>
-					<div className='image-preview'>
-						<img src={preview.imageUrl} alt={preview.recipeName} />
+			<div className='image-grid'>
+				{Object.values(generatedImages).map((image) => (
+					<div key={image.recipeId} className='recipe-image-card'>
+						<img src={image.imageUrl} alt={image.recipeName} />
+						<Link to={`/recipe/${image.recipeId}`} className='recipe-link'>
+							{image.recipeName}
+						</Link>
 					</div>
-					<div className='preview-details'>
-						<p>
-							<strong>{t('generator.prompt')}:</strong> {preview.prompt}
-						</p>
-						<p>
-							<strong>{t('generator.generated')}:</strong>{' '}
-							{new Date(preview.createdAt).toLocaleString()}
-						</p>
-					</div>
-					<Link to={`/recipe/${preview.recipeId}`} className='view-recipe-link'>
-						{t('generator.viewRecipe')}
-					</Link>
-				</div>
-			)}
+				))}
+			</div>
 		</div>
 	);
 };
