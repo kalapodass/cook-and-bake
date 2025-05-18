@@ -13,7 +13,8 @@ interface ImageGeneratorProps {
 	recipes: Recipe[];
 	onImageGenerated?: (image: GeneratedImage) => void;
 	usePlaceholders?: boolean;
-	visible?: boolean; // New prop to control visibility
+	visible?: boolean; // Control visibility
+	autoHide?: boolean; // Add the missing property
 }
 
 // This component can be included on any page that needs recipe images
@@ -22,7 +23,8 @@ const ImageGenerator = ({
 	recipes,
 	onImageGenerated = () => {},
 	usePlaceholders = false,
-	visible = false, // Default to invisible
+	visible = false,
+	autoHide = false,
 }: ImageGeneratorProps) => {
 	const { t } = useLanguage();
 	const [generating, setGenerating] = useState(false);
@@ -30,7 +32,8 @@ const ImageGenerator = ({
 	const [generatedImages, setGeneratedImages] = useState<{
 		[recipeId: number]: GeneratedImage;
 	}>({});
-	const [isComplete, setIsComplete] = useState(false);
+	const isComplete =
+		recipes.length > 0 && Object.keys(generatedImages).length >= recipes.length;
 
 	// Auto-generate images when component mounts or recipes change
 	useEffect(() => {
@@ -64,7 +67,6 @@ const ImageGenerator = ({
 			}
 
 			setGeneratedImages((prev) => ({ ...prev, ...images }));
-			setIsComplete(true);
 		} catch (err) {
 			console.error('Error generating images:', err);
 			setError('Failed to generate some images.');
@@ -73,9 +75,14 @@ const ImageGenerator = ({
 		}
 	};
 
-	// If not visible, return null or an empty div
+	// If autoHide is true and we're done generating, don't render anything
+	if (autoHide && isComplete && !generating) {
+		return null;
+	}
+
+	// If not visible, return null
 	if (!visible) {
-		return null; // Completely hide the component
+		return null;
 	}
 
 	return (
