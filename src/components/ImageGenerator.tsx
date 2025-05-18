@@ -20,6 +20,7 @@ const ImageGenerator = ({ recipes, onImageGenerated }: ImageGeneratorProps) => {
 	const [generating, setGenerating] = useState(false);
 	const [error, setError] = useState<string | null>(null);
 	const [preview, setPreview] = useState<GeneratedImage | null>(null);
+	const [usePlaceholder, setUsePlaceholder] = useState(false);
 
 	const handleGenerate = async () => {
 		if (!selectedRecipeId) {
@@ -34,9 +35,15 @@ const ImageGenerator = ({ recipes, onImageGenerated }: ImageGeneratorProps) => {
 		setError(null);
 
 		try {
-			// For development, you might want to use the placeholder to avoid API costs
-			// const generatedImage = getPlaceholderImage(recipe);
-			const generatedImage = await generateRecipeImage(recipe);
+			let generatedImage;
+
+			if (usePlaceholder) {
+				// Use placeholder image to avoid API costs
+				generatedImage = getPlaceholderImage(recipe);
+			} else {
+				// Use real image generation API
+				generatedImage = await generateRecipeImage(recipe);
+			}
 
 			setPreview(generatedImage);
 			onImageGenerated(generatedImage);
@@ -73,6 +80,20 @@ const ImageGenerator = ({ recipes, onImageGenerated }: ImageGeneratorProps) => {
 							</option>
 						))}
 					</select>
+				</div>
+
+				<div className='form-group checkbox'>
+					<label htmlFor='use-placeholder'>
+						<input
+							type='checkbox'
+							id='use-placeholder'
+							checked={usePlaceholder}
+							onChange={(e) => setUsePlaceholder(e.target.checked)}
+							disabled={generating}
+						/>
+						{t('generator.usePlaceholder') ||
+							'Use placeholder image (dev mode)'}
+					</label>
 				</div>
 
 				<button
