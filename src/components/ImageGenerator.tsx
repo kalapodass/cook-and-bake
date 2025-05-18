@@ -13,17 +13,17 @@ interface ImageGeneratorProps {
 	recipes: Recipe[];
 	onImageGenerated?: (image: GeneratedImage) => void;
 	usePlaceholders?: boolean;
-	visible?: boolean; // Control visibility
-	autoHide?: boolean; // Add the missing property
+	visible?: boolean; // Control UI visibility only, not functionality
+	autoHide?: boolean; // Auto hide after completion
 }
 
 // This component can be included on any page that needs recipe images
-// It will automatically generate images and can optionally hide itself after generating
+// It will automatically generate images and functions regardless of visibility
 const ImageGenerator = ({
 	recipes,
 	onImageGenerated = () => {},
 	usePlaceholders = false,
-	visible = false,
+	visible = true, // Default to visible for backward compatibility
 	autoHide = false,
 }: ImageGeneratorProps) => {
 	const { t } = useLanguage();
@@ -32,10 +32,12 @@ const ImageGenerator = ({
 	const [generatedImages, setGeneratedImages] = useState<{
 		[recipeId: number]: GeneratedImage;
 	}>({});
+
+	// Computed property for completion status
 	const isComplete =
 		recipes.length > 0 && Object.keys(generatedImages).length >= recipes.length;
 
-	// Auto-generate images when component mounts or recipes change
+	// Generate images when component mounts or recipes change
 	useEffect(() => {
 		if (recipes.length > 0) {
 			generateAllImages();
@@ -75,23 +77,24 @@ const ImageGenerator = ({
 		}
 	};
 
-	// If autoHide is true and we're done generating, don't render anything
-	if (autoHide && isComplete && !generating) {
-		return null;
-	}
+	// Even when not visible, the component will still generate images
+	// Only the UI rendering is affected by the visible prop
 
-	// If not visible, return null
-	if (!visible) {
-		return null;
-	}
+	// If autoHide is true and generation is complete, don't render UI
+	const shouldHideUI = (autoHide && isComplete && !generating) || !visible;
 
+	// Always return something to ensure the component can re-render
+	// but hide the UI elements when shouldHideUI is true
 	return (
-		<div className='image-generator-container'>
+		<div
+			className='image-generator-container'
+			style={{
+				display: shouldHideUI ? 'none' : 'block',
+			}}
+		>
 			{generating && (
 				<div className='generating-status'>
-					<p>
-						{t('generator.generatingImages') || 'Generating recipe images...'}
-					</p>
+					<p>{t('generator.generating') || 'Generating recipe images...'}</p>
 					<progress
 						value={Object.keys(generatedImages).length}
 						max={recipes.length}

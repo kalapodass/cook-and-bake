@@ -71,7 +71,7 @@ const translations = {
 		'difficulty.easy': 'Εύκολο',
 		'difficulty.medium': 'Μέτριο',
 		'difficulty.hard': 'Δύσκολο',
-		'diet.vegan': 'Vegan',
+		'diet.vegan': 'Βίγκαν',
 		'diet.vegetarian': 'Χορτοφαγικό',
 		'nav.home': 'Αρχική',
 		'nav.generateImages': 'Δημιουργία Εικόνων',
