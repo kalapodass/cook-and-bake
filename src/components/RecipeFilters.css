@@ -1,0 +1,53 @@
+.recipe-filters {
+	padding: 1rem;
+	margin-bottom: 1.5rem;
+	background-color: #f8f9fa;
+	border-radius: 8px;
+}
+
+.filter-section {
+	margin-bottom: 1rem;
+}
+
+.filter-section h4 {
+	margin-bottom: 0.5rem;
+	font-weight: 600;
+}
+
+.filter-options {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.filter-option {
+	display: flex;
+	align-items: center;
+	padding: 0.25rem 0.5rem;
+	background-color: #edf2f7;
+	border-radius: 4px;
+	font-size: 0.9rem;
+	cursor: pointer;
+}
+
+.filter-option:hover {
+	background-color: #e2e8f0;
+}
+
+.filter-option input {
+	margin-right: 0.5rem;
+}
+
+.clear-filters {
+	margin-top: 1rem;
+	padding: 0.5rem 1rem;
+	background-color: #e53e3e;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.clear-filters:hover {
+	background-color: #c53030;
+}

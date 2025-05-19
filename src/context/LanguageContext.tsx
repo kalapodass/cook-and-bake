@@ -58,6 +58,13 @@ const translations = {
 		'recipe.tacos': 'Tacos',
 		'recipe.mexican': 'Mexican',
 		'recipe.shredded': 'Shredded',
+		'app.recipeListTitle': 'Our Recipes',
+		'app.loading': 'Loading recipes...',
+		'filters.title': 'Filter Recipes',
+		'filters.cuisines': 'Cuisines',
+		'filters.tags': 'Tags',
+		'filters.clear': 'Clear Filters',
+		'filters.noResults': 'No recipes match your filters',
 	},
 	gr: {
 		'app.title': 'Οι Συνταγές μας',
@@ -102,6 +109,13 @@ const translations = {
 		'recipe.tacos': 'Τάκος',
 		'recipe.mexican': 'Μεξικάνικο',
 		'recipe.shredded': 'Ξεφτισμένο',
+		'app.recipeListTitle': 'Οι Συνταγές μας',
+		'app.loading': 'Φόρτωση συνταγών...',
+		'filters.title': 'Φίλτρα Συνταγών',
+		'filters.cuisines': 'Κουζίνες',
+		'filters.tags': 'Ετικέτες',
+		'filters.clear': 'Καθαρισμός Φίλτρων',
+		'filters.noResults': 'Δεν βρέθηκαν συνταγές με αυτά τα φίλτρα',
 	},
 };
 
