@@ -2077,7 +2077,7 @@
 			{
 				"stepNumber": 4,
 				"stepEn": "Add the red pepper flakes, dried basil, salt, and black pepper to taste. Mix again.",
-				"stepGr": "Προσθέτουμε τις νιφάδες κόκκινου πιπεριού, τον αποξηραμένο βασιλικό, το αλάτι και το μαύρο πιπέρι κατά προτίμηση. Ανακατεύουμε ξανά.",
+				"stepGr": "Προσθέτουμε τις νιφάδες κόκκινου πιπεριού, το αποξηραμένο βασιλικό, το αλάτι και το μαύρο πιπέρι κατά προτίμηση. Ανακατεύουμε ξανά.",
 				"time": 1
 			},
 			{
@@ -2821,5 +2821,233 @@
 		"images": ["https://example.com/images/slow-cooker-chicken-tacos.jpg"],
 		"createdAt": "2024-06-20T12:00:00Z",
 		"updatedAt": "2024-06-20T12:00:00Z"
+	},
+	{
+		"recipeId": 15,
+		"recipeNameEn": "Keto Almond Flour Pizza Crust",
+		"recipeNameGr": "Ζύμη Πίτσας Κέτο με Αλεύρι Αμυγδάλου",
+		"prepTime": 10,
+		"cookTime": 25,
+		"totalTime": 35,
+		"servings": 4,
+		"vegan": false,
+		"vegetarian": true,
+		"cuisines": [
+			{
+				"cuisineId": 1,
+				"cuisineNameEn": "Italian",
+				"cuisineNameGr": "Ιταλική"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 20,
+					"ingredientDescEn": "Almond flour",
+					"ingredientDescGr": "Αλεύρι αμυγδάλου"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 100,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 22,
+					"ingredientDescEn": "Greek yogurt, strained (full-fat or 2%)",
+					"ingredientDescGr": "Στραγγιστό γιαούρτι (πλήρες ή 2%)"
+				},
+				"measurement": {
+					"measurementTypeId": 10,
+					"measurementTypeDescEn": "cup",
+					"measurementTypeDescGr": "φλιτζάνι"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 5,
+					"ingredientDescEn": "Egg",
+					"ingredientDescGr": "Αυγό"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 8,
+					"ingredientDescEn": "Baking powder",
+					"ingredientDescGr": "Μπέικιν πάουντερ"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 3,
+					"ingredientDescEn": "Salt",
+					"ingredientDescGr": "Αλάτι"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 94,
+					"ingredientDescEn": "Dried oregano",
+					"ingredientDescGr": "Αποξηραμένη ρίγανη"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": true
+			},
+			{
+				"ingredient": {
+					"ingredientId": 89,
+					"ingredientDescEn": "Dried basil",
+					"ingredientDescGr": "Αποξηραμένος βασιλικός"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": true
+			},
+			{
+				"ingredient": {
+					"ingredientId": 75,
+					"ingredientDescEn": "Garlic powder",
+					"ingredientDescGr": "Σκόνη σκόρδου"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.25,
+				"optional": true
+			},
+			{
+				"ingredient": {
+					"ingredientId": 84,
+					"ingredientDescEn": "Sugar-free tomato sauce",
+					"ingredientDescGr": "Σάλτσα ντομάτας χωρίς ζάχαρη"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 103,
+					"ingredientDescEn": "Pizza toppings of choice",
+					"ingredientDescGr": "Υλικά πίτσας της επιλογής σας"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "In a bowl, combine almond flour, yogurt, egg, baking powder, salt, and herbs (if using).",
+				"stepGr": "Σε ένα μπολ, βάζουμε το αλεύρι αμυγδάλου, το γιαούρτι, το αυγό, το μπέικιν πάουντερ, το αλάτι και τα μυρωδικά.",
+				"time": 3
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Mix with a spoon or your hands until a slightly sticky but soft dough forms. If it's too wet, add 1-2 tablespoons of additional almond flour.",
+				"stepGr": "Ανακατεύουμε με κουτάλι ή με τα χέρια μέχρι να δημιουργηθεί μια ελαφρώς κολλώδης αλλά μαλακή ζύμη. Αν είναι πολύ υγρή, προσθέτουμε 1-2 κ.σ. επιπλέον αλεύρι αμυγδάλου.",
+				"time": 4
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "On parchment paper, roll out the dough with a rolling pin into a pizza shape, about 0.5 cm thick.",
+				"stepGr": "Πάνω σε λαδόκολλα, την ανοίγουμε με πλάστη σε σχήμα πίτσας, πάχους περίπου 0,5 εκ.",
+				"time": 3
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "Pre-bake at 180-190°C (350-375°F) for 12-15 minutes, until it becomes stable and slightly golden.",
+				"stepGr": "Ψήνουμε στους 180-190°C για 12-15 λεπτά, μέχρι να σταθεροποιηθεί και να πάρει λίγο χρώμα.",
+				"time": 15
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Top with sugar-free tomato sauce and toppings of your choice, then bake for another 7-10 minutes until the toppings are melted and golden.",
+				"stepGr": "Βάζουμε από πάνω σάλτσα ντομάτας χωρίς ζάχαρη, υλικά της επιλογής σου και ψήνουμε για άλλα 7-10 λεπτά, μέχρι να λιώσουν και να πάρουν χρώμα τα υλικά.",
+				"time": 10
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 180,
+			"protein": 9,
+			"carbs": 5,
+			"fat": 15
+		},
+		"difficulty": "easy",
+		"tags": [
+			{
+				"tagEn": "keto",
+				"tagGr": "κέτο"
+			},
+			{
+				"tagEn": "low carb",
+				"tagGr": "χαμηλοί υδατάνθρακες"
+			},
+			{
+				"tagEn": "gluten free",
+				"tagGr": "χωρίς γλουτένη"
+			},
+			{
+				"tagEn": "pizza",
+				"tagGr": "πίτσα"
+			},
+			{
+				"tagEn": "vegetarian",
+				"tagGr": "χορτοφαγικό"
+			},
+			{
+				"tagEn": "almond flour",
+				"tagGr": "αλεύρι αμυγδάλου"
+			}
+		],
+		"images": ["https://example.com/images/keto-pizza-crust.jpg"],
+		"createdAt": "2024-06-25T15:30:00Z",
+		"updatedAt": "2024-06-25T15:30:00Z"
 	}
 ]
