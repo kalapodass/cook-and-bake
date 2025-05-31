@@ -211,7 +211,7 @@ describe('extractCuisines', () => {
 describe('extractTags', () => {
 	it('should extract unique tags from recipes', () => {
 		const result = extractTags(mockRecipes);
-		expect(result.length).toBe(8); // 8 unique tags across all mock recipes
+		expect(result.length).toBe(9); // 9 unique tags across all mock recipes
 
 		// Check some of the expected tags are present
 		const tagNames = result.map((t) => t.tagEn);

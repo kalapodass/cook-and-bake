@@ -105,8 +105,10 @@ const RecipeFilters = ({
 
 			{filteredCount !== undefined && hasActiveFilters && (
 				<div className='filtered-count'>
-					{t('filters.showing', { count: filteredCount }) ||
-						`Showing ${filteredCount} of ${recipes.length} recipes`}
+					{t('filters.showing', {
+						count: filteredCount,
+						total: recipes.length,
+					}) || `Showing ${filteredCount} of ${recipes.length} recipes`}
 				</div>
 			)}
 
@@ -202,7 +204,11 @@ const RecipeFilters = ({
 					</div>
 
 					{hasActiveFilters && (
-						<button className='clear-filters' onClick={clearFilters}>
+						<button
+							type='button'
+							className='clear-filters'
+							onClick={clearFilters}
+						>
 							{t('filters.clear') || 'Clear Filters'}
 						</button>
 					)}
