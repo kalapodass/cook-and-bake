@@ -22,30 +22,25 @@ export const filterRecipes = (
 		return recipes;
 	}
 
-	// Convert cuisines and tags to Sets for faster lookups
+	// Convert cuisines to Set for faster lookups
 	const cuisineSet = new Set(cuisines);
-	const tagSet = new Set(tags.map((tag) => tag.toLowerCase()));
 
 	return recipes.filter((recipe) => {
 		// Check if recipe matches cuisine filter
 		const matchesCuisine =
-			cuisineSet.size === 0 ||
+			cuisines.length === 0 ||
 			recipe.cuisines.some((cuisine) => cuisineSet.has(cuisine.cuisineId));
 
 		// Check if recipe matches tag filter
 		const matchesTags =
-			tagSet.size === 0 ||
+			tags.length === 0 ||
 			tags.every((tag) => {
-				// Create a set of all recipe tags (both English and Greek) in lowercase
-				const recipeTags = new Set(
-					recipe.tags.flatMap((recipeTag) => [
-						recipeTag.tagEn.toLowerCase(),
-						recipeTag.tagGr.toLowerCase(),
-					])
+				const tagLower = tag.toLowerCase();
+				return recipe.tags.some(
+					(recipeTag) =>
+						recipeTag.tagEn.toLowerCase() === tagLower ||
+						recipeTag.tagGr.toLowerCase() === tagLower
 				);
-
-				// Check if the current filter tag exists in the recipe tags
-				return recipeTags.has(tag.toLowerCase());
 			});
 
 		// Recipe must match both cuisine AND tag filters

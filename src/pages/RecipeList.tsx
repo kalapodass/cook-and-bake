@@ -102,6 +102,7 @@ const RecipeList = () => {
 				recipes={recipes}
 				onImageGenerated={handleImageGenerated}
 				autoHide={true}
+				usePlaceholders={true} // Re-add the usePlaceholders prop
 			/>
 
 			{/* Search and filter controls */}
