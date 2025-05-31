@@ -35,13 +35,18 @@ export const filterRecipes = (
 		// Check if recipe matches tag filter
 		const matchesTags =
 			tagSet.size === 0 ||
-			tags.every((tag) =>
-				recipe.tags.some(
-					(recipeTag) =>
-						recipeTag.tagEn.toLowerCase() === tag.toLowerCase() ||
-						recipeTag.tagGr.toLowerCase() === tag.toLowerCase()
-				)
-			);
+			tags.every((tag) => {
+				// Create a set of all recipe tags (both English and Greek) in lowercase
+				const recipeTags = new Set(
+					recipe.tags.flatMap((recipeTag) => [
+						recipeTag.tagEn.toLowerCase(),
+						recipeTag.tagGr.toLowerCase(),
+					])
+				);
+
+				// Check if the current filter tag exists in the recipe tags
+				return recipeTags.has(tag.toLowerCase());
+			});
 
 		// Recipe must match both cuisine AND tag filters
 		return matchesCuisine && matchesTags;
