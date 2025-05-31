@@ -22,15 +22,19 @@ export const filterRecipes = (
 		return recipes;
 	}
 
+	// Convert cuisines and tags to Sets for faster lookups
+	const cuisineSet = new Set(cuisines);
+	const tagSet = new Set(tags.map((tag) => tag.toLowerCase()));
+
 	return recipes.filter((recipe) => {
 		// Check if recipe matches cuisine filter
 		const matchesCuisine =
-			cuisines.length === 0 ||
-			recipe.cuisines.some((cuisine) => cuisines.includes(cuisine.cuisineId));
+			cuisineSet.size === 0 ||
+			recipe.cuisines.some((cuisine) => cuisineSet.has(cuisine.cuisineId));
 
 		// Check if recipe matches tag filter
 		const matchesTags =
-			tags.length === 0 ||
+			tagSet.size === 0 ||
 			tags.every((tag) =>
 				recipe.tags.some(
 					(recipeTag) =>
@@ -50,7 +54,10 @@ export const filterRecipes = (
  * @returns Array of unique cuisines
  */
 export const extractCuisines = (recipes: Recipe[]) => {
-	const cuisinesMap = new Map();
+	const cuisinesMap = new Map<
+		number,
+		{ id: number; nameEn: string; nameGr: string }
+	>();
 
 	recipes.forEach((recipe) => {
 		recipe.cuisines.forEach((cuisine) => {
@@ -71,7 +78,7 @@ export const extractCuisines = (recipes: Recipe[]) => {
  * @returns Array of unique tags with English and Greek versions
  */
 export const extractTags = (recipes: Recipe[]) => {
-	const tagsMap = new Map();
+	const tagsMap = new Map<string, { tagEn: string; tagGr: string }>();
 
 	recipes.forEach((recipe) => {
 		recipe.tags.forEach((tag) => {

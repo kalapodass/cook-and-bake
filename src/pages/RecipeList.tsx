@@ -62,11 +62,12 @@ const RecipeList = () => {
 				recipes={recipes}
 				onImageGenerated={handleImageGenerated}
 				autoHide={true}
-				visible={false}
 			/>
 
-			{/* Recipe filters */}
-			<RecipeFilters recipes={recipes} onFilterChange={handleFilterChange} />
+			{/* Recipe filters - only shown after data is loaded */}
+			{!loading && (
+				<RecipeFilters recipes={recipes} onFilterChange={handleFilterChange} />
+			)}
 
 			{loading ? (
 				<div className='loading'>
