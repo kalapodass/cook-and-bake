@@ -65,6 +65,13 @@ const translations = {
 		'filters.tags': 'Tags',
 		'filters.clear': 'Clear Filters',
 		'filters.noResults': 'No recipes match your filters',
+		'recipe.keto': 'Keto',
+		'recipe.pizza': 'Pizza',
+		'recipe.crust': 'Crust',
+		'recipe.almondFlour': 'Almond Flour',
+		'recipe.glutenFree': 'Gluten Free',
+		'diet.keto': 'Keto',
+		'diet.glutenFree': 'Gluten Free',
 	},
 	gr: {
 		'app.title': 'Οι Συνταγές μας',
@@ -116,6 +123,13 @@ const translations = {
 		'filters.tags': 'Ετικέτες',
 		'filters.clear': 'Καθαρισμός Φίλτρων',
 		'filters.noResults': 'Δεν βρέθηκαν συνταγές με αυτά τα φίλτρα',
+		'recipe.keto': 'Κέτο',
+		'recipe.pizza': 'Πίτσα',
+		'recipe.crust': 'Ζύμη',
+		'recipe.almondFlour': 'Αλεύρι Αμυγδάλου',
+		'recipe.glutenFree': 'Χωρίς Γλουτένη',
+		'diet.keto': 'Κέτο',
+		'diet.glutenFree': 'Χωρίς Γλουτένη',
 	},
 };
 
