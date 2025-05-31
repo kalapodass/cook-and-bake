@@ -66,7 +66,11 @@ const RecipeList = () => {
 
 			{/* Recipe filters - only shown after data is loaded */}
 			{!loading && (
-				<RecipeFilters recipes={recipes} onFilterChange={handleFilterChange} />
+				<RecipeFilters
+					recipes={recipes}
+					onFilterChange={handleFilterChange}
+					filteredCount={filteredRecipes.length} // Pass the count of filtered recipes
+				/>
 			)}
 
 			{loading ? (
