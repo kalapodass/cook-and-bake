@@ -105,10 +105,8 @@ const RecipeFilters = ({
 
 			{filteredCount !== undefined && hasActiveFilters && (
 				<div className='filtered-count'>
-					{t('filters.showing', {
-						count: filteredCount,
-						total: recipes.length,
-					}) || `Showing ${filteredCount} of ${recipes.length} recipes`}
+					{t('filters.showing') ||
+						`Showing ${filteredCount} of ${recipes.length} recipes`}
 				</div>
 			)}
 

@@ -67,6 +67,10 @@ const translations = {
 		'filters.noResults': 'No recipes match your filters',
 		'filters.showing': 'Showing {{count}} of {{total}} recipes',
 		'filters.active': 'Active filters:',
+		'search.placeholder': 'Search recipes...',
+		'search.ariaLabel': 'Search recipes',
+		'search.results': '{{count}} recipes found',
+		'filters.toggleFilters': 'Toggle filters',
 	},
 	gr: {
 		'app.title': 'Οι Συνταγές μας',
@@ -120,6 +124,10 @@ const translations = {
 		'filters.noResults': 'Δεν βρέθηκαν συνταγές με αυτά τα φίλτρα',
 		'filters.showing': 'Εμφάνιση {{count}} από {{total}} συνταγές',
 		'filters.active': 'Ενεργά φίλτρα:',
+		'search.placeholder': 'Αναζήτηση συνταγών...',
+		'search.ariaLabel': 'Αναζήτηση συνταγών',
+		'search.results': 'Βρέθηκαν {{count}} συνταγές',
+		'filters.toggleFilters': 'Εναλλαγή φίλτρων',
 	},
 };
 
