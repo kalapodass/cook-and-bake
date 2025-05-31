@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import ImageGenerator from '../components/ImageGenerator';
 import RecipeFilters from '../components/RecipeFilters';
@@ -44,11 +44,14 @@ const RecipeList = () => {
 		}));
 	};
 
-	// Handle filter changes
-	const handleFilterChange = (filters: FilterOptions) => {
-		const filtered = filterRecipes(recipes, filters);
-		setFilteredRecipes(filtered);
-	};
+	// Memoize the filter change handler to prevent unnecessary re-renders
+	const handleFilterChange = useCallback(
+		(filters: FilterOptions) => {
+			const filtered = filterRecipes(recipes, filters);
+			setFilteredRecipes(filtered);
+		},
+		[recipes]
+	);
 
 	return (
 		<div className='recipe-list-page'>
