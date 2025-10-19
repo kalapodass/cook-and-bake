@@ -1853,5 +1853,1201 @@
 		"images": ["https://example.com/images/giant-beans.jpg"],
 		"createdAt": "2024-05-01T14:00:00Z",
 		"updatedAt": "2024-05-01T14:00:00Z"
+	},
+	{
+		"recipeId": 11,
+		"recipeNameEn": "Creamy Spicy Rigatoni",
+		"recipeNameGr": "Κρεμώδες Πικάντικο Ριγκατόνι",
+		"prepTime": 10,
+		"cookTime": 20,
+		"totalTime": 30,
+		"servings": 4,
+		"vegan": false,
+		"vegetarian": true,
+		"cuisines": [
+			{
+				"cuisineId": 1,
+				"cuisineNameEn": "Italian",
+				"cuisineNameGr": "Ιταλική"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 86,
+					"ingredientDescEn": "Rigatoni pasta or penne",
+					"ingredientDescGr": "Ζυμαρικά ριγκατόνι ή πένες"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 170,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 14,
+					"ingredientDescEn": "Extra virgin olive oil",
+					"ingredientDescGr": "Έξτρα παρθένο ελαιόλαδο"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 120,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 43,
+					"ingredientDescEn": "Fresh garlic, finely minced",
+					"ingredientDescGr": "Φρέσκο σκόρδο, ψιλοκομμένο"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 84,
+					"ingredientDescEn": "Tomato paste",
+					"ingredientDescGr": "Πελτές ντομάτας"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 160,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 87,
+					"ingredientDescEn": "Heavy cream",
+					"ingredientDescGr": "Κρέμα γάλακτος"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 320,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 88,
+					"ingredientDescEn": "Red pepper flakes",
+					"ingredientDescGr": "Νιφάδες κόκκινου πιπεριού"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 89,
+					"ingredientDescEn": "Dried basil",
+					"ingredientDescGr": "Αποξηραμένος βασιλικός"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 3,
+					"ingredientDescEn": "Salt",
+					"ingredientDescGr": "Αλάτι"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 70,
+					"ingredientDescEn": "Pepper",
+					"ingredientDescGr": "Πιπέρι"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 62,
+					"ingredientDescEn": "Freshly grated Parmesan",
+					"ingredientDescGr": "Φρεσκοτριμμένη παρμεζάνα"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 50,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 4,
+					"ingredientDescEn": "Unsalted butter",
+					"ingredientDescGr": "Ανάλατο βούτυρο"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 90,
+					"ingredientDescEn": "Pasta water",
+					"ingredientDescGr": "Νερό από τα ζυμαρικά"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 120,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 91,
+					"ingredientDescEn": "Fresh parsley, finely chopped",
+					"ingredientDescGr": "Φρέσκος μαϊντανός, ψιλοκομμένος"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 2,
+				"optional": true
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Bring a large pot of salted water to a boil. Add the pasta and cook according to package directions. Reserve at least 240ml of pasta water and then drain.",
+				"stepGr": "Βράζουμε μια μεγάλη κατσαρόλα με αλατισμένο νερό. Προσθέτουμε τα ζυμαρικά και τα μαγειρεύουμε σύμφωνα με τις οδηγίες της συσκευασίας. Κρατάμε τουλάχιστον 240ml από το νερό των ζυμαρικών και μετά τα στραγγίζουμε.",
+				"time": 10
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "In a saucepan, add the olive oil over medium heat. Add the garlic and tomato paste and cook for about 4 to 5 minutes. The tomato paste will darken in color from a bright red to reddish brown. This process removes acidity from the tomato paste.",
+				"stepGr": "Σε ένα κατσαρολάκι, προσθέτουμε το ελαιόλαδο σε μέτρια φωτιά. Προσθέτουμε το σκόρδο και τον πελτέ ντομάτας και μαγειρεύουμε για περίπου 4 έως 5 λεπτά. Ο πελτές ντομάτας θα σκουρύνει από έντονο κόκκινο σε καφεκόκκινο. Αυτή η διαδικασία αφαιρεί την οξύτητα από τον πελτέ ντομάτας.",
+				"time": 5
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Add heavy cream and mix until incorporated. Simmer for about 2 to 3 minutes.",
+				"stepGr": "Προσθέτουμε την κρέμα γάλακτος και ανακατεύουμε μέχρι να ενσωματωθεί. Σιγοβράζουμε για περίπου 2 έως 3 λεπτά.",
+				"time": 3
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "Add the red pepper flakes, dried basil, salt, and black pepper to taste. Mix again.",
+				"stepGr": "Προσθέτουμε τις νιφάδες κόκκινου πιπεριού, το αποξηραμένο βασιλικό, το αλάτι και το μαύρο πιπέρι κατά προτίμηση. Ανακατεύουμε ξανά.",
+				"time": 1
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Add the grated Parmesan, butter, and 120ml pasta water. Mix until the sauce is smooth and creamy. If you think it needs more pasta water, you can add more as needed.",
+				"stepGr": "Προσθέτουμε την τριμμένη παρμεζάνα, το βούτυρο και 120ml από το νερό των ζυμαρικών. Ανακατεύουμε μέχρι η σάλτσα να γίνει λεία και κρεμώδης. Αν χρειάζεται περισσότερο νερό από τα ζυμαρικά, μπορούμε να προσθέσουμε όσο χρειάζεται.",
+				"time": 2
+			},
+			{
+				"stepNumber": 6,
+				"stepEn": "Toss in the cooked pasta and mix to coat evenly. Optional, top it off with more grated Parmesan, chopped parsley, and chili flakes.",
+				"stepGr": "Ρίχνουμε τα μαγειρεμένα ζυμαρικά και ανακατεύουμε για να καλυφθούν ομοιόμορφα. Προαιρετικά, γαρνίρουμε με επιπλέον τριμμένη παρμεζάνα, ψιλοκομμένο μαϊντανό και νιφάδες τσίλι.",
+				"time": 2
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 650,
+			"protein": 15,
+			"carbs": 45,
+			"fat": 45
+		},
+		"difficulty": "easy",
+		"tags": [
+			{
+				"tagEn": "pasta",
+				"tagGr": "ζυμαρικά"
+			},
+			{
+				"tagEn": "Italian",
+				"tagGr": "Ιταλικό"
+			},
+			{
+				"tagEn": "spicy",
+				"tagGr": "πικάντικο"
+			},
+			{
+				"tagEn": "creamy",
+				"tagGr": "κρεμώδες"
+			},
+			{
+				"tagEn": "quick meal",
+				"tagGr": "γρήγορο γεύμα"
+			},
+			{
+				"tagEn": "vegetarian",
+				"tagGr": "χορτοφαγικό"
+			},
+			{
+				"tagEn": "dinner",
+				"tagGr": "βραδινό"
+			}
+		],
+		"images": ["https://example.com/images/creamy-spicy-rigatoni.jpg"],
+		"createdAt": "2024-06-01T14:00:00Z",
+		"updatedAt": "2024-06-01T14:00:00Z"
+	},
+	{
+		"recipeId": 12,
+		"recipeNameEn": "Air Fryer Cajun Shrimp",
+		"recipeNameGr": "Γαρίδες Καζούν σε Φριτέζα Αέρος",
+		"prepTime": 10,
+		"cookTime": 14,
+		"totalTime": 24,
+		"servings": 4,
+		"vegan": false,
+		"vegetarian": false,
+		"cuisines": [
+			{
+				"cuisineId": 2,
+				"cuisineNameEn": "American",
+				"cuisineNameGr": "Αμερικάνικη"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 92,
+					"ingredientDescEn": "Large shrimp, peeled and deveined",
+					"ingredientDescGr": "Μεγάλες γαρίδες, καθαρισμένες"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 340,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 14,
+					"ingredientDescEn": "Extra-virgin olive oil",
+					"ingredientDescGr": "Έξτρα παρθένο ελαιόλαδο"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 72,
+					"ingredientDescEn": "Smoked paprika",
+					"ingredientDescGr": "Καπνιστή πάπρικα"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.25,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 4,
+					"ingredientDescEn": "Unsalted butter, melted",
+					"ingredientDescGr": "Ανάλατο βούτυρο, λιωμένο"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 93,
+					"ingredientDescEn": "Cajun seasoning",
+					"ingredientDescGr": "Μπαχαρικό Καζούν"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 2,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Remove the shell (leaving the tail intact) then run a paring knife along the back of the shrimp about ⅛-inch deep to reveal the 'vein.' Use your paring knife or paper towel to remove. Rinse shrimp under cold water, pat dry, then proceed with the recipe.",
+				"stepGr": "Αφαιρέστε το κέλυφος (αφήνοντας την ουρά άθικτη) και μετά περάστε ένα μικρό μαχαίρι κατά μήκος της πλάτης της γαρίδας περίπου 3 χιλιοστά βαθιά για να αποκαλύψετε τη 'φλέβα'. Χρησιμοποιήστε το μαχαίρι σας ή χαρτί κουζίνας για να την αφαιρέσετε. Ξεπλύνετε τις γαρίδες με κρύο νερό, στεγνώστε τις και προχωρήστε με τη συνταγή.",
+				"time": 7
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Pat shrimp with clean paper towels to dry then toss with olive oil and paprika in a medium bowl. Lightly brush the air fryer basket with oil.",
+				"stepGr": "Στεγνώστε τις γαρίδες με καθαρό χαρτί κουζίνας και στη συνέχεια ανακατέψτε τις με ελαιόλαδο και πάπρικα σε ένα μεσαίο μπολ. Αλείψτε ελαφρά το καλάθι της φριτέζας αέρος με λάδι.",
+				"time": 3
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Add half of the shrimp, spreading them out in an even layer and cook for 7 minutes.",
+				"stepGr": "Προσθέστε τις μισές γαρίδες, απλώνοντάς τις σε ένα ομοιόμορφο στρώμα και μαγειρέψτε για 7 λεπτά.",
+				"time": 7
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "Repeat with the remaining half of the shrimp.",
+				"stepGr": "Επαναλάβετε με τις υπόλοιπες μισές γαρίδες.",
+				"time": 7
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Combine the melted butter and Cajun seasoning in a large bowl. Add the cooked shrimp and toss to coat evenly.",
+				"stepGr": "Συνδυάστε το λιωμένο βούτυρο και το μπαχαρικό Καζούν σε ένα μεγάλο μπολ. Προσθέστε τις μαγειρεμένες γαρίδες και ανακατέψτε για να καλυφθούν ομοιόμορφα.",
+				"time": 2
+			},
+			{
+				"stepNumber": 6,
+				"stepEn": "Serve immediately as an appetizer or with a side dish as a main course.",
+				"stepGr": "Σερβίρετε αμέσως ως ορεκτικό ή με συνοδευτικό ως κυρίως πιάτο.",
+				"time": 1
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 175,
+			"protein": 23,
+			"carbs": 2,
+			"fat": 9
+		},
+		"difficulty": "easy",
+		"tags": [
+			{
+				"tagEn": "seafood",
+				"tagGr": "θαλασσινά"
+			},
+			{
+				"tagEn": "shrimp",
+				"tagGr": "γαρίδες"
+			},
+			{
+				"tagEn": "cajun",
+				"tagGr": "καζούν"
+			},
+			{
+				"tagEn": "air fryer",
+				"tagGr": "φριτέζα αέρα"
+			},
+			{
+				"tagEn": "quick",
+				"tagGr": "γρήγορο"
+			},
+			{
+				"tagEn": "low-carb",
+				"tagGr": "χαμηλοί υδατάνθρακες"
+			}
+		],
+		"images": ["https://example.com/images/cajun-shrimp.jpg"],
+		"createdAt": "2024-06-10T14:00:00Z",
+		"updatedAt": "2024-06-10T14:00:00Z"
+	},
+	{
+		"recipeId": 13,
+		"recipeNameEn": "Creamy Tuscan Chicken Pasta",
+		"recipeNameGr": "Κρεμώδες Κοτόπουλο Τοσκάνης με Ζυμαρικά",
+		"prepTime": 15,
+		"cookTime": 35,
+		"totalTime": 50,
+		"servings": 6,
+		"vegan": false,
+		"vegetarian": false,
+		"cuisines": [
+			{
+				"cuisineId": 1,
+				"cuisineNameEn": "Italian",
+				"cuisineNameGr": "Ιταλική"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 31,
+					"ingredientDescEn": "Skinless, boneless chicken breast halves",
+					"ingredientDescGr": "Στήθος κοτόπουλου χωρίς δέρμα και κόκαλο"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 680,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 4,
+					"ingredientDescEn": "Butter",
+					"ingredientDescGr": "Βούτυρο"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 43,
+					"ingredientDescEn": "Garlic, minced",
+					"ingredientDescGr": "Σκόρδο, ψιλοκομμένο"
+				},
+				"measurement": {
+					"measurementTypeId": 13,
+					"measurementTypeDescEn": "cloves",
+					"measurementTypeDescGr": "σκελίδες"
+				},
+				"quantity": 3,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 94,
+					"ingredientDescEn": "Dried oregano",
+					"ingredientDescGr": "Αποξηραμένη ρίγανη"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 95,
+					"ingredientDescEn": "Ground thyme",
+					"ingredientDescGr": "Τριμμένο θυμάρι"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.25,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 96,
+					"ingredientDescEn": "Chicken broth",
+					"ingredientDescGr": "Ζωμός κοτόπουλου"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 120,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 97,
+					"ingredientDescEn": "Bacon",
+					"ingredientDescGr": "Μπέικον"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 225,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 98,
+					"ingredientDescEn": "Angel hair pasta",
+					"ingredientDescGr": "Λεπτά μακαρόνια (angel hair)"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 450,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 1,
+					"ingredientDescEn": "All-purpose flour",
+					"ingredientDescGr": "Αλεύρι για όλες τις χρήσεις"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 62,
+					"ingredientDescEn": "Freshly shaved Parmesan cheese",
+					"ingredientDescGr": "Φρεσκοτριμμένη παρμεζάνα"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 120,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 87,
+					"ingredientDescEn": "Whipping cream",
+					"ingredientDescGr": "Κρέμα γάλακτος"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 60,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 99,
+					"ingredientDescEn": "Sun-dried tomatoes, chopped",
+					"ingredientDescGr": "Λιαστές ντομάτες, ψιλοκομμένες"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 60,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 88,
+					"ingredientDescEn": "Red pepper flakes",
+					"ingredientDescGr": "Νιφάδες κόκκινου πιπεριού"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 3,
+					"ingredientDescEn": "Salt",
+					"ingredientDescGr": "Αλάτι"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Preheat the oven to 175°C (350°F).",
+				"stepGr": "Προθερμάνετε τον φούρνο στους 175°C.",
+				"time": 2
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Place chicken breasts on a flat work surface. Slice horizontally through the middle, being careful not to cut all the way through to the other side. Open the 2 sides and spread them out like an open book to butterfly.",
+				"stepGr": "Τοποθετήστε τα στήθη κοτόπουλου σε μια επίπεδη επιφάνεια εργασίας. Κόψτε οριζόντια στη μέση, προσέχοντας να μην κόψετε εντελώς μέχρι την άλλη πλευρά. Ανοίξτε τις 2 πλευρές και απλώστε τες σαν ανοιχτό βιβλίο για να τις πεταλουδώσετε.",
+				"time": 5
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Melt butter in a large, oven-safe skillet over medium-high heat. Add garlic, oregano, and thyme. Sauté until fragrant, about 30 seconds.",
+				"stepGr": "Λιώστε το βούτυρο σε ένα μεγάλο, κατάλληλο για φούρνο τηγάνι σε μέτρια-υψηλή φωτιά. Προσθέστε το σκόρδο, τη ρίγανη και το θυμάρι. Σοτάρετε μέχρι να αναδυθούν τα αρώματα, περίπου 30 δευτερόλεπτα.",
+				"time": 2
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "Add chicken and cook until golden brown but not fully cooked, 3 to 4 minutes per side.",
+				"stepGr": "Προσθέστε το κοτόπουλο και μαγειρέψτε μέχρι να πάρει χρυσαφί χρώμα αλλά να μην ψηθεί πλήρως, 3 έως 4 λεπτά ανά πλευρά.",
+				"time": 8
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Pour 60ml (1/4 cup) chicken broth into the skillet and bake in the preheated oven until chicken is no longer pink in the centers and juices run clear, about 15 minutes.",
+				"stepGr": "Ρίξτε 60ml ζωμό κοτόπουλου στο τηγάνι και ψήστε στον προθερμασμένο φούρνο μέχρι το κοτόπουλο να μην είναι πλέον ροζ στο κέντρο και οι χυμοί να τρέχουν καθαροί, περίπου 15 λεπτά.",
+				"time": 15
+			},
+			{
+				"stepNumber": 6,
+				"stepEn": "Meanwhile, place bacon in a large skillet and cook over medium-high heat, turning occasionally, until evenly browned, about 10 minutes. Drain bacon slices on paper towels and let cool enough to handle, about 5 minutes; chop.",
+				"stepGr": "Εν τω μεταξύ, τοποθετήστε το μπέικον σε ένα μεγάλο τηγάνι και μαγειρέψτε σε μέτρια-υψηλή φωτιά, γυρίζοντας περιστασιακά, μέχρι να ροδίσει ομοιόμορφα, περίπου 10 λεπτά. Στραγγίξτε τις φέτες μπέικον σε χαρτί κουζίνας και αφήστε τες να κρυώσουν αρκετά για να μπορείτε να τις πιάσετε, περίπου 5 λεπτά. Στη συνέχεια ψιλοκόψτε το μπέικον.",
+				"time": 15
+			},
+			{
+				"stepNumber": 7,
+				"stepEn": "At the same time, bring a large pot of lightly salted water to a boil. Cook angel hair pasta in the boiling water, stirring occasionally, until tender yet firm to the bite, 4 to 5 minutes. Drain and keep warm.",
+				"stepGr": "Ταυτόχρονα, βράστε μια μεγάλη κατσαρόλα με ελαφρώς αλατισμένο νερό. Μαγειρέψτε τα λεπτά μακαρόνια στο βραστό νερό, ανακατεύοντας περιστασιακά, μέχρι να γίνουν τρυφερά αλλά σταθερά στο δάγκωμα, 4 έως 5 λεπτά. Στραγγίξτε και διατηρήστε τα ζεστά.",
+				"time": 10
+			},
+			{
+				"stepNumber": 8,
+				"stepEn": "Remove skillet from the oven and transfer chicken to a plate, reserving juices in the skillet. Keep chicken warm and place skillet on the stovetop.",
+				"stepGr": "Βγάλτε το τηγάνι από τον φούρνο και μεταφέρετε το κοτόπουλο σε ένα πιάτο, κρατώντας τους χυμούς στο τηγάνι. Διατηρήστε το κοτόπουλο ζεστό και τοποθετήστε το τηγάνι στην εστία.",
+				"time": 2
+			},
+			{
+				"stepNumber": 9,
+				"stepEn": "Whisk flour into the skillet over medium heat. Add remaining chicken broth (60ml), Parmesan cheese, and whipping cream. Whisk until combined.",
+				"stepGr": "Χτυπήστε το αλεύρι στο τηγάνι σε μέτρια φωτιά. Προσθέστε τον υπόλοιπο ζωμό κοτόπουλου (60ml), την παρμεζάνα και την κρέμα γάλακτος. Ανακατέψτε με το σύρμα μέχρι να ομογενοποιηθούν.",
+				"time": 3
+			},
+			{
+				"stepNumber": 10,
+				"stepEn": "Add sun-dried tomatoes, red pepper flakes, and salt. Add bacon and return the chicken to the skillet.",
+				"stepGr": "Προσθέστε τις λιαστές ντομάτες, τις νιφάδες κόκκινου πιπεριού και το αλάτι. Προσθέστε το μπέικον και επιστρέψτε το κοτόπουλο στο τηγάνι.",
+				"time": 2
+			},
+			{
+				"stepNumber": 11,
+				"stepEn": "Serve the chicken and sauce on top of hot cooked pasta.",
+				"stepGr": "Σερβίρετε το κοτόπουλο και τη σάλτσα πάνω από τα ζεστά μαγειρεμένα ζυμαρικά.",
+				"time": 1
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 520,
+			"protein": 35,
+			"carbs": 40,
+			"fat": 25
+		},
+		"difficulty": "medium",
+		"tags": [
+			{
+				"tagEn": "pasta",
+				"tagGr": "ζυμαρικά"
+			},
+			{
+				"tagEn": "chicken",
+				"tagGr": "κοτόπουλο"
+			},
+			{
+				"tagEn": "Italian",
+				"tagGr": "Ιταλικό"
+			},
+			{
+				"tagEn": "creamy",
+				"tagGr": "κρεμώδες"
+			},
+			{
+				"tagEn": "bacon",
+				"tagGr": "μπέικον"
+			},
+			{
+				"tagEn": "dinner",
+				"tagGr": "βραδινό"
+			},
+			{
+				"tagEn": "sun-dried tomatoes",
+				"tagGr": "λιαστές ντομάτες"
+			}
+		],
+		"images": ["https://example.com/images/creamy-tuscan-chicken.jpg"],
+		"createdAt": "2024-06-15T14:00:00Z",
+		"updatedAt": "2024-06-15T14:00:00Z"
+	},
+	{
+		"recipeId": 14,
+		"recipeNameEn": "Slow Cooker Chicken Tacos",
+		"recipeNameGr": "Κοτόπουλο για Τάκος σε Αργό Μαγείρεμα",
+		"prepTime": 5,
+		"cookTime": 360,
+		"totalTime": 365,
+		"servings": 4,
+		"vegan": false,
+		"vegetarian": false,
+		"cuisines": [
+			{
+				"cuisineId": 6,
+				"cuisineNameEn": "Mexican",
+				"cuisineNameGr": "Μεξικάνικη"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 96,
+					"ingredientDescEn": "Chicken broth",
+					"ingredientDescGr": "Ζωμός κοτόπουλου"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 240,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 100,
+					"ingredientDescEn": "Taco seasoning mix",
+					"ingredientDescGr": "Μείγμα μπαχαρικών για τάκος"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 3,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 31,
+					"ingredientDescEn": "Skinless, boneless chicken breasts",
+					"ingredientDescGr": "Στήθος κοτόπουλου χωρίς δέρμα και κόκαλο"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 450,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 101,
+					"ingredientDescEn": "Corn tortillas",
+					"ingredientDescGr": "Τορτίγιες καλαμποκιού"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to serve",
+					"measurementTypeDescGr": "για σερβίρισμα"
+				},
+				"quantity": 1,
+				"optional": true
+			},
+			{
+				"ingredient": {
+					"ingredientId": 46,
+					"ingredientDescEn": "Shredded lettuce",
+					"ingredientDescGr": "Ψιλοκομμένο μαρούλι"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to serve",
+					"measurementTypeDescGr": "για σερβίρισμα"
+				},
+				"quantity": 1,
+				"optional": true
+			},
+			{
+				"ingredient": {
+					"ingredientId": 40,
+					"ingredientDescEn": "Chopped tomatoes",
+					"ingredientDescGr": "Ψιλοκομμένες ντομάτες"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to serve",
+					"measurementTypeDescGr": "για σερβίρισμα"
+				},
+				"quantity": 1,
+				"optional": true
+			},
+			{
+				"ingredient": {
+					"ingredientId": 42,
+					"ingredientDescEn": "Sliced red onions",
+					"ingredientDescGr": "Κόκκινα κρεμμύδια σε φέτες"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to serve",
+					"measurementTypeDescGr": "για σερβίρισμα"
+				},
+				"quantity": 1,
+				"optional": true
+			},
+			{
+				"ingredient": {
+					"ingredientId": 102,
+					"ingredientDescEn": "Fresh cilantro",
+					"ingredientDescGr": "Φρέσκος κόλιανδρος"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to serve",
+					"measurementTypeDescGr": "για σερβίρισμα"
+				},
+				"quantity": 1,
+				"optional": true
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Combine chicken broth and taco seasoning mix in a bowl.",
+				"stepGr": "Συνδυάστε τον ζωμό κοτόπουλου και το μείγμα μπαχαρικών για τάκος σε ένα μπολ.",
+				"time": 2
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Place chicken in a slow cooker. Pour chicken broth mixture over chicken.",
+				"stepGr": "Τοποθετήστε το κοτόπουλο σε μια συσκευή αργού μαγειρέματος. Ρίξτε το μείγμα ζωμού κοτόπουλου πάνω από το κοτόπουλο.",
+				"time": 3
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Cook on Low for 6 to 8 hours.",
+				"stepGr": "Μαγειρέψτε σε χαμηλή θερμοκρασία για 6 έως 8 ώρες.",
+				"time": 360
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "Shred chicken with two forks.",
+				"stepGr": "Ξεφτίστε το κοτόπουλο με δύο πιρούνια.",
+				"time": 5
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Serve shredded chicken in warmed corn tortillas and top with shredded lettuce, chopped tomatoes, sliced red onions, and cilantro.",
+				"stepGr": "Σερβίρετε το ξεφτισμένο κοτόπουλο σε ζεσταμένες τορτίγιες καλαμποκιού και γαρνίρετε με ψιλοκομμένο μαρούλι, ψιλοκομμένες ντομάτες, κόκκινα κρεμμύδια σε φέτες και κόλιανδρο.",
+				"time": 5
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 210,
+			"protein": 35,
+			"carbs": 5,
+			"fat": 6
+		},
+		"difficulty": "easy",
+		"tags": [
+			{
+				"tagEn": "chicken",
+				"tagGr": "κοτόπουλο"
+			},
+			{
+				"tagEn": "mexican",
+				"tagGr": "μεξικάνικο"
+			},
+			{
+				"tagEn": "tacos",
+				"tagGr": "τάκος"
+			},
+			{
+				"tagEn": "slow cooker",
+				"tagGr": "αργό μαγείρεμα"
+			},
+			{
+				"tagEn": "easy",
+				"tagGr": "εύκολο"
+			},
+			{
+				"tagEn": "dinner",
+				"tagGr": "βραδινό"
+			}
+		],
+		"images": ["https://example.com/images/slow-cooker-chicken-tacos.jpg"],
+		"createdAt": "2024-06-20T12:00:00Z",
+		"updatedAt": "2024-06-20T12:00:00Z"
+	},
+	{
+		"recipeId": 15,
+		"recipeNameEn": "Keto Almond Flour Pizza Crust",
+		"recipeNameGr": "Ζύμη Πίτσας Κέτο με Αλεύρι Αμυγδάλου",
+		"prepTime": 10,
+		"cookTime": 25,
+		"totalTime": 35,
+		"servings": 4,
+		"vegan": false,
+		"vegetarian": true,
+		"cuisines": [
+			{
+				"cuisineId": 1,
+				"cuisineNameEn": "Italian",
+				"cuisineNameGr": "Ιταλική"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 20,
+					"ingredientDescEn": "Almond flour",
+					"ingredientDescGr": "Αλεύρι αμυγδάλου"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 100,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 22,
+					"ingredientDescEn": "Greek yogurt, strained (full-fat or 2%)",
+					"ingredientDescGr": "Στραγγιστό γιαούρτι (πλήρες ή 2%)"
+				},
+				"measurement": {
+					"measurementTypeId": 10,
+					"measurementTypeDescEn": "cup",
+					"measurementTypeDescGr": "φλιτζάνι"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 5,
+					"ingredientDescEn": "Egg",
+					"ingredientDescGr": "Αυγό"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 8,
+					"ingredientDescEn": "Baking powder",
+					"ingredientDescGr": "Μπέικιν πάουντερ"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 3,
+					"ingredientDescEn": "Salt",
+					"ingredientDescGr": "Αλάτι"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 94,
+					"ingredientDescEn": "Dried oregano",
+					"ingredientDescGr": "Αποξηραμένη ρίγανη"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": true
+			},
+			{
+				"ingredient": {
+					"ingredientId": 89,
+					"ingredientDescEn": "Dried basil",
+					"ingredientDescGr": "Αποξηραμένος βασιλικός"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": true
+			},
+			{
+				"ingredient": {
+					"ingredientId": 75,
+					"ingredientDescEn": "Garlic powder",
+					"ingredientDescGr": "Σκόνη σκόρδου"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.25,
+				"optional": true
+			},
+			{
+				"ingredient": {
+					"ingredientId": 84,
+					"ingredientDescEn": "Sugar-free tomato sauce",
+					"ingredientDescGr": "Σάλτσα ντομάτας χωρίς ζάχαρη"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 103,
+					"ingredientDescEn": "Pizza toppings of choice",
+					"ingredientDescGr": "Υλικά πίτσας της επιλογής σας"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "In a bowl, combine almond flour, yogurt, egg, baking powder, salt, and herbs (if using).",
+				"stepGr": "Σε ένα μπολ, βάζουμε το αλεύρι αμυγδάλου, το γιαούρτι, το αυγό, το μπέικιν πάουντερ, το αλάτι και τα μυρωδικά.",
+				"time": 3
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Mix with a spoon or your hands until a slightly sticky but soft dough forms. If it's too wet, add 1-2 tablespoons of additional almond flour.",
+				"stepGr": "Ανακατεύουμε με κουτάλι ή με τα χέρια μέχρι να δημιουργηθεί μια ελαφρώς κολλώδης αλλά μαλακή ζύμη. Αν είναι πολύ υγρή, προσθέτουμε 1-2 κ.σ. επιπλέον αλεύρι αμυγδάλου.",
+				"time": 4
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "On parchment paper, roll out the dough with a rolling pin into a pizza shape, about 0.5 cm thick.",
+				"stepGr": "Πάνω σε λαδόκολλα, την ανοίγουμε με πλάστη σε σχήμα πίτσας, πάχους περίπου 0,5 εκ.",
+				"time": 3
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "Pre-bake at 180-190°C (350-375°F) for 12-15 minutes, until it becomes stable and slightly golden.",
+				"stepGr": "Ψήνουμε στους 180-190°C για 12-15 λεπτά, μέχρι να σταθεροποιηθεί και να πάρει λίγο χρώμα.",
+				"time": 15
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Top with sugar-free tomato sauce and toppings of your choice, then bake for another 7-10 minutes until the toppings are melted and golden.",
+				"stepGr": "Βάζουμε από πάνω σάλτσα ντομάτας χωρίς ζάχαρη, υλικά της επιλογής σου και ψήνουμε για άλλα 7-10 λεπτά, μέχρι να λιώσουν και να πάρουν χρώμα τα υλικά.",
+				"time": 10
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 180,
+			"protein": 9,
+			"carbs": 5,
+			"fat": 15
+		},
+		"difficulty": "easy",
+		"tags": [
+			{
+				"tagEn": "keto",
+				"tagGr": "κέτο"
+			},
+			{
+				"tagEn": "low carb",
+				"tagGr": "χαμηλοί υδατάνθρακες"
+			},
+			{
+				"tagEn": "gluten free",
+				"tagGr": "χωρίς γλουτένη"
+			},
+			{
+				"tagEn": "pizza",
+				"tagGr": "πίτσα"
+			},
+			{
+				"tagEn": "vegetarian",
+				"tagGr": "χορτοφαγικό"
+			},
+			{
+				"tagEn": "almond flour",
+				"tagGr": "αλεύρι αμυγδάλου"
+			}
+		],
+		"images": ["https://example.com/images/keto-pizza-crust.jpg"],
+		"createdAt": "2024-06-25T15:30:00Z",
+		"updatedAt": "2024-06-25T15:30:00Z"
 	}
 ]
