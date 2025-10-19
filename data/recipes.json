@@ -3049,5 +3049,249 @@
 		"images": ["https://example.com/images/keto-pizza-crust.jpg"],
 		"createdAt": "2024-06-25T15:30:00Z",
 		"updatedAt": "2024-06-25T15:30:00Z"
+	},
+	{
+		"recipeId": 16,
+		"recipeNameEn": "Greek Pork Patties",
+		"recipeNameGr": "Χοιρινά Μπιφτέκια",
+		"prepTime": 15,
+		"cookTime": 15,
+		"totalTime": 90,
+		"servings": 4,
+		"vegan": false,
+		"vegetarian": false,
+		"cuisines": [
+			{
+				"cuisineId": 8,
+				"cuisineNameEn": "Greek",
+				"cuisineNameGr": "Ελληνική"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 86,
+					"ingredientDescEn": "Ground pork",
+					"ingredientDescGr": "Χοιρινός κιμάς"
+				},
+				"measurement": {
+					"measurementTypeId": 12,
+					"measurementTypeDescEn": "kg",
+					"measurementTypeDescGr": "κιλό"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 87,
+					"ingredientDescEn": "Onion",
+					"ingredientDescGr": "Κρεμμύδι"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 88,
+					"ingredientDescEn": "Parsley",
+					"ingredientDescGr": "Μαϊντανός"
+				},
+				"measurement": {
+					"measurementTypeId": 18,
+					"measurementTypeDescEn": "bunch",
+					"measurementTypeDescGr": "ματσάκι"
+				},
+				"quantity": 0.33,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 89,
+					"ingredientDescEn": "Eggs",
+					"ingredientDescGr": "Αυγά"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 90,
+					"ingredientDescEn": "Greek yogurt, strained",
+					"ingredientDescGr": "Στραγγιστό γιαούρτι"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 91,
+					"ingredientDescEn": "Olive oil",
+					"ingredientDescGr": "Ελαιόλαδο"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 3,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 92,
+					"ingredientDescEn": "Breadcrumbs, grated",
+					"ingredientDescGr": "Τριμμένη φρυγανιά"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 3,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 93,
+					"ingredientDescEn": "Garlic powder",
+					"ingredientDescGr": "Σκόνη σκόρδου"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 94,
+					"ingredientDescEn": "Salt",
+					"ingredientDescGr": "Αλάτι"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 95,
+					"ingredientDescEn": "Pepper",
+					"ingredientDescGr": "Πιπέρι"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 96,
+					"ingredientDescEn": "Vinegar",
+					"ingredientDescGr": "Ξύδι"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 97,
+					"ingredientDescEn": "Baking powder",
+					"ingredientDescGr": "Baking powder"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.33,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Mince the onion and parsley using the mince setting on your food processor.",
+				"stepGr": "Αλέθουμε το κρεμμύδι και τον μαϊντανό με την επιλογή mince.",
+				"time": 3
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Mix all ingredients together and let the mixture rest for 1 hour.",
+				"stepGr": "Αναμιγνύουμε όλα τα υλικά μαζί και αφήνουμε το μείγμα να ξεκουραστεί για 1 ώρα.",
+				"time": 60
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Shape the patties and cook them as desired (in the oven or on the grill).",
+				"stepGr": "Πλάθουμε τα μπιφτέκια και τα ψήνουμε όπως επιθυμούμε (στο φούρνο ή στη σχάρα).",
+				"time": 15
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 380,
+			"protein": 28,
+			"carbs": 8,
+			"fat": 26
+		},
+		"difficulty": "easy",
+		"tags": [
+			{
+				"tagEn": "pork",
+				"tagGr": "χοιρινό"
+			},
+			{
+				"tagEn": "patties",
+				"tagGr": "μπιφτέκια"
+			},
+			{
+				"tagEn": "Greek",
+				"tagGr": "Ελληνικό"
+			},
+			{
+				"tagEn": "main dish",
+				"tagGr": "κυρίως πιάτο"
+			},
+			{
+				"tagEn": "grilled",
+				"tagGr": "ψητό"
+			},
+			{
+				"tagEn": "easy",
+				"tagGr": "εύκολο"
+			}
+		],
+		"images": ["https://example.com/images/greek-pork-patties.jpg"],
+		"createdAt": "2025-10-19T12:00:00Z",
+		"updatedAt": "2025-10-19T12:00:00Z"
 	}
 ]
