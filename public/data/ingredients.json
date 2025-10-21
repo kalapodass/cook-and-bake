@@ -393,5 +393,65 @@
 		"id": 85,
 		"name": "Passata",
 		"unit": "ml"
+	},
+	{
+		"id": 86,
+		"name": "Ground Pork",
+		"unit": "kg"
+	},
+	{
+		"id": 87,
+		"name": "Onion",
+		"unit": "pcs"
+	},
+	{
+		"id": 88,
+		"name": "Parsley",
+		"unit": "bunch"
+	},
+	{
+		"id": 89,
+		"name": "Eggs",
+		"unit": "pcs"
+	},
+	{
+		"id": 90,
+		"name": "Greek Yogurt (Strained)",
+		"unit": "tbsp"
+	},
+	{
+		"id": 91,
+		"name": "Olive Oil",
+		"unit": "tbsp"
+	},
+	{
+		"id": 92,
+		"name": "Breadcrumbs",
+		"unit": "tbsp"
+	},
+	{
+		"id": 93,
+		"name": "Garlic Powder",
+		"unit": "tsp"
+	},
+	{
+		"id": 94,
+		"name": "Salt",
+		"unit": "tsp"
+	},
+	{
+		"id": 95,
+		"name": "Pepper",
+		"unit": "tsp"
+	},
+	{
+		"id": 96,
+		"name": "Vinegar",
+		"unit": "tbsp"
+	},
+	{
+		"id": 97,
+		"name": "Baking Powder",
+		"unit": "tsp"
 	}
 ]
