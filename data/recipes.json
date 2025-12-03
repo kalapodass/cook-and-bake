@@ -3293,5 +3293,189 @@
 		"images": ["https://example.com/images/greek-pork-patties.jpg"],
 		"createdAt": "2025-10-19T12:00:00Z",
 		"updatedAt": "2025-10-19T12:00:00Z"
+	},
+	{
+		"recipeId": 17,
+		"recipeNameEn": "Sourdough Bread",
+		"recipeNameGr": "Ψωμί με Προζύμι",
+		"prepTime": 120,
+		"cookTime": 50,
+		"totalTime": 1890,
+		"servings": 8,
+		"vegan": true,
+		"vegetarian": true,
+		"cuisines": [
+			{
+				"cuisineId": 19,
+				"cuisineNameEn": "American",
+				"cuisineNameGr": "Αμερικάνικη"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 98,
+					"ingredientDescEn": "Bread flour",
+					"ingredientDescGr": "Αλεύρι για ψωμί"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 500,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 99,
+					"ingredientDescEn": "Water",
+					"ingredientDescGr": "Νερό"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 350,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 100,
+					"ingredientDescEn": "Active sourdough starter",
+					"ingredientDescGr": "Ενεργό προζύμι"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 100,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 3,
+					"ingredientDescEn": "Salt",
+					"ingredientDescGr": "Αλάτι"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 10,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Feed your cold starter with equal parts flour and water (e.g., 50g starter + 50g flour + 50g water). Let it sit at room temperature until bubbly, doubled in size, and passes the float test.",
+				"stepGr": "Ταΐστε το κρύο προζύμι σας με ίσα μέρη αλεύρι και νερό. Αφήστε το σε θερμοκρασία δωματίου μέχρι να γίνει αφρώδες, να διπλασιαστεί σε μέγεθος και να περάσει το τεστ επίπλευσης.",
+				"time": 480
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Mix 500g flour and 325g water (reserve 25g water for later) in a large bowl until no dry flour remains. Cover and let rest for 30 minutes to 2 hours for autolyse.",
+				"stepGr": "Ανακατέψτε 500g αλεύρι και 325g νερό (κρατήστε 25g νερό για αργότερα) σε ένα μεγάλο μπολ μέχρι να μην υπάρχει στεγνό αλεύρι. Καλύψτε και αφήστε για 30 λεπτά έως 2 ώρες για αυτόλυση.",
+				"time": 60
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Add 100g of active starter to the autolysed dough. Pinch and squeeze through the dough with your hands until fully incorporated (about 5 minutes).",
+				"stepGr": "Προσθέστε 100g ενεργό προζύμι στη ζύμη αυτόλυσης. Τσιμπήστε και πιέστε μέσα στη ζύμη με τα χέρια σας μέχρι να ενσωματωθεί πλήρως (περίπου 5 λεπτά).",
+				"time": 5
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "Sprinkle 10g salt over the dough and add the remaining 25g water. Mix thoroughly by squeezing and folding until salt dissolves and dough comes together (5 minutes).",
+				"stepGr": "Πασπαλίστε 10g αλάτι πάνω στη ζύμη και προσθέστε τα υπόλοιπα 25g νερό. Ανακατέψτε καλά πιέζοντας και διπλώνοντας μέχρι το αλάτι να διαλυθεί (5 λεπτά).",
+				"time": 5
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Begin bulk fermentation. During the first 2 hours, perform stretch and folds every 30 minutes (4 sets total). Let rise for 4-5 hours total until doubled in size.",
+				"stepGr": "Ξεκινήστε τη μαζική ζύμωση. Τις πρώτες 2 ώρες, κάντε τεντώματα και διπλώσεις κάθε 30 λεπτά (συνολικά 4 σετ). Αφήστε να φουσκώσει για συνολικά 4-5 ώρες μέχρι να διπλασιαστεί.",
+				"time": 300
+			},
+			{
+				"stepNumber": 6,
+				"stepEn": "Pre-shape the dough into a round using a scraper and wet hand. Let it rest uncovered for 15-20 minutes (bench rest).",
+				"stepGr": "Προδιαμορφώστε τη ζύμη σε στρογγυλό σχήμα χρησιμοποιώντας ξύστρα και βρεγμένο χέρι. Αφήστε να ξεκουραστεί ακάλυπτη για 15-20 λεπτά.",
+				"time": 20
+			},
+			{
+				"stepNumber": 7,
+				"stepEn": "Final shape into a batard (oval): flip dough smooth side down, fold sides to center, roll up tightly, create tension by dragging toward you. Place seam-side up in floured banneton.",
+				"stepGr": "Τελικό σχηματισμό σε μπατάρ (ωοειδές): γυρίστε τη ζύμη με τη λεία πλευρά κάτω, διπλώστε τις πλευρές στο κέντρο, τυλίξτε σφιχτά, δημιουργήστε τάση τραβώντας προς εσάς. Τοποθετήστε με τη ραφή προς τα πάνω σε αλευρωμένο μπάνετον.",
+				"time": 10
+			},
+			{
+				"stepNumber": 8,
+				"stepEn": "Cover the banneton and refrigerate for 8-18 hours for cold proof. This develops flavor and makes scoring easier.",
+				"stepGr": "Καλύψτε το μπάνετον και βάλτε στο ψυγείο για 8-18 ώρες για κρύα επώαση. Αυτό αναπτύσσει τη γεύση και κάνει το σκόρινγκ πιο εύκολο.",
+				"time": 720
+			},
+			{
+				"stepNumber": 9,
+				"stepEn": "Place Dutch oven with lid in oven and preheat to 260°C for at least 45 minutes.",
+				"stepGr": "Τοποθετήστε την ολλανδική κατσαρόλα με καπάκι στο φούρνο και προθερμάνετε στους 260°C για τουλάχιστον 45 λεπτά.",
+				"time": 45
+			},
+			{
+				"stepNumber": 10,
+				"stepEn": "Turn dough onto parchment paper, score the top with sharp blade. Bake 20 minutes at 260°C with lid on, then remove lid, reduce to 230°C, bake 25-30 minutes until deep golden brown.",
+				"stepGr": "Γυρίστε τη ζύμη σε λαδόχαρτο, κάντε εγκοπές στην επιφάνεια με αιχμηρή λάμα. Ψήστε 20 λεπτά στους 260°C με καπάκι, μετά αφαιρέστε καπάκι, μειώστε στους 230°C, ψήστε 25-30 λεπτά μέχρι να γίνει βαθύ χρυσό.",
+				"time": 50
+			},
+			{
+				"stepNumber": 11,
+				"stepEn": "Transfer bread to cooling rack and wait at least 1 hour before slicing to allow the crumb to set.",
+				"stepGr": "Μεταφέρετε το ψωμί σε ράφι κρύωσης και περιμένετε τουλάχιστον 1 ώρα πριν το κόψετε για να στερεοποιηθεί η ψίχα.",
+				"time": 60
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 180,
+			"protein": 6,
+			"carbs": 36,
+			"fat": 1
+		},
+		"difficulty": "hard",
+		"tags": [
+			{
+				"tagEn": "bread",
+				"tagGr": "ψωμί"
+			},
+			{
+				"tagEn": "sourdough",
+				"tagGr": "προζύμι"
+			},
+			{
+				"tagEn": "artisan",
+				"tagGr": "τεχνοτροπία"
+			},
+			{
+				"tagEn": "fermentation",
+				"tagGr": "ζύμωση"
+			},
+			{
+				"tagEn": "homemade",
+				"tagGr": "σπιτικό"
+			},
+			{
+				"tagEn": "traditional",
+				"tagGr": "παραδοσιακό"
+			},
+			{
+				"tagEn": "vegan",
+				"tagGr": "βίγκαν"
+			}
+		],
+		"images": ["https://example.com/images/sourdough-bread.jpg"],
+		"createdAt": "2025-12-03T12:00:00Z",
+		"updatedAt": "2025-12-03T12:00:00Z"
 	}
 ]
