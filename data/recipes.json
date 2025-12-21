@@ -3477,5 +3477,235 @@
 		"images": ["https://example.com/images/sourdough-bread.jpg"],
 		"createdAt": "2025-12-03T12:00:00Z",
 		"updatedAt": "2025-12-03T12:00:00Z"
+	},
+	{
+		"recipeId": 18,
+		"recipeNameEn": "Oat Flour Yeast Bread",
+		"recipeNameGr": "Ψωμί με Αλεύρι Βρώμης και Μαγιά",
+		"prepTime": 20,
+		"cookTime": 35,
+		"totalTime": 215,
+		"servings": 12,
+		"vegan": false,
+		"vegetarian": true,
+		"cuisines": [
+			{
+				"cuisineId": 19,
+				"cuisineNameEn": "American",
+				"cuisineNameGr": "Αμερικάνικη"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 101,
+					"ingredientDescEn": "Oat flour",
+					"ingredientDescGr": "Αλεύρι βρώμης"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 240,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 98,
+					"ingredientDescEn": "Bread flour",
+					"ingredientDescGr": "Αλεύρι για ψωμί"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 270,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 13,
+					"ingredientDescEn": "Active dry yeast",
+					"ingredientDescGr": "Ενεργή ξηρή μαγιά"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 7,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 99,
+					"ingredientDescEn": "Warm water",
+					"ingredientDescGr": "Χλιαρό νερό"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 300,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 91,
+					"ingredientDescEn": "Olive oil",
+					"ingredientDescGr": "Ελαιόλαδο"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 30,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 15,
+					"ingredientDescEn": "Honey",
+					"ingredientDescGr": "Μέλι"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 30,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 3,
+					"ingredientDescEn": "Salt",
+					"ingredientDescGr": "Αλάτι"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 7,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 102,
+					"ingredientDescEn": "Rolled oats",
+					"ingredientDescGr": "Νιφάδες βρώμης"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": true
+			},
+			{
+				"ingredient": {
+					"ingredientId": 4,
+					"ingredientDescEn": "Butter, melted",
+					"ingredientDescGr": "Βούτυρο, λιωμένο"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": true
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Activate yeast: In a small bowl, mix warm water (43-45°C) and honey, then sprinkle yeast on top. Let sit for 5-10 minutes until foamy.",
+				"stepGr": "Ενεργοποίηση μαγιάς: Σε ένα μικρό μπολ, ανακατέψτε το χλιαρό νερό (43-45°C) και το μέλι, μετά πασπαλίστε τη μαγιά από πάνω. Αφήστε για 5-10 λεπτά μέχρι να αφρίσει.",
+				"time": 10
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Add ingredients to mixer bowl: Combine oat flour, bread flour, salt, yeast mixture, and olive oil in the mixer bowl.",
+				"stepGr": "Προσθέστε τα υλικά στο μπολ του μίξερ: Συνδυάστε το αλεύρι βρώμης, το αλεύρι ψωμιού, το αλάτι, το μείγμα μαγιάς και το ελαιόλαδο στο μπολ του μίξερ.",
+				"time": 2
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Mix and knead: Using the dough hook, mix on low (Speed 2) for 1-2 minutes, then knead on medium-low (Speed 2-3) for 6-8 minutes. Add up to 30g more flour if the dough is too sticky.",
+				"stepGr": "Ανάμιξη και ζύμωση: Χρησιμοποιώντας το άγκιστρο ζύμης, ανακατέψτε σε χαμηλή ταχύτητα (2) για 1-2 λεπτά, μετά ζυμώστε σε μέτρια-χαμηλή ταχύτητα (2-3) για 6-8 λεπτά. Προσθέστε έως 30g επιπλέον αλεύρι αν η ζύμη είναι πολύ κολλώδης.",
+				"time": 10
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "First rise: Transfer to an oiled bowl, cover, and let rise in a warm place for 60-90 minutes until doubled.",
+				"stepGr": "Πρώτο φούσκωμα: Μεταφέρετε σε λαδωμένο μπολ, καλύψτε και αφήστε να φουσκώσει σε ζεστό μέρος για 60-90 λεπτά μέχρι να διπλασιαστεί.",
+				"time": 75
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Shape and second rise: Punch down, shape into a loaf, and place in a greased 23x13 cm (9x5 in) loaf pan. Cover and let rise for 30-45 minutes.",
+				"stepGr": "Σχηματισμός και δεύτερο φούσκωμα: Χτυπήστε προς τα κάτω, σχηματίστε σε καρβέλι και τοποθετήστε σε λαδωμένη φόρμα 23x13 cm. Καλύψτε και αφήστε να φουσκώσει για 30-45 λεπτά.",
+				"time": 40
+			},
+			{
+				"stepNumber": 6,
+				"stepEn": "Bake: Preheat oven to 190°C (375°F). Brush with melted butter, sprinkle with oats, and bake for 30-35 minutes until golden and sounds hollow when tapped.",
+				"stepGr": "Ψήσιμο: Προθερμάνετε το φούρνο στους 190°C. Αλείψτε με λιωμένο βούτυρο, πασπαλίστε με βρώμη και ψήστε για 30-35 λεπτά μέχρι να γίνει χρυσό και να ακούγεται κούφιο όταν το χτυπάτε.",
+				"time": 35
+			},
+			{
+				"stepNumber": 7,
+				"stepEn": "Cool: Let cool in pan for 10 minutes, then transfer to a wire rack. Cool completely before slicing.",
+				"stepGr": "Κρύωμα: Αφήστε να κρυώσει στη φόρμα για 10 λεπτά, μετά μεταφέρετε σε σχάρα. Αφήστε να κρυώσει εντελώς πριν το κόψετε.",
+				"time": 40
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 165,
+			"protein": 5,
+			"carbs": 32,
+			"fat": 3
+		},
+		"difficulty": "medium",
+		"tags": [
+			{
+				"tagEn": "bread",
+				"tagGr": "ψωμί"
+			},
+			{
+				"tagEn": "oat flour",
+				"tagGr": "αλεύρι βρώμης"
+			},
+			{
+				"tagEn": "yeast bread",
+				"tagGr": "ψωμί με μαγιά"
+			},
+			{
+				"tagEn": "homemade",
+				"tagGr": "σπιτικό"
+			},
+			{
+				"tagEn": "healthy",
+				"tagGr": "υγιεινό"
+			},
+			{
+				"tagEn": "stand mixer",
+				"tagGr": "μίξερ"
+			},
+			{
+				"tagEn": "vegetarian",
+				"tagGr": "χορτοφαγικό"
+			}
+		],
+		"images": ["https://example.com/images/oat-flour-yeast-bread.jpg"],
+		"createdAt": "2025-12-21T12:00:00Z",
+		"updatedAt": "2025-12-21T12:00:00Z"
 	}
 ]

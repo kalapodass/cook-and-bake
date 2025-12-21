@@ -468,5 +468,15 @@
 		"id": 100,
 		"name": "Sourdough Starter",
 		"unit": "g"
+	},
+	{
+		"id": 101,
+		"name": "Oat Flour",
+		"unit": "g"
+	},
+	{
+		"id": 102,
+		"name": "Rolled Oats",
+		"unit": "g"
 	}
 ]
