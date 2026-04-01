@@ -3707,5 +3707,239 @@
 		"images": ["https://example.com/images/oat-flour-yeast-bread.jpg"],
 		"createdAt": "2025-12-21T12:00:00Z",
 		"updatedAt": "2025-12-21T12:00:00Z"
+	},
+	{
+		"recipeId": 19,
+		"recipeNameEn": "Homemade Taco Sauce",
+		"recipeNameGr": "Σπιτική Σάλτσα Τάκο",
+		"prepTime": 5,
+		"cookTime": 20,
+		"totalTime": 25,
+		"servings": 8,
+		"vegan": true,
+		"vegetarian": true,
+		"cuisines": [
+			{
+				"cuisineId": 6,
+				"cuisineNameEn": "Mexican",
+				"cuisineNameGr": "Μεξικάνικη"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 104,
+					"ingredientDescEn": "Tomato sauce",
+					"ingredientDescGr": "Σάλτσα ντομάτας"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 450,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 105,
+					"ingredientDescEn": "Water",
+					"ingredientDescGr": "Νερό"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 160,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 106,
+					"ingredientDescEn": "White vinegar",
+					"ingredientDescGr": "Λευκό ξύδι"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 107,
+					"ingredientDescEn": "Ground cumin",
+					"ingredientDescGr": "Κύμινο σκόνη"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 108,
+					"ingredientDescEn": "Onion powder",
+					"ingredientDescGr": "Σκόνη κρεμμυδιού"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 109,
+					"ingredientDescEn": "Garlic powder",
+					"ingredientDescGr": "Σκόνη σκόρδου"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 110,
+					"ingredientDescEn": "Garlic salt",
+					"ingredientDescGr": "Αλάτι σκόρδου"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 111,
+					"ingredientDescEn": "Chili powder",
+					"ingredientDescGr": "Σκόνη τσίλι"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 112,
+					"ingredientDescEn": "Paprika",
+					"ingredientDescGr": "Πάπρικα"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 113,
+					"ingredientDescEn": "White sugar",
+					"ingredientDescGr": "Λευκή ζάχαρη"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 114,
+					"ingredientDescEn": "Cayenne pepper",
+					"ingredientDescGr": "Πιπέρι καγιέν"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Gather all ingredients.",
+				"stepGr": "Μαζέψτε όλα τα υλικά.",
+				"time": 5
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Stir tomato sauce, water, vinegar, cumin, onion powder, garlic powder, garlic salt, chili powder, paprika, sugar, and cayenne pepper together in a saucepan.",
+				"stepGr": "Ανακατέψτε σάλτσα ντομάτας, νερό, ξύδι, κύμινο, σκόνη κρεμμυδιού, σκόνη σκόρδου, αλάτι σκόρδου, σκόνη τσίλι, πάπρικα, ζάχαρη και πιπέρι καγιέν σε μια κατσαρόλα.",
+				"time": 3
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Bring to a simmer over low heat and cook until slightly thickened, about 20 minutes. Cool sauce slightly before serving.",
+				"stepGr": "Φέρτε σε σιγοβρασμό σε χαμηλή φωτιά και μαγειρέψτε μέχρι να πήξει ελαφρά, περίπου 20 λεπτά. Αφήστε τη σάλτσα να κρυώσει ελαφρά πριν σερβίρετε.",
+				"time": 20
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 25,
+			"protein": 1,
+			"carbs": 5,
+			"fat": 0
+		},
+		"difficulty": "easy",
+		"tags": [
+			{
+				"tagEn": "sauce",
+				"tagGr": "σάλτσα"
+			},
+			{
+				"tagEn": "taco",
+				"tagGr": "τάκο"
+			},
+			{
+				"tagEn": "Mexican",
+				"tagGr": "Μεξικάνικο"
+			},
+			{
+				"tagEn": "condiment",
+				"tagGr": "καρύκευμα"
+			},
+			{
+				"tagEn": "spicy",
+				"tagGr": "καυτερό"
+			},
+			{
+				"tagEn": "easy",
+				"tagGr": "εύκολο"
+			},
+			{
+				"tagEn": "vegan",
+				"tagGr": "βίγκαν"
+			}
+		],
+		"images": ["https://example.com/images/homemade-taco-sauce.jpg"],
+		"createdAt": "2026-04-01T12:00:00Z",
+		"updatedAt": "2026-04-01T12:00:00Z"
 	}
 ]
