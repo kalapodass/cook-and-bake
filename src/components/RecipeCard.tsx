@@ -61,7 +61,6 @@ const RecipeCard = ({ recipe }: { recipe: Recipe }) => {
 
 				<div className='recipe-info'>
 					<h3 className='recipe-title'>{recipeName}</h3>
-
 					<div className='recipe-times'>
 						<div className='time-item'>
 							<span className='time-label'>{t('recipe.prepTime')}</span>

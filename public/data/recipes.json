@@ -3049,5 +3049,897 @@
 		"images": ["https://example.com/images/keto-pizza-crust.jpg"],
 		"createdAt": "2024-06-25T15:30:00Z",
 		"updatedAt": "2024-06-25T15:30:00Z"
+	},
+	{
+		"recipeId": 16,
+		"recipeNameEn": "Greek Pork Patties",
+		"recipeNameGr": "Χοιρινά Μπιφτέκια",
+		"prepTime": 15,
+		"cookTime": 15,
+		"totalTime": 90,
+		"servings": 4,
+		"vegan": false,
+		"vegetarian": false,
+		"cuisines": [
+			{
+				"cuisineId": 8,
+				"cuisineNameEn": "Greek",
+				"cuisineNameGr": "Ελληνική"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 86,
+					"ingredientDescEn": "Ground pork",
+					"ingredientDescGr": "Χοιρινός κιμάς"
+				},
+				"measurement": {
+					"measurementTypeId": 12,
+					"measurementTypeDescEn": "kg",
+					"measurementTypeDescGr": "κιλό"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 87,
+					"ingredientDescEn": "Onion",
+					"ingredientDescGr": "Κρεμμύδι"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 88,
+					"ingredientDescEn": "Parsley",
+					"ingredientDescGr": "Μαϊντανός"
+				},
+				"measurement": {
+					"measurementTypeId": 18,
+					"measurementTypeDescEn": "bunch",
+					"measurementTypeDescGr": "ματσάκι"
+				},
+				"quantity": 0.33,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 89,
+					"ingredientDescEn": "Eggs",
+					"ingredientDescGr": "Αυγά"
+				},
+				"measurement": {
+					"measurementTypeId": 9,
+					"measurementTypeDescEn": "piece",
+					"measurementTypeDescGr": "τεμάχιο"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 90,
+					"ingredientDescEn": "Greek yogurt, strained",
+					"ingredientDescGr": "Στραγγιστό γιαούρτι"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 91,
+					"ingredientDescEn": "Olive oil",
+					"ingredientDescGr": "Ελαιόλαδο"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 3,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 92,
+					"ingredientDescEn": "Breadcrumbs, grated",
+					"ingredientDescGr": "Τριμμένη φρυγανιά"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 3,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 93,
+					"ingredientDescEn": "Garlic powder",
+					"ingredientDescGr": "Σκόνη σκόρδου"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 94,
+					"ingredientDescEn": "Salt",
+					"ingredientDescGr": "Αλάτι"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 95,
+					"ingredientDescEn": "Pepper",
+					"ingredientDescGr": "Πιπέρι"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 96,
+					"ingredientDescEn": "Vinegar",
+					"ingredientDescGr": "Ξύδι"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 97,
+					"ingredientDescEn": "Baking powder",
+					"ingredientDescGr": "Baking powder"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.33,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Mince the onion and parsley using the mince setting on your food processor.",
+				"stepGr": "Αλέθουμε το κρεμμύδι και τον μαϊντανό με την επιλογή mince.",
+				"time": 3
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Mix all ingredients together and let the mixture rest for 1 hour.",
+				"stepGr": "Αναμιγνύουμε όλα τα υλικά μαζί και αφήνουμε το μείγμα να ξεκουραστεί για 1 ώρα.",
+				"time": 60
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Shape the patties and cook them as desired (in the oven or on the grill).",
+				"stepGr": "Πλάθουμε τα μπιφτέκια και τα ψήνουμε όπως επιθυμούμε (στο φούρνο ή στη σχάρα).",
+				"time": 15
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 380,
+			"protein": 28,
+			"carbs": 8,
+			"fat": 26
+		},
+		"difficulty": "easy",
+		"tags": [
+			{
+				"tagEn": "pork",
+				"tagGr": "χοιρινό"
+			},
+			{
+				"tagEn": "patties",
+				"tagGr": "μπιφτέκια"
+			},
+			{
+				"tagEn": "Greek",
+				"tagGr": "Ελληνικό"
+			},
+			{
+				"tagEn": "main dish",
+				"tagGr": "κυρίως πιάτο"
+			},
+			{
+				"tagEn": "grilled",
+				"tagGr": "ψητό"
+			},
+			{
+				"tagEn": "easy",
+				"tagGr": "εύκολο"
+			}
+		],
+		"images": ["https://example.com/images/greek-pork-patties.jpg"],
+		"createdAt": "2025-10-19T12:00:00Z",
+		"updatedAt": "2025-10-19T12:00:00Z"
+	},
+	{
+		"recipeId": 17,
+		"recipeNameEn": "Sourdough Bread",
+		"recipeNameGr": "Ψωμί με Προζύμι",
+		"prepTime": 120,
+		"cookTime": 50,
+		"totalTime": 1890,
+		"servings": 8,
+		"vegan": true,
+		"vegetarian": true,
+		"cuisines": [
+			{
+				"cuisineId": 19,
+				"cuisineNameEn": "American",
+				"cuisineNameGr": "Αμερικάνικη"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 98,
+					"ingredientDescEn": "Bread flour",
+					"ingredientDescGr": "Αλεύρι για ψωμί"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 500,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 99,
+					"ingredientDescEn": "Water",
+					"ingredientDescGr": "Νερό"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 350,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 100,
+					"ingredientDescEn": "Active sourdough starter",
+					"ingredientDescGr": "Ενεργό προζύμι"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 100,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 3,
+					"ingredientDescEn": "Salt",
+					"ingredientDescGr": "Αλάτι"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 10,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Feed your cold starter with equal parts flour and water (e.g., 50g starter + 50g flour + 50g water). Let it sit at room temperature until bubbly, doubled in size, and passes the float test.",
+				"stepGr": "Ταΐστε το κρύο προζύμι σας με ίσα μέρη αλεύρι και νερό. Αφήστε το σε θερμοκρασία δωματίου μέχρι να γίνει αφρώδες, να διπλασιαστεί σε μέγεθος και να περάσει το τεστ επίπλευσης.",
+				"time": 480
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Mix 500g flour and 325g water (reserve 25g water for later) in a large bowl until no dry flour remains. Cover and let rest for 30 minutes to 2 hours for autolyse.",
+				"stepGr": "Ανακατέψτε 500g αλεύρι και 325g νερό (κρατήστε 25g νερό για αργότερα) σε ένα μεγάλο μπολ μέχρι να μην υπάρχει στεγνό αλεύρι. Καλύψτε και αφήστε για 30 λεπτά έως 2 ώρες για αυτόλυση.",
+				"time": 60
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Add 100g of active starter to the autolysed dough. Pinch and squeeze through the dough with your hands until fully incorporated (about 5 minutes).",
+				"stepGr": "Προσθέστε 100g ενεργό προζύμι στη ζύμη αυτόλυσης. Τσιμπήστε και πιέστε μέσα στη ζύμη με τα χέρια σας μέχρι να ενσωματωθεί πλήρως (περίπου 5 λεπτά).",
+				"time": 5
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "Sprinkle 10g salt over the dough and add the remaining 25g water. Mix thoroughly by squeezing and folding until salt dissolves and dough comes together (5 minutes).",
+				"stepGr": "Πασπαλίστε 10g αλάτι πάνω στη ζύμη και προσθέστε τα υπόλοιπα 25g νερό. Ανακατέψτε καλά πιέζοντας και διπλώνοντας μέχρι το αλάτι να διαλυθεί (5 λεπτά).",
+				"time": 5
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Begin bulk fermentation. During the first 2 hours, perform stretch and folds every 30 minutes (4 sets total). Let rise for 4-5 hours total until doubled in size.",
+				"stepGr": "Ξεκινήστε τη μαζική ζύμωση. Τις πρώτες 2 ώρες, κάντε τεντώματα και διπλώσεις κάθε 30 λεπτά (συνολικά 4 σετ). Αφήστε να φουσκώσει για συνολικά 4-5 ώρες μέχρι να διπλασιαστεί.",
+				"time": 300
+			},
+			{
+				"stepNumber": 6,
+				"stepEn": "Pre-shape the dough into a round using a scraper and wet hand. Let it rest uncovered for 15-20 minutes (bench rest).",
+				"stepGr": "Προδιαμορφώστε τη ζύμη σε στρογγυλό σχήμα χρησιμοποιώντας ξύστρα και βρεγμένο χέρι. Αφήστε να ξεκουραστεί ακάλυπτη για 15-20 λεπτά.",
+				"time": 20
+			},
+			{
+				"stepNumber": 7,
+				"stepEn": "Final shape into a batard (oval): flip dough smooth side down, fold sides to center, roll up tightly, create tension by dragging toward you. Place seam-side up in floured banneton.",
+				"stepGr": "Τελικό σχηματισμό σε μπατάρ (ωοειδές): γυρίστε τη ζύμη με τη λεία πλευρά κάτω, διπλώστε τις πλευρές στο κέντρο, τυλίξτε σφιχτά, δημιουργήστε τάση τραβώντας προς εσάς. Τοποθετήστε με τη ραφή προς τα πάνω σε αλευρωμένο μπάνετον.",
+				"time": 10
+			},
+			{
+				"stepNumber": 8,
+				"stepEn": "Cover the banneton and refrigerate for 8-18 hours for cold proof. This develops flavor and makes scoring easier.",
+				"stepGr": "Καλύψτε το μπάνετον και βάλτε στο ψυγείο για 8-18 ώρες για κρύα επώαση. Αυτό αναπτύσσει τη γεύση και κάνει το σκόρινγκ πιο εύκολο.",
+				"time": 720
+			},
+			{
+				"stepNumber": 9,
+				"stepEn": "Place Dutch oven with lid in oven and preheat to 260°C for at least 45 minutes.",
+				"stepGr": "Τοποθετήστε την ολλανδική κατσαρόλα με καπάκι στο φούρνο και προθερμάνετε στους 260°C για τουλάχιστον 45 λεπτά.",
+				"time": 45
+			},
+			{
+				"stepNumber": 10,
+				"stepEn": "Turn dough onto parchment paper, score the top with sharp blade. Bake 20 minutes at 260°C with lid on, then remove lid, reduce to 230°C, bake 25-30 minutes until deep golden brown.",
+				"stepGr": "Γυρίστε τη ζύμη σε λαδόχαρτο, κάντε εγκοπές στην επιφάνεια με αιχμηρή λάμα. Ψήστε 20 λεπτά στους 260°C με καπάκι, μετά αφαιρέστε καπάκι, μειώστε στους 230°C, ψήστε 25-30 λεπτά μέχρι να γίνει βαθύ χρυσό.",
+				"time": 50
+			},
+			{
+				"stepNumber": 11,
+				"stepEn": "Transfer bread to cooling rack and wait at least 1 hour before slicing to allow the crumb to set.",
+				"stepGr": "Μεταφέρετε το ψωμί σε ράφι κρύωσης και περιμένετε τουλάχιστον 1 ώρα πριν το κόψετε για να στερεοποιηθεί η ψίχα.",
+				"time": 60
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 180,
+			"protein": 6,
+			"carbs": 36,
+			"fat": 1
+		},
+		"difficulty": "hard",
+		"tags": [
+			{
+				"tagEn": "bread",
+				"tagGr": "ψωμί"
+			},
+			{
+				"tagEn": "sourdough",
+				"tagGr": "προζύμι"
+			},
+			{
+				"tagEn": "artisan",
+				"tagGr": "τεχνοτροπία"
+			},
+			{
+				"tagEn": "fermentation",
+				"tagGr": "ζύμωση"
+			},
+			{
+				"tagEn": "homemade",
+				"tagGr": "σπιτικό"
+			},
+			{
+				"tagEn": "traditional",
+				"tagGr": "παραδοσιακό"
+			},
+			{
+				"tagEn": "vegan",
+				"tagGr": "βίγκαν"
+			}
+		],
+		"images": ["https://example.com/images/sourdough-bread.jpg"],
+		"createdAt": "2025-12-03T12:00:00Z",
+		"updatedAt": "2025-12-03T12:00:00Z"
+	},
+	{
+		"recipeId": 18,
+		"recipeNameEn": "Oat Flour Yeast Bread",
+		"recipeNameGr": "Ψωμί με Αλεύρι Βρώμης και Μαγιά",
+		"prepTime": 20,
+		"cookTime": 35,
+		"totalTime": 215,
+		"servings": 12,
+		"vegan": false,
+		"vegetarian": true,
+		"cuisines": [
+			{
+				"cuisineId": 19,
+				"cuisineNameEn": "American",
+				"cuisineNameGr": "Αμερικάνικη"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 101,
+					"ingredientDescEn": "Oat flour",
+					"ingredientDescGr": "Αλεύρι βρώμης"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 240,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 98,
+					"ingredientDescEn": "Bread flour",
+					"ingredientDescGr": "Αλεύρι για ψωμί"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 270,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 13,
+					"ingredientDescEn": "Active dry yeast",
+					"ingredientDescGr": "Ενεργή ξηρή μαγιά"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 7,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 99,
+					"ingredientDescEn": "Warm water",
+					"ingredientDescGr": "Χλιαρό νερό"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 300,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 91,
+					"ingredientDescEn": "Olive oil",
+					"ingredientDescGr": "Ελαιόλαδο"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 30,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 15,
+					"ingredientDescEn": "Honey",
+					"ingredientDescGr": "Μέλι"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 30,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 3,
+					"ingredientDescEn": "Salt",
+					"ingredientDescGr": "Αλάτι"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 7,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 102,
+					"ingredientDescEn": "Rolled oats",
+					"ingredientDescGr": "Νιφάδες βρώμης"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": true
+			},
+			{
+				"ingredient": {
+					"ingredientId": 4,
+					"ingredientDescEn": "Butter, melted",
+					"ingredientDescGr": "Βούτυρο, λιωμένο"
+				},
+				"measurement": {
+					"measurementTypeId": 17,
+					"measurementTypeDescEn": "to taste",
+					"measurementTypeDescGr": "κατά προτίμηση"
+				},
+				"quantity": 1,
+				"optional": true
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Activate yeast: In a small bowl, mix warm water (43-45°C) and honey, then sprinkle yeast on top. Let sit for 5-10 minutes until foamy.",
+				"stepGr": "Ενεργοποίηση μαγιάς: Σε ένα μικρό μπολ, ανακατέψτε το χλιαρό νερό (43-45°C) και το μέλι, μετά πασπαλίστε τη μαγιά από πάνω. Αφήστε για 5-10 λεπτά μέχρι να αφρίσει.",
+				"time": 10
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Add ingredients to mixer bowl: Combine oat flour, bread flour, salt, yeast mixture, and olive oil in the mixer bowl.",
+				"stepGr": "Προσθέστε τα υλικά στο μπολ του μίξερ: Συνδυάστε το αλεύρι βρώμης, το αλεύρι ψωμιού, το αλάτι, το μείγμα μαγιάς και το ελαιόλαδο στο μπολ του μίξερ.",
+				"time": 2
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Mix and knead: Using the dough hook, mix on low (Speed 2) for 1-2 minutes, then knead on medium-low (Speed 2-3) for 6-8 minutes. Add up to 30g more flour if the dough is too sticky.",
+				"stepGr": "Ανάμιξη και ζύμωση: Χρησιμοποιώντας το άγκιστρο ζύμης, ανακατέψτε σε χαμηλή ταχύτητα (2) για 1-2 λεπτά, μετά ζυμώστε σε μέτρια-χαμηλή ταχύτητα (2-3) για 6-8 λεπτά. Προσθέστε έως 30g επιπλέον αλεύρι αν η ζύμη είναι πολύ κολλώδης.",
+				"time": 10
+			},
+			{
+				"stepNumber": 4,
+				"stepEn": "First rise: Transfer to an oiled bowl, cover, and let rise in a warm place for 60-90 minutes until doubled.",
+				"stepGr": "Πρώτο φούσκωμα: Μεταφέρετε σε λαδωμένο μπολ, καλύψτε και αφήστε να φουσκώσει σε ζεστό μέρος για 60-90 λεπτά μέχρι να διπλασιαστεί.",
+				"time": 75
+			},
+			{
+				"stepNumber": 5,
+				"stepEn": "Shape and second rise: Punch down, shape into a loaf, and place in a greased 23x13 cm (9x5 in) loaf pan. Cover and let rise for 30-45 minutes.",
+				"stepGr": "Σχηματισμός και δεύτερο φούσκωμα: Χτυπήστε προς τα κάτω, σχηματίστε σε καρβέλι και τοποθετήστε σε λαδωμένη φόρμα 23x13 cm. Καλύψτε και αφήστε να φουσκώσει για 30-45 λεπτά.",
+				"time": 40
+			},
+			{
+				"stepNumber": 6,
+				"stepEn": "Bake: Preheat oven to 190°C (375°F). Brush with melted butter, sprinkle with oats, and bake for 30-35 minutes until golden and sounds hollow when tapped.",
+				"stepGr": "Ψήσιμο: Προθερμάνετε το φούρνο στους 190°C. Αλείψτε με λιωμένο βούτυρο, πασπαλίστε με βρώμη και ψήστε για 30-35 λεπτά μέχρι να γίνει χρυσό και να ακούγεται κούφιο όταν το χτυπάτε.",
+				"time": 35
+			},
+			{
+				"stepNumber": 7,
+				"stepEn": "Cool: Let cool in pan for 10 minutes, then transfer to a wire rack. Cool completely before slicing.",
+				"stepGr": "Κρύωμα: Αφήστε να κρυώσει στη φόρμα για 10 λεπτά, μετά μεταφέρετε σε σχάρα. Αφήστε να κρυώσει εντελώς πριν το κόψετε.",
+				"time": 40
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 165,
+			"protein": 5,
+			"carbs": 32,
+			"fat": 3
+		},
+		"difficulty": "medium",
+		"tags": [
+			{
+				"tagEn": "bread",
+				"tagGr": "ψωμί"
+			},
+			{
+				"tagEn": "oat flour",
+				"tagGr": "αλεύρι βρώμης"
+			},
+			{
+				"tagEn": "yeast bread",
+				"tagGr": "ψωμί με μαγιά"
+			},
+			{
+				"tagEn": "homemade",
+				"tagGr": "σπιτικό"
+			},
+			{
+				"tagEn": "healthy",
+				"tagGr": "υγιεινό"
+			},
+			{
+				"tagEn": "stand mixer",
+				"tagGr": "μίξερ"
+			},
+			{
+				"tagEn": "vegetarian",
+				"tagGr": "χορτοφαγικό"
+			}
+		],
+		"images": ["https://example.com/images/oat-flour-yeast-bread.jpg"],
+		"createdAt": "2025-12-21T12:00:00Z",
+		"updatedAt": "2025-12-21T12:00:00Z"
+	},
+	{
+		"recipeId": 19,
+		"recipeNameEn": "Homemade Taco Sauce",
+		"recipeNameGr": "Σπιτική Σάλτσα Τάκο",
+		"prepTime": 5,
+		"cookTime": 20,
+		"totalTime": 25,
+		"servings": 8,
+		"vegan": true,
+		"vegetarian": true,
+		"cuisines": [
+			{
+				"cuisineId": 6,
+				"cuisineNameEn": "Mexican",
+				"cuisineNameGr": "Μεξικάνικη"
+			}
+		],
+		"ingredients": [
+			{
+				"ingredient": {
+					"ingredientId": 104,
+					"ingredientDescEn": "Tomato sauce",
+					"ingredientDescGr": "Σάλτσα ντομάτας"
+				},
+				"measurement": {
+					"measurementTypeId": 14,
+					"measurementTypeDescEn": "grams",
+					"measurementTypeDescGr": "γραμμάρια"
+				},
+				"quantity": 450,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 105,
+					"ingredientDescEn": "Water",
+					"ingredientDescGr": "Νερό"
+				},
+				"measurement": {
+					"measurementTypeId": 15,
+					"measurementTypeDescEn": "ml",
+					"measurementTypeDescGr": "ml"
+				},
+				"quantity": 160,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 106,
+					"ingredientDescEn": "White vinegar",
+					"ingredientDescGr": "Λευκό ξύδι"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 107,
+					"ingredientDescEn": "Ground cumin",
+					"ingredientDescGr": "Κύμινο σκόνη"
+				},
+				"measurement": {
+					"measurementTypeId": 11,
+					"measurementTypeDescEn": "tablespoon",
+					"measurementTypeDescGr": "κουταλιά της σούπας"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 108,
+					"ingredientDescEn": "Onion powder",
+					"ingredientDescGr": "Σκόνη κρεμμυδιού"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 2,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 109,
+					"ingredientDescEn": "Garlic powder",
+					"ingredientDescGr": "Σκόνη σκόρδου"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 110,
+					"ingredientDescEn": "Garlic salt",
+					"ingredientDescGr": "Αλάτι σκόρδου"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 1,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 111,
+					"ingredientDescEn": "Chili powder",
+					"ingredientDescGr": "Σκόνη τσίλι"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 112,
+					"ingredientDescEn": "Paprika",
+					"ingredientDescGr": "Πάπρικα"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 113,
+					"ingredientDescEn": "White sugar",
+					"ingredientDescGr": "Λευκή ζάχαρη"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": false
+			},
+			{
+				"ingredient": {
+					"ingredientId": 114,
+					"ingredientDescEn": "Cayenne pepper",
+					"ingredientDescGr": "Πιπέρι καγιέν"
+				},
+				"measurement": {
+					"measurementTypeId": 16,
+					"measurementTypeDescEn": "teaspoon",
+					"measurementTypeDescGr": "κουταλάκι του γλυκού"
+				},
+				"quantity": 0.5,
+				"optional": false
+			}
+		],
+		"steps": [
+			{
+				"stepNumber": 1,
+				"stepEn": "Gather all ingredients.",
+				"stepGr": "Μαζέψτε όλα τα υλικά.",
+				"time": 5
+			},
+			{
+				"stepNumber": 2,
+				"stepEn": "Stir tomato sauce, water, vinegar, cumin, onion powder, garlic powder, garlic salt, chili powder, paprika, sugar, and cayenne pepper together in a saucepan.",
+				"stepGr": "Ανακατέψτε σάλτσα ντομάτας, νερό, ξύδι, κύμινο, σκόνη κρεμμυδιού, σκόνη σκόρδου, αλάτι σκόρδου, σκόνη τσίλι, πάπρικα, ζάχαρη και πιπέρι καγιέν σε μια κατσαρόλα.",
+				"time": 3
+			},
+			{
+				"stepNumber": 3,
+				"stepEn": "Bring to a simmer over low heat and cook until slightly thickened, about 20 minutes. Cool sauce slightly before serving.",
+				"stepGr": "Φέρτε σε σιγοβρασμό σε χαμηλή φωτιά και μαγειρέψτε μέχρι να πήξει ελαφρά, περίπου 20 λεπτά. Αφήστε τη σάλτσα να κρυώσει ελαφρά πριν σερβίρετε.",
+				"time": 20
+			}
+		],
+		"nutritionalInfo": {
+			"calories": 25,
+			"protein": 1,
+			"carbs": 5,
+			"fat": 0
+		},
+		"difficulty": "easy",
+		"tags": [
+			{
+				"tagEn": "sauce",
+				"tagGr": "σάλτσα"
+			},
+			{
+				"tagEn": "taco",
+				"tagGr": "τάκο"
+			},
+			{
+				"tagEn": "Mexican",
+				"tagGr": "Μεξικάνικο"
+			},
+			{
+				"tagEn": "condiment",
+				"tagGr": "καρύκευμα"
+			},
+			{
+				"tagEn": "spicy",
+				"tagGr": "καυτερό"
+			},
+			{
+				"tagEn": "easy",
+				"tagGr": "εύκολο"
+			},
+			{
+				"tagEn": "vegan",
+				"tagGr": "βίγκαν"
+			}
+		],
+		"images": ["https://example.com/images/homemade-taco-sauce.jpg"],
+		"createdAt": "2026-04-01T12:00:00Z",
+		"updatedAt": "2026-04-01T12:00:00Z"
 	}
 ]
